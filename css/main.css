@@ -4,8 +4,17 @@
 
 h1 {
 	font-family: 'Galdeano', sans-serif;
+	font-size: 2.5em;
+	color: blue;
+}
+
+h2 {
+	font-family: 'Galdeano', sans-serif;
+	font-size: 2em;
+	color: green;
 }
 
 p {
 	font-family: 'Galdeano', sans-serif;
+	font-size:1.2em;
 }
