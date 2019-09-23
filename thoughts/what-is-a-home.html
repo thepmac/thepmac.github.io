@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Patrick's Home</title>
+	
+	<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen"/>
+	<link href="https://fonts.googleapis.com/css?family=Galdeano&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="../images/favicon.png" type="image/png">
+
+	
+
+</head>
+<body>
+	<div id="post">
+		<a href="thoughts-main.html">&lsaquo;&lsaquo;</a>
+		<br>
+
+		<button onclick="myFunction()">See and Un-see links</button>
+		<br>
+		<h2>What is a home?</h2>
+		<br>
+		<p>
+			A home is a dwelling. A home is a space. A home is a collection of walls and floors and ceilings. In a home you sit. In a home you eat. In a home you eat. In a home you play. In a home you make love. In a home you clean. In a home you think. In a home you argue. In a home you read. In a home you draw. In a home you spill. In a home you build. In a home you are yourself. <a href="www.google.com">test</a>
+		</p>
+		<br>
+		<p>
+			So what does it mean to make a home? Making a home means maintaining a home. Maintaining a home means keeping things in order. Keeping things in order looks like keeping the floors clean, keeping counters clean, dusting, keeping trash outside not inside, keeping clothes clean and folded. It's about fighting entropy, about fighting decay, about fighting the curse of sin. Keeping a home clean and in order is a Kingdom job. Sure, sometimes other Kingdom callings stand over this one, but, with wisdom, we can discern when maintaining your home should be done or not. At worst, homekeeping is postponed, never abandoned.
+		</p>
+		<br>
+	</div>
+
+	<script>
+		var element = document.getElementById("post");
+
+		if (element.classList) {
+		  element.classList.toggle("post-links");
+		} else {
+		  // For IE9
+		  var classes = element.className.split(" ");
+		  var i = classes.indexOf("post-links");
+
+		  if (i >= 0)
+		    classes.splice(i, 1);
+		  else
+		    classes.push("post-links");
+		    element.className = classes.join(" ");
+		}
+	</script>
+
+</body>
+</html>
