@@ -68,8 +68,8 @@ p {
  }
 
  .eastern-gates {
- 	background: url('../../city/svgs/eastern-gates.svg') no-repeat;
- 	background-size: 100% auto;
+ 	/*background: url("../../city/svgs/eastern-gates.svg") no-repeat;
+ 	background-size: 100% auto;*/
  	width: 100vh;
  	height: 100vh;
  	display: block;
