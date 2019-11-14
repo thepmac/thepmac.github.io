@@ -8,8 +8,6 @@ html {
 
 body {
 	margin: 0;
-	width: 100vh;
-	height: 100vh;
 }
 
 /**********************************************************
@@ -72,7 +70,7 @@ p {
  .eastern-gates {
  	background: url('../../city/svgs/eastern-gates.svg') no-repeat;
  	background-size: 100% auto;
- 	width: 100%;
- 	height: 100%;
+ 	width: 100vh;
+ 	height: 100vh;
  	display: block;
  }
