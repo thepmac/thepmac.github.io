@@ -27,6 +27,12 @@ h2 {
 	color: green;
 }
 
+h3 {
+	font-family: 'Galdeano', sans-serif;
+	font-size: 2em;
+	color: black;
+}
+
 p {
 	font-family: 'Galdeano', sans-serif;
 	font-size:1.6em;
