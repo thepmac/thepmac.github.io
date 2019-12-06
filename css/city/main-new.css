@@ -40,19 +40,23 @@ p {
 .page-container {
 	width: 100%;
 	height: 100%;
+	padding: 0;
+	margin: 0;
 }
 
 .log {
 	width: 20%;
 	height: 100%;
-	position: absolute;
+	margin: 0;
+	float: left;
 	background-color: yellow;
 }
 
 .nav {
 	width: 80%;
 	height: 100%;
-	float: right;
+	margin: 0;
+	float: left;
 	background-color: blue;
 }
 
