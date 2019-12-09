@@ -24,11 +24,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #000000; 
+  background: #0000FF; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0000FF; 
+  background: #000000; 
 }
 
 /********************
@@ -91,7 +91,7 @@ h2 {
 }
 
 .nav {
-	width: calc((10*(100%/12))-3px);
+	width: calc((10 * (100% / 12)) - 3px);
 	height: 100vh;
 	margin: 0;
 	padding: 0;
@@ -102,14 +102,13 @@ h2 {
 }
 
 .nav-svg {
-	max-width: calc((10*(100%/12))-23px);
-	max-height: 50%;
+	max-width: 100%;
+	max-height: 100%;
 	top:0;
 	left:0;
 	margin: 0;
 	overflow: auto;
 	position: absolute;
-	background-color: yellow;
 }
 
 .log-grad {
