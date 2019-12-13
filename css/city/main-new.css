@@ -201,6 +201,19 @@ h2 {
 	padding: 1px;
 }
 
+#about-timestamp_green {
+	font-size: .75em;
+	font-weight: bold;
+	color: #009900;
+	border: solid;
+	background-color: #ccffcc;
+	border-color: #ccffcc;
+	border-width: 1px;
+	border-spacing: 1px;
+	border-radius: 3px;
+	padding: 1px;
+}
+
 /*****************************************************************************************
  DIVs
  *****************************************************************************************/
