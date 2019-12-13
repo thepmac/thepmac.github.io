@@ -35,6 +35,14 @@ body {
  TYPE
  ********************/
 
+::selection {
+  background: #ffff00;
+}
+::-moz-selection {
+  background: #ffff00;
+}
+
+
 h1 {
 	font-family: 'Galdeano', sans-serif;
 	font-size: 3em;
@@ -45,6 +53,37 @@ h2 {
 	font-family: 'Galdeano', sans-serif;
 	font-size: 2.5em;
 	color: green;
+}
+
+#log-nav {
+	font-family: 'Courier New';
+	font-size: 1em;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+#log-nav a {
+	background-color: #000000;
+	color: #ffffff;
+	text-decoration: none;
+	border: solid;
+	border-color: #000000;
+	border-width: 1px;
+	border-radius: 3px;
+}
+
+#log-nav a:hover {
+	background-color: #ffffff;
+	color: #000000 !important;
+	text-decoration: none;
+	border: solid;
+	border-color: #000000;
+	border-width: 1px;
+	border-radius: 3px;
+}
+
+#log-nav a:visited {
+	color: #ffffff;
 }
 
 #log-banner {
@@ -60,25 +99,43 @@ h2 {
 	font-size: 1em;
 	margin-left: 10px;
 	margin-right: 5px;
+	border-top: solid;
+	border-width: 1px;
+	border-color: black;
 }
 
 #log-timestamp {
 	font-size: .75em;
 	font-weight: bold;
-	color: blue;
-	background-color: #ffff99;
+	color: #666666;
+	border: solid;
+	background-color: #d8d8d8;
+	border-color: #d8d8d8;
+	border-width: 1px;
+	border-spacing: 1px;
+	border-radius: 3px;
+	padding: 1px;
 }
 
-.log a:visited {
-	color: blue;
+#log-entry a {
+	font-size: .75em;
+	background-color: #ffffff;
+	color: #0000ff;
+	font-weight: bold;
+	text-decoration: none;
+	border: solid;
+	border-color: #0000ff;
+	border-width: 1px;
+	border-radius: 3px;
 }
 
-.log a:hover {
-	font-style: italic;
+#log-entry a:visited {
+	color: #0000ff;
 }
 
-.log a:active {
-	font-style: italic;
+#log-entry a:hover {
+	color: #ffffff !important;
+	background-color: #0000ff;
 }
 
 
