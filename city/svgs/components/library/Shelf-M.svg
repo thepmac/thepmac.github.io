@@ -1,9 +1,26 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8in" height="8in" viewBox="0 0 576 576"><defs><style>.cls-1{fill:#c6af8d;}.cls-1,.cls-2{stroke:#000;stroke-miterlimit:10;}.cls-2{fill:#efe3ca;}.cls-3{fill:#000000;}.cls-4{fill:#e7e7e7;}</style></defs><title>Shelf-M</title><rect class="cls-1" x="28.0029" y="27.9728" width="518.7897" height="518.7897"/><path class="cls-2" d="M14.0577,14.0965v547.2h547.2v-547.2Zm532.7348,532.666H28.0029V27.9728h518.79Z"/><rect class="cls-2" x="28.0029" y="147.5792" width="518.7897" height="13.8763"/><rect class="cls-2" x="28.0029" y="414.5445" width="518.7897" height="13.8763"/><rect class="cls-2" x="28.0029" y="281.0618" width="518.7897" height="13.8763"/>
-
-<a xlink:href="https://mitpress.mit.edu/books/eternal-letter" target="_blank"><rect class="cls-3" x="28.9978" y="198.4369" width="10.0464" height="81.625"/></a>
-
-<path d="M38.544,198.9367v80.6251H29.4979V198.9367H38.544m1-1H28.4979v82.6251H39.544V197.9367Z"/>
-
-<a xlink:href="https://www.monacellipress.com/book/i-wonder/" target="_blank"><rect class="cls-4" x="49.0349" y="208.6744" width="14.881" height="70.5671" transform="matrix(0.9659, -0.2588, 0.2588, 0.9659, -61.2104, 22.9262)"/></a>
-
-<path d="M54.1766,208.5635,72.1818,275.76,58.774,279.3526,40.7688,212.1561l13.4078-3.5926m.7071-1.2248-15.34,4.11,18.5229,69.1283,15.34-4.11L54.8837,207.3387Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 576 576" style="enable-background:new 0 0 576 576;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#A57638;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#E8AE82;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#EFE3CA;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#17C168;}
+	.st4{fill:#FFFFFF;}
+</style>
+<title>Shelf-M</title>
+<rect x="28" y="28" class="st0" width="518.8" height="518.8"/>
+<path class="st1" d="M14.1,14.1v547.2h547.2V14.1H14.1z M546.8,546.8H28V28h518.8V546.8z"/>
+<rect x="28" y="147.6" class="st2" width="518.8" height="13.9"/>
+<rect x="28" y="414.5" class="st2" width="518.8" height="13.9"/>
+<rect x="28" y="281.1" class="st2" width="518.8" height="13.9"/>
+<a xlink:href="https://www.penguin.com.au/books/native-speaker-penguin-drop-caps-9780143124306" target="_blank">
+	<rect x="29" y="198.6" class="st3" width="10" height="81.6"/>
+</a>
+<path d="M38.5,199.1v80.6h-9v-80.6H38.5 M39.5,198.1h-11v82.6h11V198.1z"/>
+<a xlink:href="https://www.penguinrandomhouse.com/books/118711/1q84-by-haruki-murakami/" target="_blank">
+	<rect x="40.7" y="209.8" class="st4" width="20" height="70.6"/>
+</a>
+<path d="M59.9,210.3l0,69.6l-18.4,0l0-69.6L59.9,210.3 M61.2,209.2l-21,0l0,71.5l21,0C61.2,280.8,61.2,209.2,61.2,209.2z"/>
+</svg>
