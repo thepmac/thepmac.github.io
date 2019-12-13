@@ -39,6 +39,10 @@ body {
 	cursor: zoom-in;
 }
 
+#zoom-link:hover {
+	opacity: .3;
+}
+
 /********************
  TYPE
  ********************/
@@ -81,7 +85,7 @@ h2 {
 }
 
 #log-nav a:hover {
-	background-color: #ffffff;
+	background-color: #ffff00;
 	color: #000000 !important;
 	text-decoration: none;
 	border: solid;
@@ -161,6 +165,19 @@ h2 {
 	border: solid;
 	background-color: #d8d8d8;
 	border-color: #d8d8d8;
+	border-width: 1px;
+	border-spacing: 1px;
+	border-radius: 3px;
+	padding: 1px;
+}
+
+#about-timestamp-edit1 {
+	font-size: .75em;
+	font-weight: bold;
+	color: #9900cc;
+	border: solid;
+	background-color: #cc99ff;
+	border-color: #cc99ff;
 	border-width: 1px;
 	border-spacing: 1px;
 	border-radius: 3px;
