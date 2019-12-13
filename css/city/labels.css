@@ -1,7 +1,11 @@
-#tt-shelf1 {
+#HomeShelf, #HomeBench {
   background: #0000ff;
-  padding: 6px;
+  padding: 3px;
   font-family: 'Courier New';
   font-weight: bold;
   color: white;
+  border: solid;
+  border-color: #0000ff;
+  border-width: 1px;
+  border-radius: 5px;
 }
