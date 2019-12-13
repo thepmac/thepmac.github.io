@@ -63,8 +63,22 @@ h2 {
 }
 
 #log-timestamp {
-	font-size: .8em;
+	font-size: .75em;
+	font-weight: bold;
 	color: blue;
+	background-color: #ffff99;
+}
+
+.log a:visited {
+	color: blue;
+}
+
+.log a:hover {
+	font-style: italic;
+}
+
+.log a:active {
+	font-style: italic;
 }
 
 
