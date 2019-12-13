@@ -4,8 +4,11 @@
 	<title>City———The Eastern Gates</title>
 
 	<link rel="stylesheet" type="text/css" href="../css/city/main-new.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="../css/city/labels.css" media="screen"/>
 	<link href="https://fonts.googleapis.com/css?family=Galdeano&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" href="../images/favicon.png" type="image/png">
+
+	<script type="text/javascript" src="../js/city/tooltips.js"></script>
 
 </head>
 <body>
@@ -27,7 +30,7 @@
 				
 
 					<a xlink:href="../components/library/Shelf-M.svg">
-						<rect id="shelf" class="cls-6" x="561.0532" y="914.3342" width="21.8352" height="121.879"/>
+						<rect id="shelf" class="cls-6" x="561.0532" y="914.3342" width="21.8352" height="121.879" onmousemove="showTooltip(evt, 'This is a shelf');" onmouseout="hideTooltip();" />
 					</a>
 				
 
@@ -35,6 +38,9 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- TOOL TIPS -->
+	<div id="tt-shelf1" display="none" style="position: absolute; display: none;"></div>
 	
 </body>
 </html>
