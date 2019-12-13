@@ -11,6 +11,8 @@ function offHomeShelf() {
   tooltip.style.display = "none";
 }
 
+//———————————————————————————————————//
+
 function onHomeBench(evt, text) {
   let tooltip = document.getElementById("HomeBench");
   tooltip.innerHTML = text;
@@ -24,6 +26,8 @@ function offHomeBench() {
   tooltip.style.display = "none";
 }
 
+//———————————————————————————————————//
+
 function onHomePlant(evt, text) {
   let tooltip = document.getElementById("HomePlant");
   tooltip.innerHTML = text;
@@ -34,5 +38,20 @@ function onHomePlant(evt, text) {
 
 function offHomePlant() {
   var tooltip = document.getElementById("HomePlant");
+  tooltip.style.display = "none";
+}
+
+//———————————————————————————————————//
+
+function onHomeShoeRack(evt, text) {
+  let tooltip = document.getElementById("HomeShoeRack");
+  tooltip.innerHTML = text;
+  tooltip.style.display = "block";
+  tooltip.style.left = evt.pageX + 10 + 'px';
+  tooltip.style.top = evt.pageY + 10 + 'px';
+}
+
+function offHomeShoeRack() {
+  var tooltip = document.getElementById("HomeShoeRack");
   tooltip.style.display = "none";
 }
