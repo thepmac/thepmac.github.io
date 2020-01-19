@@ -1,0 +1,11 @@
+/*
+------      divs
+*/
+
+.child {
+	margin-left: 0;
+}
+
+.main-container:first-child, .header-container:first-child, .header-title:first-child, .header-nav:first-child, .index-container:first-child {
+	margin-left: 0;
+}
