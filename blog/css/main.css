@@ -9,10 +9,10 @@ html {
 }
 
 ::selection {
-  background: #ff00ff; /* WebKit/Blink Browsers */
+  background: #00ff00;
 }
 ::-moz-selection {
-  background: #ff00ff; /* Gecko Browsers */
+  background: #00ff00;
 }
 
 
@@ -33,7 +33,7 @@ html {
 .header-title {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 2.5em;
-	font-weight: medium;
+	font-weight: 600;
 	color: black;
 }
 
@@ -53,6 +53,7 @@ html {
 .index-container {
 	width: 100%;
 	padding-top: 2.5em;
+	padding-bottom: 2.5em;
 	float: left;
 }
 
@@ -61,7 +62,7 @@ html {
 	height: 2.5em;
 	padding-top: 1em;
 	float: left;
-	border-bottom: .1em solid black;
+	border-bottom: 1px solid black;
 }
 
 .column:first-child {
