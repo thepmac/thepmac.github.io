@@ -21,7 +21,23 @@ html {
 */
 
 
+sup {
+	vertical-align: baseline;
+	position: relative;
+	top: -0.4em;
+}
 
+sub { 
+	top: 0.4em; 
+}
+
+.home-link:a {
+	/*font-size: 72px;
+	background: -webkit-linear-gradient(#eee, #333);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;*/
+	background-color: yellow;
+}
 
 
 /*
@@ -95,7 +111,7 @@ a:visited {
 	float: left;
 }
 
-.date, .category, .title, .empty, .post {
+.date, .category, .title, .empty, .post, .hashtag, .timestamp {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 1.25em;
 	font-weight: regular;
