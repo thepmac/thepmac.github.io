@@ -31,14 +31,6 @@ sub {
 	top: 0.4em; 
 }
 
-.homelink:a {
-	/*font-size: 72px;
-	background: -webkit-linear-gradient(#eee, #333);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;*/
-	background-color: yellow;
-}
-
 
 /*
 ------      divs
@@ -61,15 +53,28 @@ sub {
 	color: black;
 }
 
-a:link, a:visited, a:active, a:hover {
+a {
 	text-decoration: none;
 }
 
-a:link, a:active, a:hover {
+#homelink a {
+	font-size: 0.75em;
+}
+
+#homelink a:link, a:visited, a:active, a:hover {
+	text-decoration: none;
+	color: #ff00ff;
+}
+
+.index-container a:link, a:visited, a:active, a:hover {
+	text-decoration: none;
+}
+
+.index-container a:link, a:active, a:hover {
 	color: #0000ee;
 }
 
-a:visited {
+.index-container a:visited {
 	color: #0000bb;
 }
 
