@@ -1,0 +1,43 @@
+/*******************************
+@FONT-FACE
+********************************/
+
+@font-face {
+  font-family: "GCBook";
+  src: url("../assets/type/GC/GalaxieCopernicus-Book.otf");
+}
+
+@font-face {
+  font-family: "GCItal";
+  src: url("../assets/type/GC/GalaxieCopernicus-BookItalic.otf");
+}
+
+@font-face {
+  font-family: "AGLight";
+  src: url("../assets/type/AG/AkzidenzGroteskPro-Light.otf");
+}
+
+@font-face {
+  font-family: "AGLightItal";
+  src: url("../assets/type/AG/AkzidenzGroteskPro-LightIt.otf");
+}
+
+@font-face {
+  font-family: "AGReg";
+  src: url("../assets/type/AG/AkzidenzGroteskPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "AGRegItal";
+  src: url("../assets/type/AG/AkzidenzGroteskPro-It.otf");
+}
+
+@font-face {
+  font-family: "AGMed";
+  src: url("../assets/type/AG/AkzidenzGroteskPro-Md.otf");
+}
+
+@font-face {
+  font-family: "AGMedItal";
+  src: url("../assets/type/AG/AkzidenzGroteskPro-MdIt.otf");
+}
