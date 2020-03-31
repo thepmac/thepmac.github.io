@@ -9,10 +9,10 @@ html {
 }
 
 ::selection {
-  background: #dddddd;
+  background: rgba(255,0,255,.2);
 }
 ::-moz-selection {
-  background: #dddddd;
+  background: rgba(255,0,255,.2);
 }
 
 
@@ -48,7 +48,8 @@ sub {
 
 .header-title {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 2.5em;
+	/*font-size: 2.5em;*/
+	font-size: 3.2vw;
 	font-weight: 600;
 	color: black;
 }
@@ -76,27 +77,31 @@ a {
 
 .header-nav {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 2.5em;
+	font-size: 3.2vw;
 	font-weight: regular;
 	color: black;
 }
 
 .header-nav:a {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 2.5em;
+	font-size: 3.2vw;
 }
 
 .index-container {
 	width: 100%;
-	padding-top: 2.5em;
-	padding-bottom: 2.5em;
+	/*padding-top: 2.5em;
+	padding-bottom: 2.5em;*/
+	padding-top: 2vw;
+	padding-bottom: 2vw;
 	float: left;
 }
 
 .row {
 	width: 100%;
-	min-height: 2.5em;
-	padding-top: 1em;
+	/*min-height: 2.5em;
+	padding-top: 1em;*/
+	min-height: 2vw;
+	padding-top: .9vw;
 	float: left;
 	border-bottom: 1px solid black;
 }
@@ -114,7 +119,8 @@ a {
 
 .date, .category, .title, .empty, .post, .hashtag, .timestamp, .notes {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1.25em;
+	/*font-size: 1.25em;*/
+	font-size: 1vw;
 	font-weight: regular;
 	color: #000000;
 	float: left;
