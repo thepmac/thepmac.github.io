@@ -1,0 +1,297 @@
+/*******************************
+@FONT-FACE
+********************************/
+
+@font-face {
+  font-family: "GCBook";
+  src: url("../assets/type/GC/GalaxieCopernicus-Book.otf");
+}
+
+@font-face {
+  font-family: "GCItal";
+  src: url("../assets/type/GC/GalaxieCopernicus-BookItalic.otf");
+}
+
+@font-face {
+  font-family: "AGLight";
+  src: url("../assets/type/AG/AkzidenzGroteskPro-Light.otf");
+}
+
+@font-face {
+  font-family: "AGLightItal";
+  src: url("../assets/type/AG/AkzidenzGroteskPro-LightIt.otf");
+}
+
+@font-face {
+  font-family: "AGReg";
+  src: url("../assets/type/AG/AkzidenzGroteskPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "AGRegItal";
+  src: url("../assets/type/AG/AkzidenzGroteskPro-It.otf");
+}
+
+@font-face {
+  font-family: "AGMed";
+  src: url("../assets/type/AG/AkzidenzGroteskPro-Md.otf");
+}
+
+@font-face {
+  font-family: "AGMedItal";
+  src: url("../assets/type/AG/AkzidenzGroteskPro-MdIt.otf");
+}
+
+/*******************************
+COLORS
+********************************/
+
+:root {
+  --dark1: #000000;
+  --light1: #ffffff;
+  --link: #0000ff;
+  --purple: #932784;
+  --green: #00ab4e;
+  --yellow: #fff200;
+  --red: #ed1c24;
+  --blue: #0089cf;
+}
+
+/*******************************
+MOBILE
+********************************/
+
+@media only screen and (max-width: 800px) {
+  body {
+    overflow: auto;
+    background-color: var(--dark1);
+  }
+
+  .top-container,
+  .main-container {
+    display: none;
+  }
+
+  .mobile-alert {
+    padding: 20px;
+    color: var(--light1);
+    font-size: 3em;
+    font-family: "AGMedItal", Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (min-width: 801px) {
+  .mobile-alert {
+    display: none;
+  }
+}
+
+/*******************************
+GENERAL
+********************************/
+
+body {
+  margin: auto;
+  padding: 0;
+  overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--dark1);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--yellow);
+}
+
+/*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: var(--dark1);
+}
+
+::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dark1);
+} */
+
+/*******************************
+DIVS
+********************************/
+
+.top-container {
+  background-color: var(--light1);
+  box-sizing: border-box;
+  width: 100vw;
+  height: 70px;
+  padding-left: 20px;
+  padding-top: 15px;
+  border-bottom: 10px var(--dark1) solid;
+  position: fixed;
+  font-family: "AGLight", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  overflow-x: auto;
+}
+
+.main-container {
+  height: calc(100vh - 80px);
+  width: calc(95vw * 6);
+  top: 70px;
+  position: absolute;
+}
+
+.first {
+  border-left: 0px !important;;
+}
+
+.last {
+  border-right: 10px var(--dark1) solid;
+}
+
+.bg-black > h1,h2,p {
+  color: var(--light1) !important;
+}
+
+.bg-white > h1,h2,p {
+  color: var(dark1) !important;
+}
+.column {
+  display: block;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 100%;
+  width: 95vw;
+  overflow-wrap: break-word;
+  overflow-y: auto;
+  float: left;
+  font-family: "GCBook", "Times New Roman", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  border-left: var(--dark1) 10px solid;
+}
+
+.bg-white {
+  background-color: var(--light1);
+}
+
+.bg-black {
+  background-color: var(--dark1);
+}
+
+.odd {
+}
+
+.even {
+}
+
+.body-column {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.i {
+  width: 10%;
+  margin: 0;
+  padding: 0;
+}
+
+.ii {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+.iii {
+  width: 30%;
+  margin: 0;
+  padding: 0;
+}
+
+.iv {
+  width: 40%;
+  margin: 0;
+  padding: 0;
+}
+
+.v {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.vi {
+  width: 60%;
+  margin: 0;
+  padding: 0;
+}
+
+.vii {
+  width: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.viii {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.ix {
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+.x {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*******************************
+TYPE
+********************************/
+
+h1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  color: var(--dark1);
+  font-size: 3em;
+  font-family: "AGReg", Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: "AGReg", Helvetica, sans-serif;
+  font-weight: 500;
+  color: var(--yellow);
+}
+
+a:link,
+a:visited,
+a:active {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--yellow);
+}
+
+ul {
+  color: var(--yellow);
+}
