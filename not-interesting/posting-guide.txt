@@ -1,0 +1,72 @@
+[—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—]
+[—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—]
+[—][—][—][—][—]
+[—][—][—][—][—]
+[—][—][—][—][—]  Adding a New Post
+[—][—][—][—][—]
+[—][—][—][—][—]
+
+—  Always add new posts on top.
+—  The first <p> tag should contain the timestamp. It can be "post-meta-p" or "post-meta-r"
+—  The rest can be whatever: writing, images (<img> tag), links (<a> tag), etc.
+
+Basic Template:
+
+        <div class="post-box">
+            <span class="post-meta-p">Day, Month DD, YYYY @ HH:MMxm</span>
+            <h2>TITLE</h2>
+            <p>
+                Example of a simple post that's only one sentence long.
+            </p>
+        </div>
+
+
+
+[—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—]
+[—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—]
+[—][—][—][—][—]
+[—][—][—][—][—]
+[—][—][—][—][—]  Adding a Comment
+[—][—][—][—][—]
+[—][—][—][—][—]
+
+—  Comments always go beneath the main stuff within a post.
+—  class can be "comment-meta-p" or "comment-meta-r"
+—  Make sure to check that the metadata (timestamp) is set to the time the comment is posted
+—  Always end comment with 2 line breaks: <br /> tags
+
+Basic Template:
+
+        <div class="comment">
+            <p>
+                <span class="comment-meta-p">MM/DD/YYYY @ HH:MMxm</span><br />
+                I don't get it.<br /><br />
+            </p>
+        </div>
+
+
+
+[—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—]
+[—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—][—]
+[—][—][—][—][—]
+[—][—][—][—][—]
+[—][—][—][—][—]  Youtube iFrames
+[—][—][—][—][—]
+[—][—][—][—][—]
+
+(1)  Create a new .eyeframe div and insert iframe within...
+
+        <div class="eyeframe">
+        
+            **iframe stuff goes here**
+        
+        </div>
+      
+(2)  In the iframe tags, change width and height to...
+
+        width="100%"
+        height="auto"
+
+(3)  Add the following in the iframe tag...
+        
+        class="youtube"
