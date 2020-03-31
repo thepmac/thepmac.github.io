@@ -70,12 +70,8 @@ a {
 	text-decoration: none;
 }
 
-.index-container a:link, a:active, a:hover {
+.index-container a:link, a:active, a:hover, a:visited {
 	color: #0000ee;
-}
-
-.index-container a:visited {
-	color: #0000bb;
 }
 
 .header-nav {
