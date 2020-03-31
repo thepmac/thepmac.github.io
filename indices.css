@@ -1,0 +1,34 @@
+body {
+	margin: auto;
+	padding: 40px;
+}
+
+h1 {
+	font-size: 5em;
+	margin-top: auto;
+	display: block;
+	font-family: "GCBook", serif;
+}
+
+.entry {
+	display: inline-block;
+	background-color: white;
+	font-size: 2.6em;
+	padding: 10px;
+	border: 2px black solid;
+	border-radius: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	font-family: "GCItal", serif;
+}
+
+.entry:hover {
+	background-color: yellow;
+}
+
+a:link,
+a:active,
+a:hover,
+a:visited {
+	color: #0000ff;
+}
