@@ -1,6 +1,15 @@
+:root {
+  --bg: #c7c210;
+  --button-bg: #ffffff;
+  --button-bg-hov: #be10c7;
+  --link: #0000ff;
+  --link-hov: #ffffff;
+}
+
 body {
 	margin: auto;
 	padding: 40px;
+	background-color: var(--bg);
 }
 
 h1 {
@@ -8,27 +17,31 @@ h1 {
 	margin-top: auto;
 	display: block;
 	font-family: "GCBook", serif;
+	color: black;
 }
 
 .entry {
 	display: inline-block;
-	background-color: white;
+	background-color: var(--button-bg);
 	font-size: 2.6em;
-	padding: 10px;
+	padding: .33em 1em .18em 1em;
 	border: 2px black solid;
 	border-radius: 10px;
-	margin-right: 10px;
-	margin-bottom: 20px;
+	margin-right: .18em;
+	margin-bottom: .26em;
 	font-family: "GCItal", serif;
 }
 
 .entry:hover {
-	background-color: yellow;
+	background-color: var(--button-bg-hov);
 }
 
 a:link,
 a:active,
-a:hover,
 a:visited {
-	color: #0000ff;
+	color: var(--link);
+}
+
+a:hover {
+	color: var(--link-hov);
 }
