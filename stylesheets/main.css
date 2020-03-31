@@ -3,10 +3,33 @@ TEMP
 ********************************/
 .temp {
   display: block;
-  text-align: center;
+  position: absolute;
+  height: 300px;
+  width: 300px;
   top: 50%;
+  left: 50%;
+  margin-top: -152px;
+  margin-left: -152px;
+  border: 4px white solid;
+  border-radius: 20px;
+  transform:rotate(45deg);
 }
 
+.temp-msg {
+  display: table-cell;
+  height: 300px;
+  width: 300px;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Helvetica", sans-serif, monospace;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
 
 /*******************************
 @FONT-FACE
