@@ -2,6 +2,9 @@
 TEMP
 ********************************/
 .temp {
+  display: block;
+  text-align: center;
+  top: 50%;
 }
 
 
