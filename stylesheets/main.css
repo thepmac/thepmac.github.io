@@ -17,8 +17,8 @@ TEMP
 
 .temp-msg {
   display: table-cell;
-  height: 300px;
-  width: 300px;
+  height: 298px;
+  width: 298px;
   transform: rotate(-45deg);
   vertical-align: middle;
   text-align: center;
