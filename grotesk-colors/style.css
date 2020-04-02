@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: var(bgcolor) !important;
+  background-color: var(bgcolor);
 }
 
 .color1,
@@ -16,10 +16,7 @@ body {
   margin: 0;
 }
 
-a:link,
-a:active,
-a:hover,
-a:visited {
+a {
   text-decoration: none;
 }
 
