@@ -40,8 +40,16 @@ html {
   margin: 0;
 }
 
-a {
+a:link,
+a:visited,
+a:active {
   text-decoration: none;
+  color: #ff00ff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
 }
 
 .welcome {
@@ -50,7 +58,16 @@ a {
   left: 20px;
   font-family: "AGReg", "Helvetica", "Arial", sansserif;
   font-size: 2vw;
-  z-index: -2;
+  z-index: 2;
+}
+
+.nav {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-family: "AGReg", "Helvetica", "Arial", sansserif;
+  font-size: 2vw;
+  z-index: 2;
 }
 
 .main {
@@ -61,7 +78,7 @@ a {
 .message {
   background-color: #ffffff;
   color: #000000;
-  z-index: -1;
+  z-index: 1;
   font-family: "AGReg", "Helvetica", "Arial", sansserif;
   line-height: 1.6;
 }
