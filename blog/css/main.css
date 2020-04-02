@@ -170,9 +170,8 @@ sub {
 }
 
 .emoji {
-	position: relative;
-	top: .2rem;
-	font-size: 1.4em;
+	position: absolute;
+	font-size: 1.8em;
 }
 
 /*
