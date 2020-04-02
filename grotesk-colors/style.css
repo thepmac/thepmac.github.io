@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: var(bgcolor);
+  background-color: var(--color0);
 }
 
 .color1,
@@ -53,26 +53,26 @@ a {
   font-size: 2vw;
 }
 
-#c1-r,
-#c2-r,
-#c3-r,
-#c4-r,
-#c5-r {
+#c1r,
+#c2r,
+#c3r,
+#c4r,
+#c5r {
   color: #ff0000;
 }
 
-#c1-g,
-#c2-g,
-#c3-g,
-#c4-g,
-#c4-g {
+#c1g,
+#c2g,
+#c3g,
+#c4g,
+#c4g {
   color: #00ff00;
 }
 
-#c1-b,
-#c2-b,
-#c3-b,
-#c4-b,
-#c5-g {
+#c1b,
+#c2b,
+#c3b,
+#c4b,
+#c5g {
   color: #0000ff;
 }
