@@ -17,3 +17,78 @@
   height: 100vh;
   background-color: var(--color2);
 }
+
+body,
+html {
+  margin: 0;
+}
+
+.color1,
+.color2,
+.color3,
+.color4,
+.color5 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.welcome {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-family: "AGReg", "Helvetica", "Arial", sansserif;
+  font-size: 2vw;
+  z-index: -2;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.message {
+  background-color: #ffffff;
+  color: #000000;
+  z-index: -1;
+  font-family: "AGReg", "Helvetica", "Arial", sansserif;
+  line-height: 1.6;
+}
+
+#rgb1,
+#rgb2,
+#rgb3,
+#rgb4,
+#rgb5 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 2vw;
+}
+
+#c1r,
+#c2r,
+#c3r,
+#c4r,
+#c5r {
+  color: #ff0000;
+}
+
+#c1g,
+#c2g,
+#c3g,
+#c4g,
+#c4g {
+  color: #00ff00;
+}
+
+#c1b,
+#c2b,
+#c3b,
+#c4b,
+#c5g {
+  color: #0000ff;
+}
