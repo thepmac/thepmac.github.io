@@ -169,6 +169,12 @@ sub {
 	top: 0.35em; 
 }
 
+.emoji {
+	position: relative;
+	top: .2rem;
+	font-size: 1.4em;
+}
+
 /*
 ------      divs
 */
