@@ -1,49 +1,81 @@
 body,
 html {
-	margin: 0;
+  margin: 0;
 }
 
-.color1, .color2, .color3 {
-	padding: 0;
-	margin: 0;
+body {
+  background-color: var(bgcolor) !important;
 }
 
-.color1 {
-	display: block;
-	position: absolute;
-	width: calc(100vw / 3);
-	height: 100vh;
-	background-color: var(--color-1);
+.color1,
+.color2,
+.color3,
+.color4,
+.color5 {
+  padding: 0;
+  margin: 0;
 }
 
-.color2 {
-	position: fixed;
-	left: calc(100vw / 3);
-	width: calc(100vw / 3);
-	height: 100vh;
-	background-color: var(--color-2);
-}
-
-.color3 {
-	position: fixed;
-	left: calc(2 * (100vw / 3));
-	width: calc(100vw / 3);
-	height: 100vh;
-	background-color: var(--color-3);
+a:link,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
 }
 
 .welcome {
-	position: fixed;
-	top: 20px;
-	left: 20px;
-	font-family: "AGReg", "Helvetica", "Arial", sansserif;
-	z-index: 1;
-	line-height: 60px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-family: "AGReg", "Helvetica", "Arial", sansserif;
+  font-size: 2vw;
+  z-index: -2;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
 }
 
 .message {
-	background-color: #ffffff;
-	z-index: 2;
-	font-family: "AGReg", "Helvetica", "Arial", sansserif;
-	font-size: 48px;
+  background-color: #ffffff;
+  color: #000000;
+  z-index: -1;
+  font-family: "AGReg", "Helvetica", "Arial", sansserif;
+  line-height: 1.6;
+}
+
+#rgb1,
+#rgb2,
+#rgb3,
+#rgb4,
+#rgb5 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 2vw;
+}
+
+#c1-r,
+#c2-r,
+#c3-r,
+#c4-r,
+#c5-r {
+  color: #ff0000;
+}
+
+#c1-g,
+#c2-g,
+#c3-g,
+#c4-g,
+#c4-g {
+  color: #00ff00;
+}
+
+#c1-b,
+#c2-b,
+#c3-b,
+#c4-b,
+#c5-g {
+  color: #0000ff;
 }
