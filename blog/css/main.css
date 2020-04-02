@@ -35,7 +35,7 @@ html {
 		--column: calc((100vw - (13 * var(--gutter))) / 12);
 	}
 
-	.header-title {
+	.header-title, .header-title-home {
 		font-size: 24px;
 	}
 
@@ -61,7 +61,7 @@ html {
 		--column: calc((100vw - (13 * var(--gutter))) / 12);
 	}
 
-	.header-title {
+	.header-title, .header-title-home {
 		font-size: 30px;
 	}
 
@@ -87,7 +87,7 @@ html {
 		--column: calc((100vw - (13 * var(--gutter))) / 12);
 	}
 
-	.header-title {
+	.header-title, .header-title-home {
 		font-size: 40px;
 	}
 
@@ -113,7 +113,7 @@ html {
 		--column: calc((100vw - (13 * var(--gutter))) / 12);
 	}
 
-	.header-title {
+	.header-title, .header-title-home {
 		font-size: 48px;
 	}
 
@@ -168,8 +168,20 @@ sub {
 	color: black;
 }
 
+.header-title-home {
+	font-weight: 600;
+	color: black;
+}
+
+
 a {
 	text-decoration: none;
+}
+
+#homelink {
+	position: fixed;
+	top: 200px;
+	left: 400px;
 }
 
 #homelink a {
