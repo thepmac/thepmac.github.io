@@ -203,24 +203,6 @@ a {
 	text-decoration: none;
 }
 
-#homelink {
-	position: fixed;
-	top: 200px;
-	left: 400px;
-}
-
-#homelink a {
-	font-size: .75em;
-}
-
-#homelink a:link,
-#homelink a:visited,
-#homelink a:active,
-#homelink a:hover {
-	text-decoration: none;
-	color: #ff00ff;
-}
-
 .index-container {
 	width: 100%;
 	float: left;
