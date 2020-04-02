@@ -4,12 +4,12 @@ function random_bg_color() {
   var x = Math.floor(Math.random() * 256);
   var y = Math.floor(Math.random() * 256);
   var z = Math.floor(Math.random() * 256);
-  var bgColor0 = "rgb(" + x + "," + y + "," + z + ")";
-  console.log(bgColor0);
-  document.getElementById("c0-r").innerHTML = x;
-  document.getElementById("c0-g").innerHTML = y;
-  document.getElementById("c0-b").innerHTML = z;
-  root.style.setProperty("--bgcolor", bgColor0);
+  var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+  console.log(bgColor);
+  document.getElementById("c-r").innerHTML = x;
+  document.getElementById("c-g").innerHTML = y;
+  document.getElementById("c-b").innerHTML = z;
+  root.style.setProperty("--bgcolor", bgColor);
 
   var x = Math.floor(Math.random() * 256);
   var y = Math.floor(Math.random() * 256);
