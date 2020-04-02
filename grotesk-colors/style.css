@@ -47,6 +47,16 @@ a:hover {
   z-index: 2;
 }
 
+.quote {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-family: "AGReg", "Helvetica", "Arial", sansserif;
+  font-size: 2vw;
+  z-index: 2;
+  text-align:right;
+}
+
 .main {
   width: 100vw;
   height: 100vh;
@@ -57,6 +67,14 @@ a:hover {
   color: #000000;
   z-index: 2;
   font-family: "AGReg", "Helvetica", "Arial", sansserif;
+  line-height: 1.6;
+}
+
+.message-ital {
+  background-color: #ffffff;
+  color: #000000;
+  z-index: 2;
+  font-family: "AGRegItal", "Helvetica", "Arial", sansserif;
   line-height: 1.6;
 }
 
