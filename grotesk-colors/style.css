@@ -1,0 +1,49 @@
+body,
+html {
+	margin: 0;
+}
+
+.color1, .color2, .color3 {
+	padding: 0;
+	margin: 0;
+}
+
+.color1 {
+	display: block;
+	position: absolute;
+	width: calc(100vw / 3);
+	height: 100vh;
+	background-color: var(--color-1);
+}
+
+.color2 {
+	position: fixed;
+	left: calc(100vw / 3);
+	width: calc(100vw / 3);
+	height: 100vh;
+	background-color: var(--color-2);
+}
+
+.color3 {
+	position: fixed;
+	left: calc(2 * (100vw / 3));
+	width: calc(100vw / 3);
+	height: 100vh;
+	background-color: var(--color-3);
+}
+
+.welcome {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	font-family: "AGReg", "Helvetica", "Arial", sansserif;
+	z-index: 1;
+	line-height: 60px;
+}
+
+.message {
+	background-color: #ffffff;
+	z-index: 2;
+	font-family: "AGReg", "Helvetica", "Arial", sansserif;
+	font-size: 48px;
+}
