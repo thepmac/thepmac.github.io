@@ -1,0 +1,27 @@
+:root {
+	--column-width: calc(100vw / 3);
+}
+
+.color1 {
+	display: block;
+	position: absolute;
+	width: var(--column-width);
+	height: 100vh;
+	background-color: var(--color1);
+}
+
+.color2 {
+	position: fixed;
+	left: calc(100vw / 3);
+	width: var(--column-width);
+	height: 100vh;
+	background-color: var(--color2);
+}
+
+.color3 {
+	position: fixed;
+	left: calc(2 * var(--column-width));
+	width: var(--column-width);
+	height: 100vh;
+	background-color: var(--color3);
+}
