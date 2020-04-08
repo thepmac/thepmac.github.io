@@ -234,6 +234,17 @@ DIVS
   margin: auto;
 }
 
+.caption-white {
+  display: block;
+  position: relative;
+  float: right;
+  width: 18%;
+  margin-right: 2%;
+  font-family: "AGLight", "Helvetica", "Arial", sanserif !important;
+  font-size: 18px;
+  color: var(--light1);  
+}
+
 .caption {
   display: block;
   position: relative;
@@ -362,6 +373,7 @@ h2 {
   font-family: "AGReg", Helvetica, sans-serif;
   font-weight: 700;
   letter-spacing: 2px;
+  line-height: 1.1em;
   margin-top: 0;
   z-index: 1;
   padding-bottom: 48px;
