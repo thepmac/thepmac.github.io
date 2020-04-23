@@ -6,37 +6,100 @@
 	<style type="text/css">
 		body {
 			margin: 0;
+			padding: 0;
+			font-size: 8px;
 		}
 
-		.top-left-corner,
-		.top-edge,
-		.top-right-corner,
-		.bottom-left-corner,
-		.bottom-edge,
-		.bottom-right-corner {
+		.top,
+		.main,
+		.bottom {
+			position: relative;
+			width: 100vw;
+			margin: 0;
+			padding: 0;
+		}
+
+		.left {
+			position: relative;
+			float: left;
+		}
+
+		.right {
+			position: relative;
+			float: right;
+		}
+
+		.corner {
+			position: relative;
+			width: 100px;
 			height: 100px;
+			margin: 0;
+			display: block;
+			background-image: url('imgs/web-corner.jpg');
 		}
 
-		.left-edge
+		.horizontal {
+			position: relative;
+			float: left;
+			width: calc(100vw - 200px);
+			height: 100px;
+			margin: 0;
+			padding: 0;
+			display: block;
+			background-image: url('imgs/web-edge-horizontal.jpg');
+		}
+
+		.vertical {
+			position: relative;
+			float: left;
+			width: 100px;
+			height: calc(100vh - 200px);
+			margin: 0;
+			padding: 0;
+			display: block;
+			background-image: url('imgs/web-edge-vertical.jpg');
+		}
+
+		.center {
+			float: left;
+			width: calc(100vw - 240px);
+			height: calc(100vh - 240px);
+			margin: 0;
+			padding: 20px;
+			display: block;
+		}
+
+		h1 {
+			font-family: 'Helvetica', sans-serif;
+			font-size: 12em;
+		}
+
+		p {
+			font-family: 'Helvetica', sans-serif;
+			font-size: 4em;
+		}
 	</style>
 
 
 </head>
 <body>
 	<div class="top">
-		<div class="top-left-corner"></div>
-		<div class="top-edge"></div>
-		<div class="top-right-corner"></div>
+		<div class="left corner"></div>
+		<div class="horizontal"></div>
+		<div class="right corner"></div>
 	</div>
 	<div class="main">
-		<div class="left-edge"></div>
-		<div class="center"></div>
-		<div class="right-edge"></div>
+		<div class="left vertical"></div>
+		<div class="center">
+			<h1>Wide Rainbow</h1>
+			<p>We are an after school arts education organization.</p>
+		</div>
+		<div class="right vertical"></div>
 	</div>
 	<div class="bottom">
-		<div class="bottom-left-corner"></div>
-		<div class="bottom-edge"></div>
-		<div class="bottom-right-corner"></div>
+		<div class="left corner"></div>
+		<div class="horizontal"></div>
+		<div class="right corner"></div>
 	</div>
 
 </body>
