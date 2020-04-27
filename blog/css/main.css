@@ -56,11 +56,6 @@ html {
 		border-bottom: 1px solid black;
 	}
 
-	.notes-txt {
-		position: sticky;
-		position: -webkit-sticky;
-		top: calc(54px - .666em);
-	}
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1079px) {
@@ -84,12 +79,6 @@ html {
 
 	.row {
 		border-bottom: 1px solid black;
-	}
-
-	.notes-txt {
-		position: sticky;
-		position: -webkit-sticky;
-		top: calc(74px - .666em);
 	}
 }
 
@@ -115,12 +104,6 @@ html {
 	.row {
 		border-bottom: 2px solid black;
 	}
-
-	.notes-txt {
-		position: sticky;
-		position: -webkit-sticky;
-		top: calc(102px - .666em);
-	}
 }
 
 @media only screen and (min-width: 1440px) {
@@ -144,12 +127,6 @@ html {
 
 	.row {
 		border-bottom: 3px solid black;
-	}
-
-	.notes-txt {
-		position: sticky;
-		position: -webkit-sticky;
-		top: calc(121px - .666em);
 	}
 }
 
