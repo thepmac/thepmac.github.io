@@ -72,7 +72,21 @@ html {
 	}
 
 	.post.six.column {
-		width: calc((var(--column) * 12) + (var(--gutter) * 11)) !important;
+		width: calc((var(--column) * 11) + (var(--gutter) * 10));
+	}
+
+	.notes-txt.two.column {
+		width: calc((var(--column) * 6) + (var(--gutter) * 5));
+		margin-left: calc((var(--column) * 6) + (var(--gutter) * 5));
+	}
+
+	.timestamp.two.column {
+		width: calc((var(--column) * 6) + (var(--gutter) * 5));
+		margin-bottom: 2em;
+	}
+
+	.hashtag {
+		display: none;
 	}
 }
 
