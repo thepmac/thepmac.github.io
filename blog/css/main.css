@@ -6,6 +6,7 @@ body {
 	margin: auto;
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 html {
