@@ -69,3 +69,22 @@ body {
 .st0:hover {
 	fill-opacity: 1;
 }
+
+.interview-a {
+	margin: 0;
+	padding: 0em 3em 0em 0em;
+}
+
+.interview-b {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	padding: 0;
+	margin: 0em 0em 1em 0em;
+}
+
+.section-emoji {
+	text-align: center;
+}
