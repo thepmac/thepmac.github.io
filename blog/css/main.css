@@ -39,8 +39,14 @@ html {
 		--column: calc((100vw - (13 * var(--gutter))) / 12);
 	}
 
-	.header-title, .header-title-home {
-		font-size: 24px;
+	.header-title,
+	.header-title-home {
+		font-size: 5em !important;
+	}
+
+	.row {
+		font-size: 2em;
+		line-height: 1.6em;
 	}
 
 	.index-container {
@@ -90,7 +96,7 @@ html {
 	}
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1079px) {
+@media only screen and (min-width: 800px) and (max-width: 1079px), only screen and (min-device-width: 800px) and (max-device-width: 1079px) {
 	:root {
 		--gutter: 20px;
 		--column: calc((100vw - (13 * var(--gutter))) / 12);
@@ -162,7 +168,7 @@ html {
 	}
 }
 
-@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+@media only screen and (min-width: 1080px) and (max-width: 1439px), only screen and (min-device-width: 1080px) and (max-device-width: 1439px) {
 	:root {
 		--gutter: 28px;
 		--column: calc((100vw - (13 * var(--gutter))) / 12);
@@ -234,7 +240,7 @@ html {
 	}
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px), only screen and (min-device-width: 1440px) {
 	:root {
 		--gutter: 40px;
 		--column: calc((100vw - (13 * var(--gutter))) / 12);
