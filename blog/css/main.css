@@ -44,11 +44,6 @@ html {
 		font-size: 5em !important;
 	}
 
-	.row {
-		font-size: 2em;
-		line-height: 1.6em;
-	}
-
 	.index-container {
 		font-size: 14px;
 	}
@@ -59,7 +54,24 @@ html {
 	}
 
 	.row {
+		font-size: 2em;
+		line-height: 1.6em;
 		border-bottom: 1px solid black;
+	}
+
+	.row:first-child,
+	.row:nth-child(2) {
+		width: calc((var(--column) * 6) + (var(--gutter) * 5))
+	}
+
+	.row:first-child .column,
+	.row:nth-child(2) .column {
+		width: 100%;
+		margin: 0;
+	}
+
+	.row:nth-child(2) .notes {
+		display: none;
 	}
 
 	.one.column,
