@@ -13,7 +13,8 @@ body {
 
 	.row:first-child,
 	.row:nth-child(2) {
-		width: calc((var(--column) * 6) + (var(--gutter) * 5))
+		width: calc((var(--column) * 6) + (var(--gutter) * 5));
+		border-bottom: 0px;
 	}
 
 	.row:first-child .column,
@@ -24,6 +25,18 @@ body {
 
 	.row:nth-child(2) .notes {
 		display: none;
+	}
+
+	.row:nth-child(3) {
+		border-top: black 1px solid;
+	}
+
+	.sticky {
+		position: relative !important;
+	}
+
+	.timestamp {
+		color: #c1c1c1;
 	}
 }
 
