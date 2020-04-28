@@ -44,6 +44,10 @@ html {
 		font-size: 6em !important;
 	}
 
+	.header-container {
+		padding-bottom: 2em;
+	}
+
 	.index-container {
 		font-size: 14px;
 	}
@@ -75,7 +79,8 @@ html {
 	}
 
 	.post.six.column {
-		width: calc((var(--column) * 11) + (var(--gutter) * 10));
+		width: calc((var(--column) * 12) + (var(--gutter) * 11));
+		margin: 0;
 	}
 
 	.notes-txt.two.column {
