@@ -56,6 +56,31 @@ html {
 		border-bottom: 1px solid black;
 	}
 
+	.one.column,
+	.two.column,
+	.three.column,
+	.four.column,
+	.five.column,
+	.six.column,
+	.seven.column,
+	.eight.column,
+	.nine.column,
+	.ten.column,
+	.eleven.column,
+	.twelve.column {
+		width: calc((var(--column) * 3) + (var(--gutter) * 2));
+	}
+
+	.one.column,
+	.two.column,
+	.three.column,
+	.four.column {
+		width: calc((var(--column) * 3) + (var(--gutter) * 2));
+	}
+
+	.post.six.column {
+		width: calc((var(--column) * 12) + (var(--gutter) * 11)) !important;
+	}
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1079px) {
@@ -79,6 +104,54 @@ html {
 
 	.row {
 		border-bottom: 1px solid black;
+	}
+
+	.one.column {
+	width: var(--column);
+	}
+
+	.two.column {
+		width: calc((var(--column) * 2) + (var(--gutter) * 1));
+	}
+
+	.three.column {
+		width: calc((var(--column) * 3) + (var(--gutter) * 2));
+	}
+
+	.four.column {
+		width: calc((var(--column) * 4) + (var(--gutter) * 3));
+	}
+
+	.five.column {
+		width: calc((var(--column) * 5) + (var(--gutter) * 4));
+	}
+
+	.six.column {
+		width: calc((var(--column) * 6) + (var(--gutter) * 5));
+	}
+
+	.seven.column {
+		width: calc((var(--column) * 7) + (var(--gutter) * 6));
+	}
+
+	.eight.column {
+		width: calc((var(--column) * 8) + (var(--gutter) * 7));
+	}
+
+	.nine.column {
+		width: calc((var(--column) * 9) + (var(--gutter) * 8));
+	}
+
+	.ten.column {
+		width: calc((var(--column) * 10) + (var(--gutter) * 9));
+	}
+
+	.eleven.column {
+		width: calc((var(--column) * 11) + (var(--gutter) * 10));
+	}
+
+	.twelve.column {
+		width: calc((var(--column) * 12) + (var(--gutter) * 11));
 	}
 }
 
@@ -104,6 +177,54 @@ html {
 	.row {
 		border-bottom: 2px solid black;
 	}
+
+	.one.column {
+	width: var(--column);
+	}
+
+	.two.column {
+		width: calc((var(--column) * 2) + (var(--gutter) * 1));
+	}
+
+	.three.column {
+		width: calc((var(--column) * 3) + (var(--gutter) * 2));
+	}
+
+	.four.column {
+		width: calc((var(--column) * 4) + (var(--gutter) * 3));
+	}
+
+	.five.column {
+		width: calc((var(--column) * 5) + (var(--gutter) * 4));
+	}
+
+	.six.column {
+		width: calc((var(--column) * 6) + (var(--gutter) * 5));
+	}
+
+	.seven.column {
+		width: calc((var(--column) * 7) + (var(--gutter) * 6));
+	}
+
+	.eight.column {
+		width: calc((var(--column) * 8) + (var(--gutter) * 7));
+	}
+
+	.nine.column {
+		width: calc((var(--column) * 9) + (var(--gutter) * 8));
+	}
+
+	.ten.column {
+		width: calc((var(--column) * 10) + (var(--gutter) * 9));
+	}
+
+	.eleven.column {
+		width: calc((var(--column) * 11) + (var(--gutter) * 10));
+	}
+
+	.twelve.column {
+		width: calc((var(--column) * 12) + (var(--gutter) * 11));
+	}
 }
 
 @media only screen and (min-width: 1440px) {
@@ -127,6 +248,54 @@ html {
 
 	.row {
 		border-bottom: 3px solid black;
+	}
+
+	.one.column {
+	width: var(--column);
+	}
+
+	.two.column {
+		width: calc((var(--column) * 2) + (var(--gutter) * 1));
+	}
+
+	.three.column {
+		width: calc((var(--column) * 3) + (var(--gutter) * 2));
+	}
+
+	.four.column {
+		width: calc((var(--column) * 4) + (var(--gutter) * 3));
+	}
+
+	.five.column {
+		width: calc((var(--column) * 5) + (var(--gutter) * 4));
+	}
+
+	.six.column {
+		width: calc((var(--column) * 6) + (var(--gutter) * 5));
+	}
+
+	.seven.column {
+		width: calc((var(--column) * 7) + (var(--gutter) * 6));
+	}
+
+	.eight.column {
+		width: calc((var(--column) * 8) + (var(--gutter) * 7));
+	}
+
+	.nine.column {
+		width: calc((var(--column) * 9) + (var(--gutter) * 8));
+	}
+
+	.ten.column {
+		width: calc((var(--column) * 10) + (var(--gutter) * 9));
+	}
+
+	.eleven.column {
+		width: calc((var(--column) * 11) + (var(--gutter) * 10));
+	}
+
+	.twelve.column {
+		width: calc((var(--column) * 12) + (var(--gutter) * 11));
 	}
 }
 
@@ -274,52 +443,4 @@ img {
 
 .post {
 	padding-bottom: 1em;
-}
-
-.one.column {
-	width: var(--column);
-}
-
-.two.column {
-	width: calc((var(--column) * 2) + (var(--gutter) * 1));
-}
-
-.three.column {
-	width: calc((var(--column) * 3) + (var(--gutter) * 2));
-}
-
-.four.column {
-	width: calc((var(--column) * 4) + (var(--gutter) * 3));
-}
-
-.five.column {
-	width: calc((var(--column) * 5) + (var(--gutter) * 4));
-}
-
-.six.column {
-	width: calc((var(--column) * 6) + (var(--gutter) * 5));
-}
-
-.seven.column {
-	width: calc((var(--column) * 7) + (var(--gutter) * 6));
-}
-
-.eight.column {
-	width: calc((var(--column) * 8) + (var(--gutter) * 7));
-}
-
-.nine.column {
-	width: calc((var(--column) * 9) + (var(--gutter) * 8));
-}
-
-.ten.column {
-	width: calc((var(--column) * 10) + (var(--gutter) * 9));
-}
-
-.eleven.column {
-	width: calc((var(--column) * 11) + (var(--gutter) * 10));
-}
-
-.twelve.column {
-	width: calc((var(--column) * 12) + (var(--gutter) * 11));
 }
