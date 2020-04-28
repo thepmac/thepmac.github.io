@@ -71,13 +71,6 @@ html {
 		width: calc((var(--column) * 3) + (var(--gutter) * 2));
 	}
 
-	.one.column,
-	.two.column,
-	.three.column,
-	.four.column {
-		width: calc((var(--column) * 3) + (var(--gutter) * 2));
-	}
-
 	.post.six.column {
 		width: calc((var(--column) * 12) + (var(--gutter) * 11)) !important;
 	}
