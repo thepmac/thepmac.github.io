@@ -29,6 +29,8 @@ TEMP
 
 body {
   background-color: black;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 /*******************************
