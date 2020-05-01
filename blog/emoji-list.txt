@@ -2,8 +2,10 @@
 EMOJI LIST w/ ENDING A TAG AND SPACE
 ————————————————————————————————————
 
+🥼		DESIGN
+
 🧺		HOUSEKEEPING
 
 🦋		INSPIRATION
 
-🎶		MUSIC
+🎹		MUSIC
