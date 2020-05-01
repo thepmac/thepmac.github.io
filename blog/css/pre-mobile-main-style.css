@@ -227,7 +227,7 @@ a {
 	float: left;
 }
 
-.date, .category, .title, .empty, .post, .hashtag, .timestamp, .notes {
+.date, .type, .title, .empty, .post, .hashtag, .timestamp, .notes {
 	float: left;
 }
 
