@@ -47,6 +47,7 @@ COLORS
   --yellow: #fff200;
   --red: #ed1c24;
   --blue: #0089cf;
+  --magenta: #ff00ff;
 }
 
 /*******************************
@@ -98,11 +99,11 @@ body {
 }
 
 ::-webkit-scrollbar-track, scrollbar-track {
-  background-color: var(--dark1);
+  background-color: var(--light1);
 }
 
 ::-webkit-scrollbar-thumb, scrollbar-thumb {
-  background-color: var(--yellow);
+  background-color: var(--magenta);
 }
 
 /*::-webkit-scrollbar {
@@ -142,6 +143,7 @@ DIVS
   width: calc(95vw * 6);
   top: 70px;
   position: absolute;
+  scroll-snap-type: x mandatory;
 }
 
 .first {
@@ -172,6 +174,7 @@ DIVS
   font-weight: 400;
   font-size: 1em;
   border-left: var(--dark1) 10px solid;
+  scroll-snap-align: start;
 }
 
 .bg-white {
@@ -212,6 +215,7 @@ DIVS
   display: block;
   margin: auto;
   max-height: 100%;
+  max-width: 100%;
   width: auto;
 }
 
@@ -310,9 +314,9 @@ a:active {
 }
 
 a:hover {
-  color: var(--yellow);
+  color: var(--magenta);
 }
 
 ul {
-  color: var(--yellow);
+  color: var(--magenta);
 }
