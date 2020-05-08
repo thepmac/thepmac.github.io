@@ -86,6 +86,7 @@ GENERAL
 ********************************/
 
 body {
+  background-color: var(--light1);
   margin: auto;
   padding: 0;
   overflow-x: auto;
