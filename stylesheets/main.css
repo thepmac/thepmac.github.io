@@ -40,6 +40,7 @@ COLORS
 :root {
   --dark1: #000000;
   --light1: #ffffff;
+  --grey1: #c1c1c1;
   --link: #0000ff;
   --purple: #932784;
   --green: #00ab4e;
@@ -87,6 +88,8 @@ body {
   margin: auto;
   padding: 0;
   overflow-x: auto;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 ::-webkit-scrollbar {
@@ -146,7 +149,7 @@ DIVS
 }
 
 .last {
-  border-right: 10px var(--dark1) solid;
+  border-right: 0px var(--dark1) solid;
 }
 
 .bg-black > h1,h2,p {
@@ -154,7 +157,7 @@ DIVS
 }
 
 .bg-white > h1,h2,p {
-  color: var(dark1) !important;
+  color: var(--dark1) !important;
 }
 .column {
   display: block;
