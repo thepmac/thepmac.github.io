@@ -324,3 +324,12 @@ a:hover {
 ul {
   color: var(--magenta);
 }
+
+i {
+  font-family: "AGRegItal", Helvetica, sans-serif;
+}
+
+.star {
+  color: #ff0000;
+  font-family: "AGMed", Helvetica, sans-serif;
+} 
