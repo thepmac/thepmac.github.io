@@ -211,7 +211,7 @@ DIVS
   height: 75vh;
 }
 
-.work img {
+.work img, video {
   display: block;
   margin: auto;
   max-height: 100%;
