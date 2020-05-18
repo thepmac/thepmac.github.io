@@ -20,8 +20,9 @@ body {
 }
 
 .main-container {
-		margin: 2% 2% 2% 2%;
-	}
+	margin: 2% 2% 2% 2%;
+	width: 96%;
+}
 
 .box {
 	margin: 0px;
