@@ -13,21 +13,21 @@ body {
 }
 
 .a {
-	border-top: red solid 3px;
+	border-top: black solid 3px;
 }
 
 .b {
-	border-top: blue solid 3px;
+	border-top: black solid 3px;
 }
 
 a:active,
 a:visited,
 a:link {
-	color: #f0f;
+	color: #f00;
 }
 
 a:hover {
-	color: #000;
+	color: #00f;
 	text-decoration: none;
 }
 
