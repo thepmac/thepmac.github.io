@@ -23,7 +23,7 @@ body {
 a:active,
 a:visited,
 a:link {
-	color: #00f;
+	color: #f0f;
 }
 
 a:hover {
@@ -38,6 +38,7 @@ h1 {
 h2 {
 	font-size: 4em;
 	font-weight: 400;
+	color: #c1c1c1;
 }
 
 p {
