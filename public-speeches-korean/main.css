@@ -1,11 +1,27 @@
+@media (max-width: 800px) {
+	body {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 801px) {
+	body {
+		font-size: 8px;
+	}
+}
+
+html {
+	margin: 0;
+}
+
 body {
-	font-size: 8px;
 	font-family: sans-serif;
+	margin: 0;
 }
 
 .main-container {
-	margin: 2% 40% 2% 2%;
-}
+		margin: 2% 2% 2% 2%;
+	}
 
 .box {
 	margin: 0px;
