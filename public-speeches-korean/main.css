@@ -1,0 +1,16 @@
+body {
+	font-size: 8px;
+	font-family: Arial, sans-serif;
+}
+
+.main-container {
+	margin: 2% 40% 2% 2%;
+}
+
+h1 {
+	font-size: 8em;
+}
+
+p {
+	font-size: 4em;
+}
