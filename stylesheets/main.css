@@ -60,9 +60,15 @@ MOBILE
     background-color: var(--dark1);
   }
 
+  /* UNHIDE, ACIVATE MOBILE
+
   .top-container,
   .main-container {
     display: none;
+  } */
+
+  .top-container {
+    width: 100%;
   }
 
   .mobile-alert {
