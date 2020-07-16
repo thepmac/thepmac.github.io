@@ -76,7 +76,6 @@ MOBILE
     color: var(--dark1);
     font-size: 3em;
     font-family: "Standard Bold Italic", Helvetica, sans-serif;
-    font-weight: 700;
     letter-spacing: 2px;
   }
 }
@@ -140,7 +139,6 @@ DIVS
   border-bottom: 10px var(--dark1) solid;
   position: fixed;
   font-family: "Standard Book", sans-serif;
-  font-weight: 400;
   font-size: 1em;
   overflow-x: auto;
 }
@@ -306,7 +304,6 @@ h1 {
   color: var(--dark1);
   font-size: 3em;
   font-family: "Standard Book", Helvetica, sans-serif;
-  font-weight: 700;
   margin-top: 0;
   letter-spacing: 1px;
 }
@@ -314,7 +311,6 @@ h1 {
 h2 {
   font-size: 1.5em;
   font-family: "Standard Book", Helvetica, sans-serif;
-  font-weight: 500;
   color: var(--yellow);
 }
 
