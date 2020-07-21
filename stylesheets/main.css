@@ -175,8 +175,7 @@ DIVS
   overflow-wrap: break-word;
   overflow-y: auto;
   float: left;
-  font-family: "GCBook", "Times New Roman", sans-serif;
-  font-weight: 400;
+  font-family: "Standard Book", Helvetica, sans-serif;
   font-size: 1em;
   /*border-left: var(--dark1) 10px solid;*/
   scroll-snap-align: start;
