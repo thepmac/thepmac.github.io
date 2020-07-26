@@ -1,0 +1,56 @@
+html {
+	margin: auto;
+}
+
+body {
+	margin: auto;
+	font-size: 8px;
+}
+
+@media only screen and (max-device-width : 800px) {
+	.feed {
+	position: relative;
+	display: block;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 40px;
+	padding-bottom: 5px;
+}
+}
+
+@media only screen and (min-device-width: 801px) {
+	.feed {
+	position: relative;
+	display: block;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-top: 40px;
+	padding-bottom: 5px;
+}
+}
+
+.bg {
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	background-image: url(../bg.bmp);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: -5;
+}
+
+.post {
+	background-color: red;
+	padding: 20px;
+	border-radius: 1px;
+	font-size: 5em;
+	margin-bottom: 35px;
+	color: white;
+	font-family: sans-serif;
+}
