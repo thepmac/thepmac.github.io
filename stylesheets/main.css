@@ -145,7 +145,7 @@ DIVS
 
 .main-container {
   height: calc(100vh - 80px);
-  width: calc(95vw * 6);
+  width: calc(95vw * 7);
   top: 70px;
   position: absolute;
   scroll-snap-type: x mandatory;
