@@ -28,8 +28,6 @@ body {
 	font-smoothing: antialiased;
 	-webkit-font-smoothing: antialiased;
 	color: black;
-	/*letter-spacing: .1em;*/
-	line-height: 6em;
 }
 
 @media only screen and (max-device-width : 800px) {
