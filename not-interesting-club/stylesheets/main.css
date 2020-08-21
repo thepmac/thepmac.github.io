@@ -5,6 +5,7 @@ html {
 body {
 	margin: auto;
 	font-size: 8px;
+	letter-spacing: .1em;
 }
 
 @media only screen and (max-device-width : 800px) {
@@ -46,11 +47,16 @@ body {
 }
 
 .post {
-	background-color: yellow;
+	background-color: white;
 	padding: 20px;
-	border-radius: 1px;
+	border-radius: 3px;
 	font-size: 5em;
 	margin-bottom: 35px;
-	color: white;
+	color: black;
 	font-family: sans-serif;
+	border: 2px white solid;
+}
+
+.post:hover {
+	background-color: rgba(255,255,255,0.67);
 }
