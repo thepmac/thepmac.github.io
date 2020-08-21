@@ -3,12 +3,14 @@ html {
 }
 
 body {
+	background-color: #ffff00;
 	margin: auto;
 	font-size: 8px;
 	font-smoothing: antialiased;
 	-webkit-font-smoothing: antialiased;
 	color: black;
-	letter-spacing: .1em;
+	/*letter-spacing: .1em;*/
+	line-height: 6em;
 }
 
 @media only screen and (max-device-width : 800px) {
@@ -39,7 +41,7 @@ body {
 	position: fixed;
 	min-width: 100%;
 	min-height: 100vh;
-	background-image: url(../space-cloud.bmp);
+	background-image: url(../busan.gif);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
@@ -49,18 +51,37 @@ body {
 	z-index: -5;
 }
 
-.post {
-	background-color: white;
-	padding: 20px;
-	border-radius: 10px;
-	font-size: 5em;
-	margin-bottom: 35px;
-	font-family: sans-serif;
-	border: 2px white solid;
+::selection {
+	background-color: black;
+	color: #ffff00;
 }
 
-.post:hover {
-	background-color: rgba(255,255,255,0.67);
+::-moz-selection {
+	background-color: black;
+	color: #ffff00;
+}
+
+.post {
+	background-color: #ffff00;
+	padding: 15px;
+	border-radius: 0px;
+	font-size: 5em;
+	margin-bottom: 35px;
+	font-family: "Arial", sans-serif;
+}
+
+.post a {
+	border: #0000ff 1px solid;
+	color: black;
+	padding: 3px;
+	text-decoration: none;
+
+}
+
+.post a:hover {
+	border-radius: 10px;
+	background-color: #0000ff;
+	color: #ffff00;
 }
 
 #a {
