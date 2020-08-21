@@ -113,7 +113,7 @@ i {
 }
 
 .post:last-child {
-	margin-bottom: 100vh;
+	margin-bottom: calc(100vh + 100px);
 }
 
 .centered {
