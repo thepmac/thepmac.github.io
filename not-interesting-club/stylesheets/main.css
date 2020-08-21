@@ -5,6 +5,9 @@ html {
 body {
 	margin: auto;
 	font-size: 8px;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	color: black;
 	letter-spacing: .1em;
 }
 
@@ -36,7 +39,7 @@ body {
 	position: fixed;
 	min-width: 100%;
 	min-height: 100%;
-	background-image: url(../bg.bmp);
+	background-image: url(../space-cloud.bmp);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
@@ -49,14 +52,19 @@ body {
 .post {
 	background-color: white;
 	padding: 20px;
-	border-radius: 3px;
+	border-radius: 10px;
 	font-size: 5em;
 	margin-bottom: 35px;
-	color: black;
 	font-family: sans-serif;
 	border: 2px white solid;
 }
 
 .post:hover {
 	background-color: rgba(255,255,255,0.67);
+}
+
+#a {
+}
+
+#b {
 }
