@@ -112,6 +112,10 @@ i {
 	padding: 2px;
 }
 
+.post:last-child {
+	margin-bottom: 100vh;
+}
+
 .centered {
 	text-align: center;
 }
