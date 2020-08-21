@@ -112,11 +112,16 @@ i {
 	padding: 2px;
 }
 
-.post:last-child {
-	margin-bottom: calc(100vh + 100px);
+.end {
+	margin-top: calc(100vh + 35px);
+	margin-bottom: 35px;
+	background-color: #ffff00;
+	padding: 15px;
+	border-radius: 0px;
+	font-size: 5em;
+	font-family: monotype-grotesque, sans-serif;
 }
 
 .centered {
 	text-align: center;
-}
 }
