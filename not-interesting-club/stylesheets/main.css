@@ -67,7 +67,7 @@ body {
 	border-radius: 0px;
 	font-size: 5em;
 	margin-bottom: 35px;
-	font-family: "Arial", sans-serif;
+	font-family: monotype-grotesque, sans-serif;
 }
 
 .post a {
@@ -79,7 +79,6 @@ body {
 }
 
 .post a:hover {
-	border-radius: 10px;
 	background-color: #0000ff;
 	color: #ffff00;
 }
