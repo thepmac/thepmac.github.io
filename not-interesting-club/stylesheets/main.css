@@ -100,20 +100,19 @@ i {
 }
 
 .post a {
-	border-top: #0000ff 1px solid;
-	border-bottom: #0000ff 1px solid;
+	border-top: #000000 1px solid;
+	border-bottom: #000000 1px solid;
 	color: black;
 	padding: 3px;
 	text-decoration: none;
 }
 
 .post a:hover {
-	border: #0000ff 1px solid;
+	border: #000000 1px solid;
 	padding: 2px;
 }
 
-#a {
+.centered {
+	text-align: center;
 }
-
-#b {
 }
