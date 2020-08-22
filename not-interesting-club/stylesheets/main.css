@@ -1,0 +1,127 @@
+/* FONTS
+
+——REG——
+font-family: monotype-grotesque, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+——ITAL——
+font-family: monotype-grotesque, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+——BOLD——
+font-family: monotype-grotesque, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+*/
+
+html {
+	margin: auto;
+}
+
+body {
+	background-color: #ffff00;
+	margin: auto;
+	font-size: 8px;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	color: black;
+}
+
+@media only screen and (max-device-width : 800px) {
+	.feed {
+	position: relative;
+	display: block;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 40px;
+	padding-bottom: 5px;
+}
+}
+
+@media only screen and (min-device-width: 801px) {
+	.feed {
+	position: relative;
+	display: block;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-top: 40px;
+	padding-bottom: 5px;
+}
+}
+
+.bg {
+	position: fixed;
+	min-width: 100%;
+	min-height: 100vh;
+	background-image: url(../busan.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: -5;
+}
+
+::selection {
+	background-color: black;
+	color: #ffff00;
+}
+
+::-moz-selection {
+	background-color: black;
+	color: #ffff00;
+}
+
+em {
+	font-family: monotype-grotesque, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+i {
+	font-family: monotype-grotesque, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.post {
+	background-color: #ffff00;
+	padding: 15px;
+	border-radius: 0px;
+	font-size: 5em;
+	margin-bottom: 35px;
+	font-family: monotype-grotesque, sans-serif;
+}
+
+.post a {
+	border-top: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	color: black;
+	padding: 3px;
+	text-decoration: none;
+}
+
+.post a:hover {
+	border: #000000 1px solid;
+	padding: 2px;
+}
+
+.end {
+	margin-top: calc(100vh + 35px);
+	margin-bottom: 35px;
+	background-color: #ffff00;
+	padding: 15px;
+	border-radius: 0px;
+	font-size: 5em;
+	font-family: monotype-grotesque, sans-serif;
+}
+
+.centered {
+	text-align: center;
+}
