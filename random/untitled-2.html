@@ -57,14 +57,14 @@
 			border: 0;
 			margin-bottom: .2em;
 			margin-top: .2em;
-			width: calc(100vw - 11px);
+			width: calc(100% + 80px);
 			position: relative;
-			left: calc(-30vw - 40px);
+			left: -40px;
 		}
 
 		.bg-rule {
 			display: block;
-			z-index: 10;
+			z-index: -1;
 			position: fixed;
 			border-bottom: .5px red solid;
 			min-height: 49.6vh;
@@ -92,6 +92,7 @@
 	<div class="bg-rule"></div>
 	<div class="main-board">
 		<header>
+			<hr>
 			<span class="name">Patrick Yang MacDonald</span>
 			<span class="folio-current-page">Home</span>
 		</header>
