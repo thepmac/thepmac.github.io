@@ -6,6 +6,13 @@
 	<style type="text/css">
 		@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap');
 
+		:root {
+			--body-bg: #eee;
+			--content-bg: #eee;
+			--rules: #f00;
+			--typography-1: #000;
+		}
+
 		body {
 			font-size: 8px;
 			font-family: 'Recursive', monospace;
@@ -16,7 +23,7 @@
 			-webkit-font-smoothing: antialiased;
 			-moz-osx-font-smoothing: antialiased;
 			line-height: 1.85;
-			background-color: #eee;
+			background-color: var(--body-bg);
 		}
 
 		.main-board {
@@ -25,27 +32,22 @@
 			margin-right: 30%;
 			width: calc(40% - 80px);
 			padding: 0px 40px 20px 40px;
-			background-color: white;
+			background-color: var(--content-bg);
+			color: var(--typography-1);
 		}
 
 		header {
 			display: block;
 			width: 100%;
-			font-size: 2em;
-			padding-top: 1em;
-		}
-
-		.folio-current-page {
-			display: inline;
-			float: right;
+			font-size: 2.2em;
 		}
 
 		nav {
-			font-size: 2em;
+			font-size: 2.2em;
 		}
 
 		nav a:link, a:visited {
-			color: black;
+			color: var(--typography-1);
 			text-decoration: none;
 		}
 
@@ -53,29 +55,51 @@
 			text-decoration: underline;
 		}
 
-		.main-board hr {
+		section {
+			font-size: 2.2em;
+			font-style: italic;
+		}
+
+		.main-board-top hr {
 			height: .5px;
-			background-color: red;
+			background-color: var(--rules);
 			border: 0;
-			margin-bottom: .2em;
-			margin-top: .2em;
-			width: calc(100% + 80px);
+			width: 100%;
 			position: relative;
-			left: -40px;
+			margin: 0;
+		}
+
+		.main-board-top {
+			position: fixed;
+			width: 40%;
+			background-color: var(--content-bg);
+			left: 30%;
+			margin-left: 0px;
+			top: 0;
+			z-index: 10;
+			font-weight: 300;
+		}
+
+		header,
+		nav,
+		section {
+			margin-left: 40px;
 		}
 
 		.bg-rule {
 			display: block;
 			z-index: -1;
 			position: fixed;
-			border-bottom: .5px red solid;
-			min-height: 49.6vh;
+			border-bottom: .5px var(--rules) solid;
+			min-height: 49.65vh;
 			width: 100%;
 		}
 
 		main {
-			font-size: 2em;
+			position: relative;
+			font-size: 2.2em;
 			text-align: left;
+			padding-top: 80px;
 		}
 
 		h1 {
@@ -95,14 +119,19 @@
 <body>
 	<div class="bg-rule"></div>
 	<div class="main-board">
-		<header>
+		<div class="main-board-top">
 			<hr>
-			<span class="name">Patrick Yang MacDonald</span>
-			<span class="folio-current-page">Home</span>
-		</header>
-		<hr>
-		<nav><a href="#">Home</a>&nbsp<a href="#">About</a>&nbsp<a href="#">Work</a>&nbsp<a href="#">Blog</a>&nbsp<a href="#">Contact</a></nav>
-		<hr>
+			<header>Patrick Yang MacDonald</header>
+			<hr>
+			<nav>
+				<a href="#">Blog</a>&#8201; —&#8201;
+				<a href="#">About</a>&#8201; —&#8201;
+				<a href="#">Work</a>&#8201; —&#8201;
+				<a href="#">Contact</a></nav>
+			<hr>
+			<section>Lorem Ipsum: The Commodification of an Ancient Text</section>
+			<hr>
+		</div>
 		<main>
 			<h1>Lorem Ipsum: The Commodification of an Ancient Text</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam felis purus, tincidunt id porttitor quis, faucibus vitae leo. Sed condimentum magna sagittis, cursus massa a, condimentum tortor. Nullam eu faucibus sapien, quis pharetra lectus. Phasellus sapien lectus, varius in aliquam ac, venenatis sit amet orci. Nam non fringilla ligula, sed bibendum lorem. Integer laoreet massa sit amet lacus finibus vestibulum. In sed augue eu tellus commodo egestas nec ornare nibh.</p>
