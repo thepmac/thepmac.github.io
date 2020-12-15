@@ -988,6 +988,13 @@ div[class~=tooltipster-content] > a {
 
 
 
+
+
+
+
+
+
+
 /* get rid of extraneous padding in the Top Contributors box */
 #request_top_contrib {
 	border-top: none;
