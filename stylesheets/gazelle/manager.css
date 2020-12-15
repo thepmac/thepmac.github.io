@@ -198,7 +198,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #userinfo {
 	position: absolute;
-	top: 285px;
+	top: 1em;
 	background: #000;
 	color: var(--text-1);
 	padding: 4px 0px;
