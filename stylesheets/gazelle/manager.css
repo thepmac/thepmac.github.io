@@ -52,7 +52,7 @@ h2 {
 }
 
 h4 {
-	font-size: 8pt;
+	font-size: 1em;
 }
 
 p {
@@ -373,6 +373,7 @@ input.hidden {
 div.linkbox {
 	text-align:center;
 	padding: 5px;
+	font-size: 1.5em;
 }
 
 .center {
@@ -474,15 +475,17 @@ table {
 
 tr {
 	background-color: #000;
+	font-size: 1.5em;
 }
 
 tr.rowa {
 	background-color: #000;
+	font-size: 1.5em;
 }
 
 td, th {
 	border-top: 1px solid #fff;
-	padding: 5px;
+	padding: 2px;
 	text-align: left;
 }
 
