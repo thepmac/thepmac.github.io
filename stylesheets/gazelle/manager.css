@@ -15,16 +15,22 @@
 	margin: 0em;
 }
 
+:root {
+	--dark-bg-1: #000;
+	--text-1: #fff;
+	--border-light-1: #fff	;
+}
+
 html {
 	width: 100%;
 }
 
 body {
 	width: 100%;
-	background-color: #000;
+	background-color: var(--dark-bg-1);
 	font-family: sans-serif, Helvetica, Arial;
 	font-size: 8px;
-	color: #fff;
+	color: var(--text-1);
 	min-width: 850px;
 }
 
@@ -38,7 +44,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
-	color: #fff;
+	color: ;
 }
 
 h1,h2,h3,h4 {
@@ -66,18 +72,18 @@ li {
 input {
 	padding: 2px 3px;
 	border-width: 0px 0px 1px 0px;
-	border-color: #fff;
+	border-color: var(--border-light-1);
 	border-style: solid;
-	background-color: #000;
-	color: #fff;
+	background-color: var(--dark-bg-1);
+	color: var(--text-1);
 }
 
 textarea {
 	padding: 2px 3px;
-	background-color: #000;
-	color: #fff;
+	background-color: var(--dark-bg-1);
+	color: var(--text-1);
 	border-width: 0px 0px 1px 0px;
-	border-color: #fff;
+	border-color: var(--border-light-1);
 	border-style: solid;
 }
 
@@ -164,7 +170,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	width: 100%;
 	padding: 0.6em 0;
 	text-align: center;
-	background-color: #000;
+	background-color: var(--dark-bg-1);
 	font-size: 1.5em;
 	border-top: 1px #fff solid;
 }
@@ -192,7 +198,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	position: absolute;
 	top: 258px;
 	background: #000;
-	color: #fff;
+	color: var(--text-1);
 	padding: 4px 0px;
 	width: 100%;
 	text-align: center;
@@ -222,7 +228,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 #userinfo a:hover {
 	text-decoration: underline;
-	color: #fff;
+	color: var(--text-1);
 }
 
 #userinfo b a {
@@ -236,7 +242,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	top: 199px;
 	width: 100%;
 	text-align: center;
-	background-color: #000;
+	background-color: var(--dark-bg-1);
 	padding: 4px 0px;
 	border-top: 1px #fff solid;
 }
@@ -244,12 +250,12 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #searchbars input {
 	position: relative;
 	border-width: 0px 0px 1px 0px;
-	border-color: #fff;
+	border-color: var(--border-light-1);
 	border-style: solid;
 	padding: 2px 2px 2px 4px;
 	font-size: 0.9em;
-	background-color: #000;
-	color: #fff;
+	background-color: var(--dark-bg-1);
+	color: var(--text-1);
 }
 
 #searchbars ul {
@@ -312,10 +318,10 @@ ul.thin li { margin:0px 0px; padding:0px; }
 select {
 	padding: 2px 3px;
 	border-width: 0px 0px 1px 0px;
-	border-color: #fff;
+	border-color: var(--border-light-1);
 	border-style: solid;
-	background-color: #000;
-	color: #fff;
+	background-color: var(--dark-bg-1);
+	color: var(--text-1);
 }
 
 .alertbar {
@@ -403,7 +409,7 @@ p.min_padding {
 
 .box {
 	font-size: 8pt;
-	background-color: #000;
+	background-color: var(--dark-bg-1);
 	border-top: 1px solid #fff;
 	margin-bottom: 10px;
 }
@@ -411,7 +417,7 @@ p.min_padding {
 .box2 {
 	margin-bottom: 10px;
 	font-size: 8pt;
-	background-color: #000;
+	background-color: var(--dark-bg-1);
 	border-top: 1px solid #666666;
 }
 
@@ -429,7 +435,7 @@ p.min_padding {
 	padding-top: 4px;
 	border-top: 1px solid #fff;
 	background: #000;
-	color: #fff;
+	color: var(--text-1);
 }
 
 .body {
@@ -474,12 +480,12 @@ table {
 }
 
 tr {
-	background-color: #000;
+	background-color: var(--dark-bg-1);
 	font-size: 1.5em;
 }
 
 tr.rowa {
-	background-color: #000;
+	background-color: var(--dark-bg-1);
 	font-size: 1.5em;
 }
 
@@ -492,7 +498,7 @@ td, th {
 .colhead {
 	background: #000;
 	font-weight: bold;
-	color: #fff;
+	color: var(--text-1);
 }
 
 td.colhead, .colhead td, .colhead th {
@@ -517,7 +523,7 @@ td.colhead, .colhead td, .colhead th {
 
 .colhead_dark {
 	background: #000;
-	color: #fff;
+	color: var(--text-1);
 }
 
 td.label {
@@ -622,13 +628,13 @@ ul.poll li.graph {
 }
 
 .torrent_table tr.group {
-	background-color: #000;
+	background-color: var(--dark-bg-1);
 }
 .torrent_table tr.group_torrent {
-	background-color: #000;
+	background-color: var(--dark-bg-1);
 }
 .torrent_table tr.torrent {
-	background-color: #000;
+	background-color: var(--dark-bg-1);
 }
 
 .torrent_table div.tags {
