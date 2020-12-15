@@ -424,7 +424,7 @@ p.min_padding {
 
 .sidebar {
 	float: right;
-	width: 245px;
+	width: 35%;
 }
 
 .head {
@@ -441,7 +441,7 @@ p.min_padding {
 }
 
 .main_column {
-	width: 592px;
+	width: 64%;
 }
 
 .main_column table {
