@@ -172,7 +172,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	text-align: center;
 	background-color: var(--dark-bg-1);
 	font-size: 1.5em;
-	border-top: 1px #fff solid;
+	border-top: 1px var(--border-light-1) solid;
 }
 
 #menu ul li {
@@ -203,7 +203,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	width: 100%;
 	text-align: center;
 	font-size: 1.5em;
-	border-top: 1px #fff solid;
+	border-top: 1px var(--border-light-1) solid;
 }
 
 #userinfo img {
@@ -244,7 +244,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	text-align: center;
 	background-color: var(--dark-bg-1);
 	padding: 4px 0px;
-	border-top: 1px #fff solid;
+	border-top: 1px var(--border-light-1) solid;
 }
 
 #searchbars input {
