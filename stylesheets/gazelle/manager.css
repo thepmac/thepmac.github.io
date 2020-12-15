@@ -42,7 +42,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
-	color: ;
+	color: var(--text-1);
 }
 
 h1,h2,h3,h4 {
