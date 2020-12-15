@@ -20,6 +20,7 @@
 	--text-1: #fff;
 	--border-light-1: #fff;
 	--tag-1: #afa;
+	--search-bg-1: rgba(255,255,255,.2);
 }
 
 html {
@@ -240,22 +241,21 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #searchbars {
 	position: absolute;
-	top: 199px;
+	top: 200px;
 	width: 100%;
 	text-align: center;
 	background-color: var(--dark-bg-1);
 	padding: 4px 0px;
 	border-top: 1px var(--border-light-1) solid;
+	font-size: 1.5em;
 }
 
 #searchbars input {
 	position: relative;
-	border-width: 0px 0px 1px 0px;
-	border-color: var(--border-light-1);
-	border-style: solid;
+	border: 0px;
 	padding: 2px 2px 2px 4px;
 	font-size: 0.9em;
-	background-color: var(--dark-bg-1);
+	background-color: var(--search-bg-1);
 	color: var(--text-1);
 }
 
@@ -1023,13 +1023,3 @@ ol {
 .graphs .bar-color-22:hover { fill: #436FA8; }
 .graphs .bar-color-23:hover { fill: #9B8520; }
 .graphs .bar-color-24:hover { fill: #268E2A; }
-
-
-
-
-
-
-
-tr .group {
-	margin: 20px;
-}
