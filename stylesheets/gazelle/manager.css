@@ -365,7 +365,7 @@ input.hidden {
 }
 
 .widethin { /* overriding the thin class on torrents.php */
-	width: 95% !important;
+	width: 90% !important;
 	margin: 0px auto;
 }
 
@@ -401,7 +401,7 @@ p.min_padding {
 }
 
 .pad {
-	padding: 1em;
+	/* padding: 1em; */
 }
 
 .vertical_space {
@@ -409,7 +409,7 @@ p.min_padding {
 }
 
 .box {
-	font-size: 8pt;
+	font-size: 1.5em;
 	background-color: var(--dark-bg-1);
 	border-top: 1px var(--border-light-1) solid;
 	margin-bottom: 10px;
@@ -417,7 +417,7 @@ p.min_padding {
 
 .box2 {
 	margin-bottom: 10px;
-	font-size: 8pt;
+	font-size: 1.5em;
 	background-color: var(--dark-bg-1);
 	border-top: 1px solid #666666;
 }
@@ -604,7 +604,7 @@ ul.poll li.graph {
 }
 
 .filter_torrents {
-	width: 750px;
+	width: 100%;
 	margin: auto;
 }
 
