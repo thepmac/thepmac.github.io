@@ -21,10 +21,10 @@ html {
 
 body {
 	width: 100%;
-	background-color: #fff;
-	font-family: tahoma, helvetica, sans-serif;
-	font-size: 8pt;
-	color: #000;
+	background-color: #000;
+	font-family: sans-serif, Helvetica, Arial;
+	font-size: 8px;
+	color: grey;
 	min-width: 850px;
 }
 
@@ -32,13 +32,13 @@ body {
 
 a {
 	text-decoration: none;
-	border: none;
-	color: #444;
+	border-top: none;
+	color: #ff0;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: #555;
+	color: grey;
 }
 
 h1,h2,h3,h4 {
@@ -65,14 +65,24 @@ li {
 
 input {
 	padding: 2px 3px;
+	border-width: 0px 0px 1px 0px;
+	border-color: #fff;
+	border-style: solid;
+	background-color: #000;
+	color: grey;
 }
 
 textarea {
 	padding: 2px 3px;
+	background-color: #000;
+	color: grey;
+	border-width: 0px 0px 1px 0px;
+	border-color: #fff;
+	border-style: solid;
 }
 
 img {
-	border: none;
+	border-top: none;
 }
 
 /* Ratio Colors */
@@ -113,12 +123,12 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #header {
 	width: 100%;
 	padding: 0px 0 0 0;
-	background: #CCC;
+	background: #000;
 }
 
 #content {
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 120px;
 	width: 90%;
 	overflow: hidden;
 }
@@ -131,21 +141,21 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #logo {
-	width: 344px;
+	width: 446px;
 	height: 197px;
-	background: url('images/logo.png') no-repeat top left;
+	background: url('/static/styles/layer_cake/images/red-layercake.png') no-repeat top left;
 	margin: 0 auto;
 }
 
 #logo a {
-	border: none;
-	width: 344px;
+	border-top: none;
+	width: 446px;
 	height: 197px;
 	display: block;
 }
 
 #logo a:hover {
-	border: none;
+	border-top: none;
 }
 
 #menu {
@@ -154,8 +164,9 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	width: 100%;
 	padding: 0.6em 0;
 	text-align: center;
-	background-color: #666666;
+	background-color: #000;
 	font-size: 10pt;
+	border-top: 1px #fff solid;
 }
 
 #menu ul li {
@@ -180,12 +191,13 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #userinfo {
 	position: absolute;
 	top: 258px;
-	background: #D7D7D7;
-	color: #444;
+	background: #000;
+	color: grey;
 	padding: 4px 0px;
 	width: 100%;
 	text-align: center;
-	font-size: 8pt;
+	font-size: 8px;
+	border-top: 1px #fff solid;
 }
 
 #userinfo img {
@@ -206,10 +218,11 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #userinfo a {
-	color: #222;
+	color: #ff0;
 }
 #userinfo a:hover {
 	text-decoration: underline;
+	color: grey;
 }
 
 #userinfo b a {
@@ -223,17 +236,20 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	top: 199px;
 	width: 100%;
 	text-align: center;
-	background-color: #999999;
+	background-color: #000;
 	padding: 4px 0px;
+	border-top: 1px #fff solid;
 }
 
 #searchbars input {
 	position: relative;
-	border: 1px solid #CCC;
+	border-width: 0px 0px 1px 0px;
+	border-color: #fff;
+	border-style: solid;
 	padding: 2px 2px 2px 4px;
 	font-size: 0.9em;
-	background-color: #A8A8A8;
-	color: #444;
+	background-color: #000;
+	color: grey;
 }
 
 #searchbars ul {
@@ -293,8 +309,17 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	float: left;
 }
 
+select {
+	padding: 2px 3px;
+	border-width: 0px 0px 1px 0px;
+	border-color: #fff;
+	border-style: solid;
+	background-color: #000;
+	color: grey;
+}
+
 .alertbar {
-	border: 1px solid #999;
+	border-top: 1px solid #999;
 	background-color: #d7d7d7;
 	text-align: center;
 	color: #444;
@@ -377,16 +402,16 @@ p.min_padding {
 
 .box {
 	font-size: 8pt;
-	background-color: #EAEAEA;
-	border: 1px solid #666666;
+	background-color: #000;
+	border-top: 1px solid #fff;
 	margin-bottom: 10px;
 }
 
 .box2 {
 	margin-bottom: 10px;
 	font-size: 8pt;
-	background-color: #EAEAEA;
-	border: 1px solid #666666;
+	background-color: #000;
+	border-top: 1px solid #666666;
 }
 
 .pad h3, .pad h4, .padbox h3, .padbox h4 {
@@ -400,14 +425,15 @@ p.min_padding {
 }
 
 .head {
-	padding: 4px;
-	border-bottom: 1px solid #666;
-	background: #E1E1E1;
-	color: #333;
+	padding-top: 4px;
+	border-top: 1px solid #fff;
+	background: #000;
+	color: grey;
 }
 
 .body {
 	padding: 3px 10px 10px 10px;
+	overflow-wrap: break-word;
 }
 
 .main_column {
@@ -433,7 +459,7 @@ p.min_padding {
 }
 
 .noborder {
-	border: none;
+	border-top: none;
 }
 
 ul.nobullet {
@@ -443,11 +469,11 @@ ul.nobullet {
 table {
 	width: 100%;
 	border-collapse: collapse;
-	border: 1px solid #666666;
+	border-top: 1px solid #666666;
 }
 
 tr {
-	background-color: #EEE;
+	background-color: #000;
 }
 
 tr.rowa {
@@ -455,15 +481,15 @@ tr.rowa {
 }
 
 td, th {
-	border: 1px solid #666666;
+	border-top: 1px solid #fff;
 	padding: 5px;
 	text-align: left;
 }
 
 .colhead {
-	background: #BBB;
+	background: #000;
 	font-weight: bold;
-	color: #ffffff;
+	color: grey;
 }
 
 td.colhead, .colhead td, .colhead th {
@@ -487,8 +513,8 @@ td.colhead, .colhead td, .colhead th {
 }
 
 .colhead_dark {
-	background: #E1E1E1;
-	color: #333;
+	background: #000;
+	color: grey;
 }
 
 td.label {
@@ -502,7 +528,7 @@ table.slice {
 }
 
 .error_message {
-	border: 1px solid #666;
+	border-top: 1px solid #666;
 	padding: 3px 0px 3px 0px;
 	background-color: #AF2525;
 	text-align: center;
@@ -511,7 +537,7 @@ table.slice {
 }
 
 .save_message {
-	border: 1px solid #666;
+	border-top: 1px solid #666;
 	padding: 3px 0px 3px 0px;
 	background-color: #F4E649;
 	text-align: center;
@@ -520,7 +546,7 @@ table.slice {
 }
 
 .elem_error {
-	border: 3px solid #B00D0D;
+	border-top: 3px solid #B00D0D;
 }
 
 .hidden {
@@ -560,7 +586,7 @@ ul.poll li.graph {
 }
 
 .show_torrents_link {
-	border: none;
+	border-top: none;
 	width: 28px;
 	height: 28px;
 	display: block;
@@ -581,7 +607,7 @@ ul.poll li.graph {
 }
 
 .cat_list tr td {
-	border: none;
+	border-top: none;
 }
 
 .torrent_table tr {
@@ -593,13 +619,13 @@ ul.poll li.graph {
 }
 
 .torrent_table tr.group {
-	background-color: #cfcfcf;
+	background-color: #000;
 }
 .torrent_table tr.group_torrent {
-	background-color: #fafafa;
+	background-color: #000;
 }
 .torrent_table tr.torrent {
-	background-color: #ddd;
+	background-color: #000;
 }
 
 .torrent_table div.tags {
@@ -627,8 +653,8 @@ ul.poll li.graph {
 /* Layout (Forums) */
 
 .last_read {width: 15px; height: 15px; background: url(images/go_last_read.png) no-repeat center center; margin-left: 5px;}
-.last_read a { border: none; width: 100%; height: 100%; display: block; }
-.last_read a:hover { border: none; }
+.last_read a { border-top: none; width: 100%; height: 100%; display: block; }
+.last_read a:hover { border-top: none; }
 
 .unread_locked_sticky{background: url(images/locked_sticky_unread.png) no-repeat center center;}
 .read_locked_sticky{background: url(images/locked_sticky_read.png) no-repeat center center;}
@@ -645,11 +671,11 @@ table.forum_post {
 }
 
 table.forum_post td {
-	border: 1px solid #666;
+	border-top: 1px solid #fff;
 }
 
 table.forum_unread {
-	border: 2px solid #F0BBD6;
+	border-top: 2px solid #faa;
 }
 
 td.avatar {
@@ -658,13 +684,13 @@ td.avatar {
 }
 
 table.forum_post td.body {
-	width: 690px;
+	max-width: 690px;
 }
 
 blockquote {
 	margin: 10px;
 	padding: 10px;
-	border: 1px dashed #666;
+	border-top: 1px dashed #666;
 }
 
 
@@ -774,6 +800,13 @@ ul .invitetree {
 	overflow: auto;
 }
 
+.lightbox img {
+	max-width: 100%;
+	max-height: 100%;
+	background-color: transparent;
+	z-index: -1;
+}
+
 .center {
 	text-align: center;
 }
@@ -821,7 +854,7 @@ div[class~=tooltipster-content] > a {
 
 /* get rid of extraneous padding in the Top Contributors box */
 #request_top_contrib {
-	border: none;
+	border-top: none;
 }
 #request_top_contrib tr:first-child th {
 	border-top: 0;
@@ -851,5 +884,130 @@ ol {
 }
 
 #forum_search_cat_list {
-	border: none;
+	border-top: none;
 }
+
+.graphs .shape-1 { background-color: #F15854; }
+.graphs .shape-2 { background-color: #FAA43A; }
+.graphs .shape-3 { background-color: #5DA5DA; }
+.graphs .shape-4 { background-color: #60BD68; }
+.graphs .shape-5 { background-color: #4D4D4D; }
+.graphs .shape-6 { background-color: #FFB4A3; }
+.graphs .shape-7 { background-color: #FFD9A8; }
+.graphs .shape-8 { background-color: #ADD6FF; }
+.graphs .shape-9 { background-color: #97D87D; }
+.graphs .shape-10 { background-color: #E1E278; }
+.graphs .shape-11 { background-color: #CD89E5; }
+.graphs .shape-12 { background-color: #FF84CE; }
+.graphs .shape-13 { background-color: #7072FF; }
+.graphs .shape-14 { background-color: #71E2B9; }
+.graphs .shape-15 { background-color: #46A9DD; }
+.graphs .shape-16 { background-color: #BA915B; }
+.graphs .shape-17 { background-color: #98D831; }
+.graphs .shape-18 { background-color: #B7493A; }
+.graphs .shape-19 { background-color: #DD6899; }
+.graphs .shape-20 { background-color: #4DC6AA; }
+.graphs .shape-21 { background-color: #C4CE56; }
+.graphs .shape-22 { background-color: #6595D3; }
+.graphs .shape-23 { background-color: #D6B93B; }
+.graphs .shape-24 { background-color: #5ADD5F; }
+
+.graphs .chart-color-1 { stroke: #F15854; transition: all .2s linear; }
+.graphs .chart-color-2 { stroke: #FAA43A; transition: all .2s linear; }
+.graphs .chart-color-3 { stroke: #5DA5DA; transition: all .2s linear; }
+.graphs .chart-color-4 { stroke: #60BD68; transition: all .2s linear; }
+.graphs .chart-color-5 { stroke: #4D4D4D; transition: all .2s linear; }
+.graphs .chart-color-6 { stroke: #FFB4A3; transition: all .2s linear; }
+.graphs .chart-color-7 { stroke: #FFD9A8; transition: all .2s linear; }
+.graphs .chart-color-8 { stroke: #ADD6FF; transition: all .2s linear; }
+.graphs .chart-color-9 { stroke: #97D87D; transition: all .2s linear; }
+.graphs .chart-color-10 { stroke: #E1E278; transition: all .2s linear; }
+.graphs .chart-color-11 { stroke: #CD89E5; transition: all .2s linear; }
+.graphs .chart-color-12 { stroke: #FF84CE; transition: all .2s linear; }
+.graphs .chart-color-13 { stroke: #7072FF; transition: all .2s linear; }
+.graphs .chart-color-14 { stroke: #71E2B9; transition: all .2s linear; }
+.graphs .chart-color-15 { stroke: #46A9DD; transition: all .2s linear; }
+.graphs .chart-color-16 { stroke: #BA915B; transition: all .2s linear; }
+.graphs .chart-color-17 { stroke: #98D831; transition: all .2s linear; }
+.graphs .chart-color-18 { stroke: #B7493A; transition: all .2s linear; }
+.graphs .chart-color-19 { stroke: #DD6899; transition: all .2s linear; }
+.graphs .chart-color-20 { stroke: #4DC6AA; transition: all .2s linear; }
+.graphs .chart-color-21 { stroke: #C4CE56; transition: all .2s linear; }
+.graphs .chart-color-22 { stroke: #6595D3; transition: all .2s linear; }
+.graphs .chart-color-23 { stroke: #D6B93B; transition: all .2s linear; }
+.graphs .chart-color-24 { stroke: #5ADD5F; transition: all .2s linear; }
+
+.graphs .chart-color-1:hover { stroke: #D22B27; }
+.graphs .chart-color-2:hover { stroke: #D07F1A; }
+.graphs .chart-color-3:hover { stroke: #1E70AC; }
+.graphs .chart-color-4:hover { stroke: #26B132; }
+.graphs .chart-color-5:hover { stroke: #383838; }
+.graphs .chart-color-6:hover { stroke: #FF927A; }
+.graphs .chart-color-7:hover { stroke: #E89D3C; }
+.graphs .chart-color-8:hover { stroke: #88B9EA; }
+.graphs .chart-color-9:hover { stroke: #5DC16A; }
+.graphs .chart-color-10:hover { stroke: #A8B218; }
+.graphs .chart-color-11:hover { stroke: #A752C4; }
+.graphs .chart-color-12:hover { stroke: #C64B95; }
+.graphs .chart-color-13:hover { stroke: #4E51DB; }
+.graphs .chart-color-14:hover { stroke: #40C494; }
+.graphs .chart-color-15:hover { stroke: #2174A0; }
+.graphs .chart-color-16:hover { stroke: #8C6635; }
+.graphs .chart-color-17:hover { stroke: #6CA315; }
+.graphs .chart-color-18:hover { stroke: #7C271C; }
+.graphs .chart-color-19:hover { stroke: #B2406F; }
+.graphs .chart-color-20:hover { stroke: #329981; }
+.graphs .chart-color-21:hover { stroke: #9BAA38; }
+.graphs .chart-color-22:hover { stroke: #436FA8; }
+.graphs .chart-color-23:hover { stroke: #9B8520; }
+.graphs .chart-color-24:hover { stroke: #268E2A; }
+
+.graphs .bar-color-1 { fill: #F15854; transition: all .2s linear; }
+.graphs .bar-color-2 { fill: #FAA43A; transition: all .2s linear; }
+.graphs .bar-color-3 { fill: #5DA5DA; transition: all .2s linear; }
+.graphs .bar-color-4 { fill: #60BD68; transition: all .2s linear; }
+.graphs .bar-color-5 { fill: #4D4D4D; transition: all .2s linear; }
+.graphs .bar-color-6 { fill: #FFB4A3; transition: all .2s linear; }
+.graphs .bar-color-7 { fill: #FFD9A8; transition: all .2s linear; }
+.graphs .bar-color-8 { fill: #ADD6FF; transition: all .2s linear; }
+.graphs .bar-color-9 { fill: #97D87D; transition: all .2s linear; }
+.graphs .bar-color-10 { fill: #E1E278; transition: all .2s linear; }
+.graphs .bar-color-11 { fill: #CD89E5; transition: all .2s linear; }
+.graphs .bar-color-12 { fill: #FF84CE; transition: all .2s linear; }
+.graphs .bar-color-13 { fill: #7072FF; transition: all .2s linear; }
+.graphs .bar-color-14 { fill: #71E2B9; transition: all .2s linear; }
+.graphs .bar-color-15 { fill: #46A9DD; transition: all .2s linear; }
+.graphs .bar-color-16 { fill: #BA915B; transition: all .2s linear; }
+.graphs .bar-color-17 { fill: #98D831; transition: all .2s linear; }
+.graphs .bar-color-18 { fill: #B7493A; transition: all .2s linear; }
+.graphs .bar-color-19 { fill: #DD6899; transition: all .2s linear; }
+.graphs .bar-color-20 { fill: #4DC6AA; transition: all .2s linear; }
+.graphs .bar-color-21 { fill: #C4CE56; transition: all .2s linear; }
+.graphs .bar-color-22 { fill: #6595D3; transition: all .2s linear; }
+.graphs .bar-color-23 { fill: #D6B93B; transition: all .2s linear; }
+.graphs .bar-color-24 { fill: #5ADD5F; transition: all .2s linear; }
+
+.graphs .bar-color-1:hover { fill: #D22B27; }
+.graphs .bar-color-2:hover { fill: #D07F1A; }
+.graphs .bar-color-3:hover { fill: #1E70AC; }
+.graphs .bar-color-4:hover { fill: #26B132; }
+.graphs .bar-color-5:hover { fill: #383838; }
+.graphs .bar-color-6:hover { fill: #FF927A; }
+.graphs .bar-color-7:hover { fill: #E89D3C; }
+.graphs .bar-color-8:hover { fill: #88B9EA; }
+.graphs .bar-color-9:hover { fill: #5DC16A; }
+.graphs .bar-color-10:hover { fill: #A8B218; }
+.graphs .bar-color-11:hover { fill: #A752C4; }
+.graphs .bar-color-12:hover { fill: #C64B95; }
+.graphs .bar-color-13:hover { fill: #4E51DB; }
+.graphs .bar-color-14:hover { fill: #40C494; }
+.graphs .bar-color-15:hover { fill: #2174A0; }
+.graphs .bar-color-16:hover { fill: #8C6635; }
+.graphs .bar-color-17:hover { fill: #6CA315; }
+.graphs .bar-color-18:hover { fill: #7C271C; }
+.graphs .bar-color-19:hover { fill: #B2406F; }
+.graphs .bar-color-20:hover { fill: #329981; }
+.graphs .bar-color-21:hover { fill: #9BAA38; }
+.graphs .bar-color-22:hover { fill: #436FA8; }
+.graphs .bar-color-23:hover { fill: #9B8520; }
+.graphs .bar-color-24:hover { fill: #268E2A; }
