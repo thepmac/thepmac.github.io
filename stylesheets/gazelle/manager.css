@@ -866,6 +866,12 @@ div[class~=tooltipster-content] > a {
 	color: red;
 }
 
+.center {
+	font-size: 1.5em;
+}
+
+
+
 /* get rid of extraneous padding in the Top Contributors box */
 #request_top_contrib {
 	border-top: none;
