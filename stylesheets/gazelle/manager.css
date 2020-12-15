@@ -709,7 +709,7 @@ blockquote {
 /* Layout (Inbox) */
 
 tr.group {
-	margin-top: 1em !important;
+	border-top: 8em black solid;
 }
 
 tr.unreadpm {
