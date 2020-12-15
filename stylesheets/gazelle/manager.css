@@ -18,7 +18,8 @@
 :root {
 	--dark-bg-1: #000;
 	--text-1: #fff;
-	--border-light-1: #fff	;
+	--border-light-1: #fff;
+	--tag-1: #afa;
 }
 
 html {
@@ -457,11 +458,11 @@ p.min_padding {
 }
 
 .tags a {
-	color: #222;
+	color: var(--tag-1);
 }
 
 .tags a:hover {
-	color: #444;
+	color: var(--text-1);
 	text-decoration: underline;
 }
 
