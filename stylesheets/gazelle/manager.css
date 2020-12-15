@@ -451,10 +451,15 @@ p.min_padding {
 .tags {
 	padding: 0px 0px 0px 20px;
 	font-style: italic;
+	max-width: 100%;
 }
 
 .tags a {
 	color: var(--tag-1);
+	padding: 2px;
+	margin: -4px;
+	border: 1px var(--tag-1) solid;
+	border-radius: 2px;
 }
 
 .tags a:hover {
@@ -704,7 +709,7 @@ blockquote {
 /* Layout (Inbox) */
 
 tr.group {
-	margin-top: 1em;
+	margin-top: 1em !important;
 }
 
 tr.unreadpm {
