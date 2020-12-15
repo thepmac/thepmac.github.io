@@ -493,8 +493,7 @@ tr.rowa {
 }
 
 td, th {
-	border-top: 1px solid #fff;
-	padding: 2px;
+	padding: 1px 0px 3px 0px;
 	text-align: left;
 }
 
