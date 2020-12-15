@@ -10,10 +10,6 @@
 
 .cats_music { width: 28px; height: 28px; background: url('images/music.png') no-repeat center center; }
 /* Global */
-* {
-	/* padding: 0em; */
-	/*! margin: 0em; */
-}
 
 :root {
 	--dark-bg-1: #000;
@@ -623,7 +619,6 @@ ul.poll li.graph {
 
 .torrent_table tr {
 	vertical-align: top;
-	/*! margin-top: 30px; */
 }
 
 .torrent_table tr.torrent, .torrent_table tr.group {
@@ -632,11 +627,9 @@ ul.poll li.graph {
 
 .torrent_table tr.group {
 	background-color: var(--dark-bg-1);
-	/*! padding: 20; */
 }
 .torrent_table tr.group_torrent {
 	background-color: var(--dark-bg-1);
-	/*! margin-top: 30px; */
 }
 .torrent_table tr.torrent {
 	background-color: var(--dark-bg-1);
@@ -710,6 +703,9 @@ blockquote {
 
 /* Layout (Inbox) */
 
+tr.group {
+	margin-top: 1em;
+}
 
 tr.unreadpm {
 	background-color: #ECC;
