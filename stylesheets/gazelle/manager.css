@@ -11,8 +11,8 @@
 .cats_music { width: 28px; height: 28px; background: url('images/music.png') no-repeat center center; }
 /* Global */
 * {
-	padding: 0em;
-	margin: 0em;
+	/* padding: 0em; */
+	/*! margin: 0em; */
 }
 
 :root {
@@ -411,7 +411,7 @@ p.min_padding {
 .box {
 	font-size: 8pt;
 	background-color: var(--dark-bg-1);
-	border-top: 1px solid #fff;
+	border-top: 1px var(--border-light-1) solid;
 	margin-bottom: 10px;
 }
 
@@ -434,7 +434,7 @@ p.min_padding {
 
 .head {
 	padding-top: 4px;
-	border-top: 1px solid #fff;
+	border-top: 1px var(--border-light-1) solid;
 	background: #000;
 	color: var(--text-1);
 }
@@ -483,6 +483,7 @@ table {
 tr {
 	background-color: var(--dark-bg-1);
 	font-size: 1.5em;
+	padding: ;
 }
 
 tr.rowa {
@@ -491,7 +492,7 @@ tr.rowa {
 }
 
 td, th {
-	border-top: 1px solid #fff;
+	border-top: 1px var(--border-light-1) solid;
 	padding: 2px;
 	text-align: left;
 }
@@ -622,6 +623,7 @@ ul.poll li.graph {
 
 .torrent_table tr {
 	vertical-align: top;
+	/*! margin-top: 30px; */
 }
 
 .torrent_table tr.torrent, .torrent_table tr.group {
@@ -630,9 +632,11 @@ ul.poll li.graph {
 
 .torrent_table tr.group {
 	background-color: var(--dark-bg-1);
+	/*! padding: 20; */
 }
 .torrent_table tr.group_torrent {
 	background-color: var(--dark-bg-1);
+	/*! margin-top: 30px; */
 }
 .torrent_table tr.torrent {
 	background-color: var(--dark-bg-1);
@@ -681,7 +685,7 @@ table.forum_post {
 }
 
 table.forum_post td {
-	border-top: 1px solid #fff;
+	border-top: 1px var(--border-light-1) solid;
 }
 
 table.forum_unread {
@@ -1021,3 +1025,13 @@ ol {
 .graphs .bar-color-22:hover { fill: #436FA8; }
 .graphs .bar-color-23:hover { fill: #9B8520; }
 .graphs .bar-color-24:hover { fill: #268E2A; }
+
+
+
+
+
+
+
+tr .group {
+	margin: 20px;
+}
