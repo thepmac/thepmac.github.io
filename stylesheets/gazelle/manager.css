@@ -1097,6 +1097,14 @@ table.forum_index > tbody > tr.rowb {
 	border-bottom: 1px var(--border-grey-1) solid;
 }
 
+.forum_list h3 {
+	font-size: 1.8em;
+	background-color: white;
+	color: black;
+	margin-bottom: -1em;
+}
+
+
 
 
 
