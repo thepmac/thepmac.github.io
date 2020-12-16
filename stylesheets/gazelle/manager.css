@@ -875,10 +875,6 @@ div[class~=tooltipster-content] > a {
 	color: red;
 }
 
-.center {
-	font-size: 1.8em;
-}
-
 .edition {
 	border-top: 3px var(--border-grey-1) solid;
 }
@@ -1076,6 +1072,29 @@ input {
 	font-family: monospace;
 	font-style: italic;
 }
+
+.thin > .linkbox,
+.thin > .breadcrumbs {
+	font-size: 1.8em;
+}
+
+/* .center {
+	font-size: 1.8em;
+} */
+
+table.forum_index > tbody > tr > .number_column {
+	transform: translateX(-1em);
+}
+
+table.forum_index > tbody > tr.colhead > td:nth-child(2),
+table.forum_index > tbody > tr.colhead > td:nth-child(3){
+	padding: 0;
+}
+
+
+
+
+
 
 
 
