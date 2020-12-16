@@ -1049,6 +1049,9 @@ input {
 	background-color: var(--search-bg-1);
 }
 
+.sidebar h2 {
+	font-size: 1em;
+}
 
 
 
