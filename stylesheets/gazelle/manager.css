@@ -709,7 +709,8 @@ table.forum_post td.body {
 blockquote {
 	margin: 10px;
 	padding: 10px;
-	border-top: 1px dashed #666;
+	border-left: 2px solid #555;
+	background-color: var(--border-grey-1);
 }
 
 
