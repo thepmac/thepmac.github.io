@@ -1004,6 +1004,11 @@ ul.collage_images {
 	max-height: max-content !important;
 }
 
+#covers img {
+	min-width: 100%;
+	height: auto;
+}
+
 .sidebar p {
 	margin: 0;
 }
