@@ -991,6 +991,20 @@ table > tbody > tr > .body,
 	font-size: 1.8em;
 }
 
+ul.collage_images {
+	width: 100% !important;
+}
+
+.sidebar img {
+	min-width: 100%;
+}
+
+.sidebar p {
+	margin: 0;
+}
+
+
+
 
 
 
