@@ -1071,6 +1071,11 @@ input {
 	color: var(--text-1);
 }
 
+.box_tags > ul > li > a:first-child {
+	color: var(--tag-1);
+	font-family: monospace;
+	font-style: italic;
+}
 
 
 
