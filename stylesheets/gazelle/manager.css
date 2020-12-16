@@ -974,7 +974,7 @@ div[class~=tooltipster-content] > a {
 .edition_98,
 .edition_99,
 .edition_100 {
-	border-top: 1px grey solid;
+	border-top: 1px rgba(255,255,255,.25) solid;
 }
 
 
