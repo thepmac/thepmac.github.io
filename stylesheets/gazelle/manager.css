@@ -991,14 +991,16 @@ table > tbody > tr > .body,
 .sidebar > div > ul,
 .sidebar > div > ol {
 	font-size: 1.8em;
+	padding-left: 0px;
 }
 
 ul.collage_images {
 	width: 100% !important;
 }
 
-.sidebar img {
-	min-width: 100%;
+.double_avatar {
+	max-width: 100%;
+	max-height: max-content !important;
 }
 
 .sidebar p {
