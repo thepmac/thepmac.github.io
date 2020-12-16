@@ -56,6 +56,7 @@ h2 {
 	text-align: left;
 	font-size: 4em;
 	font-weight: 300;
+	margin-bottom: 1em;
 }
 
 h4 {
@@ -381,7 +382,7 @@ input.hidden {
 	font-weight: bold;
 }
 
-div.linkbox {
+.header > .linkbox {
 	text-align:left;
 	padding-bottom: 1em;
 	font-size: 1.8em;
@@ -1039,6 +1040,9 @@ tr.group {
 	transform: translateX(-1em);
 }
 
+.main-column .linkbox {
+	font-size: 1em;
+}
 
 
 
