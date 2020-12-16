@@ -1012,14 +1012,34 @@ td.big_info {
 
 td.center,
 td.small,
-.colhead > td:nth-child(3),
-.colhead > td:nth-child(4) {
+.colhead > td:nth-child(3) {
 	transform: translateX(-56px);
+}
+
+.add_bookmark,
+.colhead > td:nth-child(4),
+.colhead > td:nth-child(5),
+.colhead > td:nth-child(6){
+	transform: translateX(-.7em);
 }
 
 tr.group {
 	border-top: 3px white solid !important;
 }
+
+.torrent_action_buttons {
+	transform: translateX(-1em);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
