@@ -976,7 +976,8 @@ div[class~=tooltipster-content] > a {
 	border-top: 1px rgba(255,255,255,.25) solid;
 }
 
-table > tbody > tr > .body {
+table > tbody > tr > .body,
+.pad > table > tbody > tr {
 	font-size: 1em !important;
 }
 
