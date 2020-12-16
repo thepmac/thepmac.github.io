@@ -1054,6 +1054,12 @@ input {
 	font-weight: 400;
 }
 
+.forum_post .body {
+	font-size: 3em !important;
+	line-height: 1.2;
+	font-family: serif;
+}
+
 
 
 
