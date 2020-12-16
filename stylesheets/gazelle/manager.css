@@ -694,7 +694,7 @@ table.forum_post td {
 }
 
 table.forum_unread {
-	border-top: 2px solid #faa;
+	border-top: 4px solid #88f;
 }
 
 td.avatar {
