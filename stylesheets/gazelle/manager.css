@@ -1061,6 +1061,20 @@ input {
 	font-family: serif;
 }
 
+.autocomplete-suggestion,
+.autocomplete-suggestions {
+	background-color: var(--dark-bg-1);
+	font-size: 1.3em;
+}
+
+.autocomplete-suggestions strong {
+	color: var(--text-1);
+}
+
+
+
+
+
 
 
 
