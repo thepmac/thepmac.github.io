@@ -891,7 +891,7 @@ div[class~=tooltipster-content] > a {
 .edition_15,
 .edition_16,
 .edition_17,
-.edition_18
+.edition_18,
 .edition_19,
 .edition_20,
 .edition_21,
@@ -901,7 +901,7 @@ div[class~=tooltipster-content] > a {
 .edition_25,
 .edition_26,
 .edition_27,
-.edition_28
+.edition_28,
 .edition_29,
 .edition_30,
 .edition_31,
@@ -911,7 +911,7 @@ div[class~=tooltipster-content] > a {
 .edition_35,
 .edition_36,
 .edition_37,
-.edition_38
+.edition_38,
 .edition_39,
 .edition_40,
 .edition_41,
@@ -921,7 +921,7 @@ div[class~=tooltipster-content] > a {
 .edition_45,
 .edition_46,
 .edition_47,
-.edition_48
+.edition_48,
 .edition_49,
 .edition_50,
 .edition_51,
@@ -931,7 +931,7 @@ div[class~=tooltipster-content] > a {
 .edition_55,
 .edition_56,
 .edition_57,
-.edition_58
+.edition_58,
 .edition_59,
 .edition_60,
 .edition_61,
@@ -976,6 +976,8 @@ div[class~=tooltipster-content] > a {
 .edition_100 {
 	border-top: 1px rgba(255,255,255,.25) solid;
 }
+
+
 
 
 
