@@ -980,8 +980,8 @@ table > tbody > tr > .body {
 	font-size: 1em !important;
 }
 
-div > ul,
-div > ol {
+.sidebar > div > ul,
+.sidebar > div > ol {
 	font-size: 1.8em;
 }
 
