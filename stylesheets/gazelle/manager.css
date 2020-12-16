@@ -124,6 +124,11 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 /* Layout (Every page) */
 
+#wrapper {
+	width: 80%;
+	margin: auto;
+}
+
 #header {
 	width: 100%;
 	padding: 0px 0 0 0;
@@ -133,7 +138,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #content {
 	margin: auto;
 	margin-top: 140px;
-	width: 90%;
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -165,7 +170,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #menu {
 	position: absolute;
 	top: 226px;
-	width: 100%;
+	width: 80%;
 	padding: 0.6em 0;
 	text-align: center;
 	background-color: var(--dark-bg-1);
@@ -198,7 +203,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	background: #000;
 	color: var(--text-1);
 	padding: 4px 0px;
-	width: 100%;
+	width: 80%;
 	text-align: center;
 	font-size: 1.8em;
 	border-top: 1px var(--border-light-1) solid;
@@ -238,7 +243,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #searchbars {
 	position: absolute;
 	top: 200px;
-	width: 100%;
+	width: 80%;
 	text-align: center;
 	background-color: var(--dark-bg-1);
 	padding: 4px 0px;
@@ -356,12 +361,12 @@ input.hidden {
 
 
 .thin {
-	width: 75%;
+	width: 100%;
 	margin: 0px auto;
 }
 
 .widethin { /* overriding the thin class on torrents.php */
-	width: 90% !important;
+	width: 100% !important;
 	margin: 0px auto;
 }
 
