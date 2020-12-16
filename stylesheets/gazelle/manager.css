@@ -707,9 +707,9 @@ blockquote {
 
 /* Layout (Inbox) */
 
-tr.group {
+/* tr.group {
 	border-top: 8em black solid;
-}
+} */
 
 tr.unreadpm {
 	background-color: #ECC;
