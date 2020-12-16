@@ -169,7 +169,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	padding: 0.6em 0;
 	text-align: center;
 	background-color: var(--dark-bg-1);
-	font-size: 1.5em;
+	font-size: 1.8em;
 	border-top: 1px var(--border-light-1) solid;
 }
 
@@ -200,7 +200,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	padding: 4px 0px;
 	width: 100%;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	border-top: 1px var(--border-light-1) solid;
 }
 
@@ -243,7 +243,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	background-color: var(--dark-bg-1);
 	padding: 4px 0px;
 	border-top: 1px var(--border-light-1) solid;
-	font-size: 1.5em;
+	font-size: 1.8em;
 }
 
 #searchbars input {
@@ -376,7 +376,7 @@ input.hidden {
 div.linkbox {
 	text-align:center;
 	padding: 5px;
-	font-size: 1.5em;
+	font-size: 1.8em;
 }
 
 .center {
@@ -398,7 +398,7 @@ p.min_padding {
 
 .pad {
 	/* padding: 1em; */
-	font-size: 1.5em;
+	font-size: 1.8em;
 }
 
 .vertical_space {
@@ -432,7 +432,7 @@ p.min_padding {
 	border-top: 1px solid #fff;
 	background: #000;
 	color: var(--text-1);
-	font-size: 1.5em;
+	font-size: 1.8em;
 }
 
 .body {
@@ -451,15 +451,13 @@ p.min_padding {
 .tags {
 	padding: 0px 0px 0px 20px;
 	font-style: italic;
+	font-family: monospace;
 	max-width: 100%;
+	font-size: .8em;
 }
 
 .tags a {
 	color: var(--tag-1);
-	padding: 2px;
-	margin: -4px;
-	border: 1px var(--tag-1) solid;
-	border-radius: 2px;
 }
 
 .tags a:hover {
@@ -483,13 +481,13 @@ table {
 
 tr {
 	background-color: var(--dark-bg-1);
-	font-size: 1.5em;
+	font-size: 1.8em;
 	padding: ;
 }
 
 tr.rowa {
 	background-color: var(--dark-bg-1);
-	font-size: 1.5em;
+	font-size: 1.8em;
 }
 
 td, th {
@@ -867,7 +865,7 @@ div[class~=tooltipster-content] > a {
 }
 
 .center {
-	font-size: 1.5em;
+	font-size: 1.8em;
 }
 
 .edition {
