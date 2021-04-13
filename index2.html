@@ -18,8 +18,10 @@
 </head>
 <body>
 	<div class="full">
-		<h1>Patrick Yang MacDonald</h1>
+		<span><h1>Patrick Yang MacDonald</h1></span>
 	</div>
+	<div class="pad"></div>
+
 	<div class="full">
 		<div class="big left">
 			<span>Where does the wind blow? Does it blow to the left or to the right?</span>
@@ -28,26 +30,66 @@
 			<span>I'm not sure.</span>
 		</div>
 	</div>
-	<div class="full">
-		<h2>Book Cover</h2>
-	</div>
-	<div class="full">
+	<hr>
+	<button class="accordion">
+		<span><h2>Book Cover 1</h2></span>
+	</button>
+	<div class="full item">
 		<div class="small left">
-			<span><h3>A book cover.</h3></span><br>
-			<span>It's very nice right? I was told I should turn this into a series. We'll see what happens with it. I like the idea but I'm just not sure yet</span>
+			<span><h3>A book cover.</h3>
+			It's very nice right? I was told I should turn this into a series. We'll see what happens with it. I like the idea but I'm just not sure yet</span>
 		</div>
 		<div class="big right">
 			<img src="images/001/04-species.jpg">
 		</div>
 	</div>
-	<div class="full">
-		<div class="big left">
-			<img src="images/001/03-postmodern.jpg">
+	<div class="pad"></div>
+	<hr>
+	<button class="accordion">
+		<span><h2>Book Cover 1</h2></span>
+	</button>
+	<div class="full item">
+		<div class="small left">
+			<span><h3>A book cover.</h3>
+			It's very nice right? I was told I should turn this into a series. We'll see what happens with it. I like the idea but I'm just not sure yet</span>
 		</div>
-		<div class="small right">
-			<h3>Another book cover.</h3>
+		<div class="big right">
+			<img src="images/001/04-species.jpg">
 		</div>
 	</div>
+	<div class="pad"></div>
+	<hr>
+	<button class="accordion">
+		<span><h2>Book Cover 1</h2></span>
+	</button>
+	<div class="full item">
+		<div class="big left">
+			<span><h3>A book cover.</h3>
+			It's very nice right? I was told I should turn this into a series. We'll see what happens with it. I like the idea but I'm just not sure yet</span>
+		</div>
+		<div class="small right">
+			<img src="images/001/04-species.jpg">
+		</div>
+	</div>
+	<div class="pad"></div>
+	
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "flex") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "flex";
+    }
+  });
+}
+</script>
 
 </body>
 </html>

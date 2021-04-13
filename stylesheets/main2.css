@@ -1,11 +1,16 @@
-html {
-  margin: auto;
-}
+/*-----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+GENERAL
+
+-------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------*/
+
 
 body {
   margin: auto;
   width: 800px;
-  padding: 60px 0px 0px 80px;
+  padding: 60px 0px 80px 0px;
 }
 
 .left {
@@ -53,12 +58,84 @@ body {
   display: inline-flex;
 }
 
+.pad {
+  height: 20px;
+  width: 100%;
+  display: ;
+}
+
 img {
   max-width: 100%;
+}
+
+.item {
+  display: none;
+}
+
+button span {
+  display: inline-block;
+}
+
+.accordion {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 1s;
+  padding: 0;
+}
+
+.accordion:hover {
+  transition: 0.1s;
+  color: red;
+}
+
+hr {
+  border-top: 4px solid black;
+
+}
+
+
+/*-----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+TYPOGRAPHY
+
+-------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 8px;
+  font-family: serif, "Standard Book", Helvetica, Arial, sans-serif;
 }
 
 h1,
 h2,
 h3 {
-  width: 100px;
+  margin: 0;
+}
+
+span {
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 3.2em;
+  font-family: serif, "Standard Book", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: serif, "Standard Book", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: serif, "Standard Bold", Helvetica, Arial, sans-serif;
 }
