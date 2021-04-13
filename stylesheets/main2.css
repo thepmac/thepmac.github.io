@@ -9,7 +9,7 @@ GENERAL
 
 body {
   margin: auto;
-  width: 800px;
+  width: 808px;
   padding: 60px 0px 80px 0px;
 }
 
@@ -49,7 +49,6 @@ body {
 .row {
   width: 800px;
   display: flex;
-  margin-bottom: 20px;
   flex-wrap: wrap;
 }
 
@@ -66,7 +65,8 @@ body {
 }
 
 img {
-  width: 100%;
+  width: calc(100%);
+  display: block;
 }
 
 .item {
@@ -86,7 +86,6 @@ button span {
   text-align: left;
   outline: none;
   padding: 0;
-  border-top: black 4px solid;
 }
 
 .active, .accordion:hover {
@@ -94,17 +93,20 @@ button span {
 }
 
 .active {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .permanent {
-  border-top: black 4px solid;
 }
 
 .container {
   width: 100%;
   display: none;
   flex-wrap: wrap;
+}
+
+.around {
+  border: 4px black solid;
 }
 
 
@@ -131,6 +133,7 @@ h3 {
 
 span {
   font-size: 18px;
+  display: block;
 }
 
 em {
