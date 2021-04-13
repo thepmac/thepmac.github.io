@@ -1,0 +1,64 @@
+html {
+  margin: auto;
+}
+
+body {
+  margin: auto;
+  width: 800px;
+  padding: 60px 0px 0px 80px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.big {
+  width: 500px;
+}
+
+.big.left {
+  margin-right: 20px;
+}
+
+.big.right {
+  margin-left: 20px;
+}
+
+.small {
+  width: 280px;
+}
+
+.half.left {
+  width: 390px;
+  margin-right: 20px;
+}
+
+.half.right {
+  width: 390px;
+}
+
+.full {
+  width: 800px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.small,
+.half,
+.big {
+  display: inline-flex;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  width: 100px;
+}
