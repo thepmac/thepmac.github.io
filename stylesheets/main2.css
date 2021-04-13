@@ -61,7 +61,7 @@ body {
 .pad {
   height: 20px;
   width: 100%;
-  display: ;
+  display: flex;
 }
 
 img {
@@ -78,24 +78,18 @@ button span {
 
 .accordion {
   background-color: white;
-  color: black;
+  color: #c1c1c1;
   cursor: pointer;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  transition: 1s;
   padding: 0;
+  border-top: black 4px solid;
 }
 
-.accordion:hover {
-  transition: 0.1s;
-  color: red;
-}
-
-hr {
-  border-top: 4px solid black;
-
+.active, .accordion:hover {
+  color: black;
 }
 
 
@@ -138,4 +132,9 @@ h2 {
 h3 {
   font-size: 1em;
   font-family: serif, "Standard Bold", Helvetica, Arial, sans-serif;
+}
+
+em {
+  font-weight: 700;
+  font-style: normal;
 }
