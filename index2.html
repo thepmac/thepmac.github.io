@@ -17,12 +17,12 @@
     <script src="/script.js" defer></script>
 </head>
 <body>
-	<div class="full">
-		<span><h1>Patrick Yang MacDonald</h1></span>
+	<div class="row">
+		<span><em>Patrick Yang MacDonald</em></span>
 	</div>
 	<div class="pad"></div>
 
-	<div class="full">
+	<div class="row">
 		<div class="big left">
 			<span>Where does the wind blow? Does it blow to the left or to the right?</span>
 		</div>
@@ -31,44 +31,63 @@
 		</div>
 	</div>
 
-	<button class="accordion">
-		<span><h2>Book Cover 1</h2></span>
-	</button>
-	<div class="full item">
-		<div class="small left">
-			<span><em>A book cover.</em>
-			It's very nice right? I was told I should turn this into a series. We'll see what happens with it. I like the idea but I'm just not sure yet</span>
+	<div class="row permanent">
+		<span><em>Book Cover 1</em></span>
+		<div class="pad"></div>
+		<div class="row">
+			<div class="big left">
+				<img src="images/001/01-dialogues.jpg">
+			</div>
+			<div class="small right">
+				<span>Dialogues, you know? Public art kind of stuff.</span>
+			</div>
 		</div>
-		<div class="big right">
-			<img src="images/001/04-species.jpg">
+	</div>
+
+
+	<button class="accordion">
+		<span><em>Archived Item 1</em></span>
+	</button>
+	<div class="container">
+		<div class="row">
+			<div class="small left">
+				<span><em>A book cover.</em>
+				It's very nice right? I was told I should turn this into a series. We'll see what happens with it. I like the idea but I'm just not sure yet</span>
+			</div>
+			<div class="big right">
+				<img src="images/001/04-species.jpg">
+			</div>
 		</div>
 	</div>
 	<div class="pad"></div>
 
 	<button class="accordion">
-		<span><h2>Book Cover 1</h2></span>
+		<span><em>Archived Item 2</em></span>
 	</button>
-	<div class="full item">
-		<div class="small left">
-			<span><em>A book cover.</em>
-			It's very nice right? I was told I should turn this into a series. We'll see what happens with it. I like the idea but I'm just not sure yet</span>
+	<div class="container">
+		<div class="row">
+			<div class="half left"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/DENE_HALATAU_%285483493966%29.jpg"></div>
+			<div class="half right"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Miniature_portret_of_Herman_Wolters_%281682-1756%29.jpg"></div>
 		</div>
-		<div class="big right">
-			<img src="images/001/04-species.jpg">
+		<div class="row">
+			<div class="half left"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Tolfa_2014_by-RaBoe_063.jpg"></div>
+			<div class="half right"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/RO_AB_Bagau_5.jpg"></div>
 		</div>
 	</div>
 	<div class="pad"></div>
 
 	<button class="accordion">
-		<span><h2>Book Cover 1</h2></span>
+		<span><em>Archived Item 3</em></span>
 	</button>
-	<div class="full item">
-		<div class="big left">
-			<span><em>A book cover.</em>
-			It's very nice right? I was told I should turn this into a series. We'll see what happens with it. I like the idea but I'm just not sure yet</span>
-		</div>
-		<div class="small right">
-			<img src="images/001/04-species.jpg">
+	<div class="container">
+		<div class="row">
+			<div class="big left">
+				<span><em>A book cover.</em>
+				It's very nice right? I was told I should turn this into a series. We'll see what happens with it. I like the idea but I'm just not sure yet</span>
+			</div>
+			<div class="small right">
+				<img src="images/001/04-species.jpg">
+			</div>
 		</div>
 	</div>
 	<div class="pad"></div>
@@ -87,12 +106,7 @@ for (i = 0; i < acc.length; i++) {
 	    } else {
 	    	panel.style.display = "flex";
 	    }
-	    var pad = panel.nextElementSibling;
-	    if (panel.style.display === "flex") {
-	    	pad.style.display = "none";
-	    } else {
-	    	pad.style.display = "flex";
-	    }
+	   
   });
 }
 </script>
