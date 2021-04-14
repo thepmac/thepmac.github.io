@@ -9,7 +9,7 @@ GENERAL
 body {
   margin: auto;
   width: 808px;
-  padding: 60px 0px 80px 0px;
+  padding: 80px 0px 100px 0px;
   background-color: #c11717;
   animation: bgColor 300s infinite linear;
 }
