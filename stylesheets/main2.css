@@ -241,7 +241,7 @@ button {
 
 a:link,
 a:visited {
-  color: blue;
+  color: #7d7dff;
   text-decoration-line: underline;
   text-decoration-style: solid;
 }
@@ -251,5 +251,9 @@ a:hover {
 }
 
 a:active {
-  color: red;
+  color: #ff4255;
+}
+
+.around:first-child a:hover {
+  color: var(--dark1);
 }
