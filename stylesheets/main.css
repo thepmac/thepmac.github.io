@@ -181,6 +181,11 @@ video:hover {
   border-radius: 4px;
 }
 
+.active > .title {
+  background-color: #7d7dff;
+  color: white;
+}
+
 .around:first-child {
   position: sticky;
   background-color: #ffffff;
