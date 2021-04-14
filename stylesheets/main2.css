@@ -9,7 +9,7 @@ GENERAL
 body {
   margin: auto;
   width: 808px;
-  padding: 180px 0px 80px 0px;
+  padding: 60px 0px 80px 0px;
   background-color: #c11717;
   animation: bgColor 300s infinite linear;
 }
@@ -151,10 +151,10 @@ button span {
 }
 
 .around:first-child {
-  position: fixed;
+  position: sticky;
   background-color: #ffffff;
   border: 4px #ffffff solid;
-  top: 60px;
+  top: 0px;
 }
 
 .expanded {
