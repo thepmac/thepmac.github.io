@@ -153,8 +153,8 @@ button span {
 .around:first-child {
   position: sticky;
   background-color: #ffffff;
-  border: 4px #ffffff solid;
-  top: 0px;
+  top: -4px;
+  padding: 4px;
 }
 
 .expanded {
