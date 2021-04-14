@@ -20,6 +20,7 @@ MEDIA STUFF
     z-index: 105;
     padding: 20px;
     border: 4px black solid;
+    border-radius: 4px;
   }
 }
 
@@ -162,6 +163,7 @@ button span {
   outline: none;
   padding: 0;
   height: 22px;
+  border-radius: 4px;
 }
 
 .active, .accordion:hover {
@@ -184,6 +186,7 @@ button span {
 .around {
   border: 4px var(--dark1) solid;
   background-color: var(--dark1);
+  border-radius: 4px;
 }
 
 .around:first-child {
@@ -216,6 +219,7 @@ button span {
   border-width: 100vw;
   border-color: var(--dark1);
   border-style: solid;
+  border-radius: 4px;
 }
 
 .expanded:hover {
@@ -279,6 +283,7 @@ em {
   padding: 0px 4px 0px 4px;
   border: 4px var(--dark1) solid;
   transform: translate(-4px, -4px);
+  border-radius: 4px;
 }
 
 .title:hover {
