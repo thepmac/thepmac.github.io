@@ -6,37 +6,42 @@ GENERAL
 -------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------*/
 
+html {
+  margin: auto;
+  padding: 0px;
+}
+
 body {
   margin: auto;
   width: 808px;
   padding: 80px 0px 100px 0px;
-  background-color: #e0e300;
+  background-color: #fdff65;
   animation: bgColor 300s infinite linear;
 }
 
 @keyframes bgColor {
   0% {
-    background-color: #e0e300;
+    background-color: #fdff65;
   }
 
   20% {
-    background-color: #8802cd;
+    background-color: #cf73ff;
   }
 
   40% {
-    background-color: #40c805;
+    background-color: #9eff74;
   }
 
   60% {
-    background-color: #c11717;
+    background-color: #ff6666;
   }
 
   80% {
-    background-color: #0e13c8;
+    background-color: #7d7dff;
   }
 
   100% {
-    background-color: #e0e300;
+    background-color: #fdff65;
   }
 }
 
@@ -123,6 +128,7 @@ button span {
   text-align: left;
   outline: none;
   padding: 0;
+  height: 22px;
 }
 
 .active, .accordion:hover {
@@ -213,7 +219,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-family: "Standard Book", Helvetica, Arial, sans-serif;
+  font-family: Times New Roman, serif/*"Standard Book", Helvetica, Arial, sans-serif*/;
 }
 
 h1,
@@ -229,14 +235,9 @@ span {
 }
 
 em {
-  font-family: "Standard Bold", Helvetica, Arial, sans-serif;
+  font-family: Times New Roman, serif/*"Standard Book", Helvetica, Arial, sans-serif*/;
+  font-weight: 600;
   font-style: normal;
-}
-
-button {
-  font-family: "Standard Bold", Helvetica, Arial, sans-serif;
-  font-style: normal;
-
 }
 
 .title {
