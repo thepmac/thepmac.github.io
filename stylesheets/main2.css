@@ -49,28 +49,28 @@ body {
 }
 
 .big {
-  width: 500px;
+  width: 508px;
 }
 
 .big.left {
-  margin-right: 20px;
+  margin-right: 4px;
 }
 
 .big.right {
-  margin-left: 20px;
+  margin-left: 4px;
 }
 
 .small {
-  width: 280px;
+  width: 288px;
 }
 
 .half.left {
-  width: 390px;
-  margin-right: 20px;
+  width: 398px;
+  margin-right: 4px;
 }
 
 .half.right {
-  width: 390px;
+  width: 398px;
 }
 
 .row {
@@ -86,10 +86,17 @@ body {
 }
 
 .pad {
+  height: 4px;
+  width: 100%;
+  display: flex;
+}
+
+.pad-big {
   height: 20px;
   width: 100%;
   display: flex;
 }
+
 
 img {
   width: calc(100%);
