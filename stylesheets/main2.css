@@ -122,7 +122,7 @@ button span {
   border-color: #7f7f7f;
   border-style: solid;
   top: 60px;
-  color: var(--dark);
+  color: var(--dark1);
   transform: translateX(-2px);
 }
 
@@ -130,6 +130,8 @@ button span {
   position: fixed;
   display: block;
   max-height: 95vh;
+  max-width: 95vw;
+  height: auto;
   width: auto;
   margin: auto;
   left: 50%;
@@ -137,7 +139,7 @@ button span {
   transform: translate(-50%, -50%);
   z-index: 1000;
   border-width: 50vw;
-  border-color: #7f7f7f;
+  border-color: var(--dark1);
   border-style: solid;
 }
 
