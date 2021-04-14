@@ -148,21 +148,13 @@ video:hover {
   filter: grayscale(100%); /* FF 35+ */
 }
 
-.item {
-  display: ;
-}
-
-button span {
-  display: inline-block;
-}
-
 .accordion {
   cursor: pointer;
   border: none;
   text-align: left;
   outline: none;
   padding: 0;
-  height: 22px;
+  height: 23px;
   border-radius: 4px;
 }
 
@@ -194,13 +186,13 @@ button span {
   background-color: #ffffff;
   top: -4px;
   padding: 4px;
-  height: 70px;
+  height: 68px;
   z-index: 90;
 }
 
 .sticky {
   position: sticky;
-  top: 82px;
+  top: 80px;
   z-index: 80;
 }
 
@@ -256,7 +248,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-family: Times New Roman, serif/*"Standard Book", Helvetica, Arial, sans-serif*/;
+  font-family: "Standard Book", Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -267,12 +259,12 @@ h3 {
 
 span {
   font-size: 18px;
-  display: block;
   color: white;
+  display: block;
 }
 
 em {
-  font-family: Times New Roman, serif/*"Standard Book", Helvetica, Arial, sans-serif*/;
+  font-family: "Standard Book", Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-style: normal;
 }
@@ -284,6 +276,7 @@ em {
   border: 4px var(--dark1) solid;
   transform: translate(-4px, -4px);
   border-radius: 4px;
+  display: inline-block;
 }
 
 .title:hover {
