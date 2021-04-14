@@ -10,33 +10,33 @@ body {
   margin: auto;
   width: 808px;
   padding: 80px 0px 100px 0px;
-  background-color: #c11717;
+  background-color: #e0e300;
   animation: bgColor 300s infinite linear;
 }
 
 @keyframes bgColor {
   0% {
-    background-color: #c11717;
-  }
-
-  20% {
-    background-color: #0e13c8;
-  }
-
-  40% {
     background-color: #e0e300;
   }
 
-  60% {
+  20% {
     background-color: #8802cd;
   }
 
-  80% {
+  40% {
     background-color: #40c805;
   }
 
-  100% {
+  60% {
     background-color: #c11717;
+  }
+
+  80% {
+    background-color: #0e13c8;
+  }
+
+  100% {
+    background-color: #e0e300;
   }
 }
 
