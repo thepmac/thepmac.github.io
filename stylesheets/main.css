@@ -19,6 +19,7 @@ MEDIA STUFF
     color: black;
     z-index: 105;
     padding: 20px;
+    border: 4px black solid;
   }
 }
 
