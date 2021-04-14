@@ -303,42 +303,42 @@
 	<div class="pad-big"></div>
 	<div class="pad-big"></div>
 	
+	<!-- SCRIPT ------------------------------------------------------------------------------>
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
 
-<script>
-	var acc = document.getElementsByClassName("accordion");
-	var i;
+		for (i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.display === "flex") {
+			    	panel.style.display = "none";
+			    } else {
+			    	panel.style.display = "flex";
+			    }
+		  });
+		}
 
-	for (i = 0; i < acc.length; i++) {
-		acc[i].addEventListener("click", function() {
-		    this.classList.toggle("active");
-		    var panel = this.nextElementSibling;
-		    if (panel.style.display === "flex") {
-		    	panel.style.display = "none";
-		    } else {
-		    	panel.style.display = "flex";
-		    }
-	  });
-	}
-
-	function toggleItem(elem) {
-	for (var i = 0; i < elem.length; i++) {
-	    elem[i].addEventListener("click", function(e) {
-	      var current = this;
-	      for (var i = 0; i < elem.length; i++) {
-	        if (current != elem[i]) {
-	          elem[i].classList.remove('expanded');
-	        } else if (current.classList.contains('expanded') === true) {
-	          current.classList.remove('expanded');
-	        } else {
-	          current.classList.add('expanded')
-	        }
-	      }
-	      e.preventDefault();
-	    });
-	  };
-	}
-	toggleItem(document.querySelectorAll('.expandable'));
-</script>
+		function toggleItem(elem) {
+		for (var i = 0; i < elem.length; i++) {
+		    elem[i].addEventListener("click", function(e) {
+		      var current = this;
+		      for (var i = 0; i < elem.length; i++) {
+		        if (current != elem[i]) {
+		          elem[i].classList.remove('expanded');
+		        } else if (current.classList.contains('expanded') === true) {
+		          current.classList.remove('expanded');
+		        } else {
+		          current.classList.add('expanded')
+		        }
+		      }
+		      e.preventDefault();
+		    });
+		  };
+		}
+		toggleItem(document.querySelectorAll('.expandable'));
+	</script>
 
 </body>
 </html>
