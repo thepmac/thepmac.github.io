@@ -166,7 +166,9 @@ video:hover {
   margin-bottom: 20px;
 }
 
-.permanent {
+.active > .title {
+  background-color: #7d7dff;
+  color: white;
 }
 
 .container {
@@ -179,11 +181,6 @@ video:hover {
   border: 4px var(--dark1) solid;
   background-color: var(--dark1);
   border-radius: 4px;
-}
-
-.active > .title {
-  background-color: #7d7dff;
-  color: white;
 }
 
 .around:first-child {
