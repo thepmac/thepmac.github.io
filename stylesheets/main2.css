@@ -118,10 +118,7 @@ button span {
 }
 
 .accordion {
-  background-color: var(--dark1);
-  color: #7f7f7f;
   cursor: pointer;
-  width: 100%;
   border: none;
   text-align: left;
   outline: none;
