@@ -247,19 +247,21 @@ button {
   transform: translate(-4px, -4px);
 }
 
+.title:hover {
+  background-color: #7d7dff;
+  color: white;
+}
+
 a:link,
-a:visited {
-  color: #7d7dff;
+a:visited,
+a:active {
+  color: #ff6666;
   text-decoration-line: underline;
   text-decoration-style: solid;
 }
 
 a:hover {
   color: white;
-}
-
-a:active {
-  color: #ff4255;
 }
 
 .around:first-child a:hover {
