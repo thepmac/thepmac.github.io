@@ -1,0 +1,29 @@
+main {
+	width: 70vw;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.turn-around:hover,
+#enter:hover,
+#room-door:hover,
+#hallway-door:hover,
+#portal:hover,
+#project-1-door:hover,
+#project-2-door:hover,
+#project-3-door:hover,
+#project-4-door:hover,
+#project-5-door:hover,
+#pillow:hover,
+#book:hover,
+#shelf:hover,
+#music:hover,
+#reading:hover {
+	fill: #0000FF;
+}
+
+.turn-around-white:hover {
+	fill: #FFFFFF;
+}
