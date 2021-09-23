@@ -25,6 +25,10 @@ main {
     z-index: 10;
 }
 
+#poem {
+    width: 100%;
+}
+
 span {
     font-family: ocr-a-std, monospace;
     font-weight: 400;
