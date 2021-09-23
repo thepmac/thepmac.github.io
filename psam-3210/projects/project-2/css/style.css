@@ -5,9 +5,9 @@ body {
 }
 
 h1 {
-    font-family: sans-serif;
+    font-family: ocr-a-std, monospace;
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
     font-size: 2vw;
     line-height: 6.9vh;
     margin: 3%;
@@ -26,22 +26,24 @@ main {
 }
 
 span {
-    font-family: monospace;
+    font-family: ocr-a-std, monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 2vw;
-    color: rgb(255, 97, 176);
+    color: rgb(255, 255, 255);
     line-height: 1.4em;
 }
 
 a:link,
 a:visited {
-    color: rgb(255, 97, 176);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(170, 170, 170);
+    color: rgb(129, 255, 129);
+    filter: drop-shadow(2px 2px 4px rgb(129, 255, 129));
+    text-decoration: underline;
 }
 
 
@@ -52,14 +54,17 @@ a:hover {
 	transform: translate(-50%, -50%);
     z-index: 10;
     padding: 10px;
-    font-family: monospace;
-    border: 1px rgb(170, 170, 170) solid;
-    background-color: rgb(16, 19, 13);
-    color: rgb(170, 170, 170);
+    font-family: ocr-a-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px rgb(129, 255, 129) solid;
+    background-color: rgba(16, 19, 13, 0.4);
+    color: rgb(129, 255, 129);
     border-radius: 2px;
 }
 
 #button:hover {
-    color: rgb(255, 97, 176);
-    border-color: rgb(255, 97, 176);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    filter: drop-shadow(2px 2px 2px rgb(255, 255, 255));
 }
