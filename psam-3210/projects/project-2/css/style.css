@@ -19,14 +19,11 @@ main {
     margin: auto;
     text-align: center;
     position: fixed;
+    width: 100%;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
     z-index: 10;
-}
-
-#poem {
-    width: 100%;
 }
 
 span {
