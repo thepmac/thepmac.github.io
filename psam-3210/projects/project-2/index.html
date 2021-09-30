@@ -4,12 +4,12 @@
 	<meta charset="utf-8">
 	<title>7,555,407,256,812,490,149,551,770,947,375,891,000,000,000 poems</title>
 
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	<link id="pageStyle" rel="stylesheet" type="text/css" href="css/style2.css" media="screen" />
 	<script src=js/scripts.js defer></script>
 	<link rel="stylesheet" href="https://use.typekit.net/qtg7tri.css">
 </head>
 <body>
-	<header>
+	<header id="header1">
 		<h1>seven tredecillion<br>
 			five hundred fifty-five duodecillion<br>
 			four hundred seven undecillion<br>
@@ -23,6 +23,11 @@
 			three hundred seventy-five trillion<br>
 			eight hundred ninety-one billion<br>
 			poems
+		</h1>
+	</header>
+	<header id="header2">
+		<h1>Infinite Poems
+		</h1>
 	</header>
 	<main>
 		<div id="poem">
@@ -31,6 +36,9 @@
 			<span id="line3a"></span><span id="line3b"></span><span id="line3c"></span>
 		</div>
 	</main>
-	<button id="button" type="button" onclick="refreshPoem()">+</button>
+	<nav>
+		<button class="button" type="button" onclick="refreshPoem()">⟳</button>
+		<button class="button" id="theme" type="button" onclick="changeStyle()">What Is Truth?</button>
+	</nav>
 </body>
 </html

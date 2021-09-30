@@ -58134,3 +58134,13 @@ function refreshPoem() {
 }
 
 refreshPoem();
+
+function changeStyle() {
+    var style = document.getElementById('pageStyle');
+    
+    if (style.getAttribute('href') == 'css/style1.css') {
+        style.setAttribute('href', 'css/style2.css');
+    } else {
+        style.setAttribute('href', 'css/style1.css');
+    }
+}

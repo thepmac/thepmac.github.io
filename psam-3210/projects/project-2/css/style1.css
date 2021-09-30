@@ -4,6 +4,10 @@ body {
     background-color: rgb(16, 19, 13);
 }
 
+#header2 {
+    display:none;
+}
+
 h1 {
     font-family: ocr-a-std, monospace;
     font-weight: 400;
@@ -49,12 +53,7 @@ a:hover {
 }
 
 
-#button {
-    position: fixed;
-	left: 50%;
-	top: 75%;
-	transform: translate(-50%, -50%);
-    z-index: 10;
+.button {
     padding: 10px;
     font-family: ocr-a-std, monospace;
     font-weight: 400;
@@ -63,9 +62,18 @@ a:hover {
     background-color: rgba(16, 19, 13, 0.4);
     color: rgb(129, 255, 129);
     border-radius: 2px;
+    margin-right: 1em;
 }
 
-#button:hover {
+nav {
+    position: fixed;
+	left: 50%;
+	top: 75%;
+	transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.button:hover {
     color: rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
     filter: drop-shadow(2px 2px 2px rgb(255, 255, 255));
