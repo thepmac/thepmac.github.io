@@ -58111,26 +58111,26 @@ var language = [
     'zulus'
 ]
 
-var speak1a = language[Math.floor(Math.random() * language.length)];
-var speak1b = language[Math.floor(Math.random() * language.length)];
-var speak1c = language[Math.floor(Math.random() * language.length)];
-var speak2a = language[Math.floor(Math.random() * language.length)];
-var speak2b = language[Math.floor(Math.random() * language.length)];
-var speak2c = language[Math.floor(Math.random() * language.length)];
-var speak3a = language[Math.floor(Math.random() * language.length)];
-var speak3b = language[Math.floor(Math.random() * language.length)];
-var speak3c = language[Math.floor(Math.random() * language.length)];
-
-document.querySelector('#line1a').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak1a + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak1a + '</a> ');
-document.querySelector('#line1b').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak1b + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak1b + '</a> ');
-document.querySelector('#line1c').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak1c + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak1c + '</a> ');
-document.querySelector('#line2a').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak2a + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak2a + '</a> ');
-document.querySelector('#line2b').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak2b + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak2b + '</a> ');
-document.querySelector('#line2c').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak2c + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak2c + '</a> ');
-document.querySelector('#line3a').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak3a + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak3a + '</a> ');
-document.querySelector('#line3b').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak3b + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak3b + '</a> ');
-document.querySelector('#line3c').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak3c + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak3c + '</a> ');
-
 function refreshPoem() {
-    window.location.reload();
+    var speak1a = language[Math.floor(Math.random() * language.length)];
+    var speak1b = language[Math.floor(Math.random() * language.length)];
+    var speak1c = language[Math.floor(Math.random() * language.length)];
+    var speak2a = language[Math.floor(Math.random() * language.length)];
+    var speak2b = language[Math.floor(Math.random() * language.length)];
+    var speak2c = language[Math.floor(Math.random() * language.length)];
+    var speak3a = language[Math.floor(Math.random() * language.length)];
+    var speak3b = language[Math.floor(Math.random() * language.length)];
+    var speak3c = language[Math.floor(Math.random() * language.length)];
+    
+    document.querySelector('#line1a').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak1a + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak1a + '</a> ');
+    document.querySelector('#line1b').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak1b + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak1b + '</a> ');
+    document.querySelector('#line1c').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak1c + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak1c + '</a> ');
+    document.querySelector('#line2a').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak2a + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak2a + '</a> ');
+    document.querySelector('#line2b').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak2b + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak2b + '</a> ');
+    document.querySelector('#line2c').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak2c + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak2c + '</a> ');
+    document.querySelector('#line3a').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak3a + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak3a + '</a> ');
+    document.querySelector('#line3b').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak3b + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak3b + '</a> ');
+    document.querySelector('#line3c').innerHTML = ('<a href="https://duckduckgo.com/?q=define+' + speak3c + '&t=newext&atb=v274-1&ia=definition" target="_blank">' + speak3c + '</a> ');
 }
+
+refreshPoem();
