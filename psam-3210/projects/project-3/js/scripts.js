@@ -42,7 +42,6 @@ function generate1() {
             url: 'https://api.are.na/v2/blocks',
             id: blockId1
         }
-        console.log(blockId1)
 
         apiUrl1 = `${apiData1.url}/${apiData1.id}/`
         console.log(apiUrl1)
@@ -86,7 +85,6 @@ function generate2() {
             url: 'https://api.are.na/v2/blocks',
             id: blockId2
         }
-        console.log(blockId2)
 
         apiUrl2 = `${apiData2.url}/${apiData2.id}/`
         console.log(apiUrl2)
