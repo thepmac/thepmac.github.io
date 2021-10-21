@@ -4,7 +4,7 @@ function generateAll() {
     let apiUrl1;
 
     function generateId1() {
-        blockId1 = Math.floor(Math.random() * 13644915);
+        blockId1 = Math.floor(Math.random() * 13651038);
     }
 
     generateId1();
@@ -30,11 +30,11 @@ function generateAll() {
         if (data1.class == "Image") {
             console.log(data1)
             const img1 = `
-        <img src="${data1.image.original.url}" />
+            <a href="https://www.are.na/block/${data1.id}/" target="_blank"><img src="${data1.image.original.url}" alt="${data1.title}" /></a>
     `
             const div1 = document.querySelector('#left-img').innerHTML = img1
         } else {
-            blockId1 = Math.floor(Math.random() * 13644915)
+            blockId1 = Math.floor(Math.random() * 13651038)
             getBlock1(blockId1)
         }
     }
@@ -70,7 +70,7 @@ function generateAll() {
         if (data2.class == "Image") {
             console.log(data2)
             const img2 = `
-        <img src="${data2.image.original.url}" />
+        <a href="https://www.are.na/block/${data2.id}/" target="_blank"><img src="${data2.image.original.url}" alt="${data2.title}" /></a>
     `
             const div2 = document.querySelector('#right-img').innerHTML = img2
         } else {
