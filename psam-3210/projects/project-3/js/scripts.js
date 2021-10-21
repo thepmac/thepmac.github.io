@@ -1,3 +1,19 @@
+function timeout() {
+    document.querySelector('#button1').style.opacity = ".2";
+    document.querySelector('#button1').removeAttribute("onclick");
+    document.querySelector('#button2').style.opacity = ".2"
+    document.querySelector('#button2').removeAttribute("onclick");
+    document.querySelector('#button3').style.opacity = ".2";
+    document.querySelector('#button3').removeAttribute("onclick");
+
+    setTimeout(function () { document.querySelector('#button1').style.opacity = "1" }, 8000);
+    setTimeout(function () { document.querySelector('#button1').setAttribute("onclick", "generateAll(); timeout();")}, 8000);
+    setTimeout(function () { document.querySelector('#button2').style.opacity = "1" }, 8000);
+    setTimeout(function () { document.querySelector('#button2').setAttribute("onclick", "generateAll(); timeout();")}, 8000);
+    setTimeout(function () { document.querySelector('#button3').style.opacity = "1" }, 8000);
+    setTimeout(function () { document.querySelector('#button3').setAttribute("onclick", "generateAll(); timeout();")}, 8000);
+}
+
 function generate1() {
     let blockId1;
     let apiData1;
@@ -83,7 +99,7 @@ function generate2() {
     }
 }
 generate2();
-    
+
 function generateAll() {
     generate1();
     generate2();
