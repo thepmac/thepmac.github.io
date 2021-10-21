@@ -19,9 +19,9 @@ function timeout() {
     setTimeout(function () { document.querySelector('#button1').style.opacity = "1" }, 8000);
     setTimeout(function () { document.querySelector('#button1').setAttribute("onclick", "generateAll(); timeout();")}, 8000);
     setTimeout(function () { document.querySelector('#button2').style.opacity = "1" }, 8000);
-    setTimeout(function () { document.querySelector('#button2').setAttribute("onclick", "generateAll(); timeout();")}, 8000);
+    setTimeout(function () { document.querySelector('#button2').setAttribute("onclick", "generate1(); timeout();")}, 8000);
     setTimeout(function () { document.querySelector('#button3').style.opacity = "1" }, 8000);
-    setTimeout(function () { document.querySelector('#button3').setAttribute("onclick", "generateAll(); timeout();")}, 8000);
+    setTimeout(function () { document.querySelector('#button3').setAttribute("onclick", "generate2(); timeout();")}, 8000);
 }
 
 
