@@ -1,4 +1,4 @@
-function generateAll() {
+function generate1() {
     let blockId1;
     let apiData1;
     let apiUrl1;
@@ -38,7 +38,10 @@ function generateAll() {
             getBlock1(blockId1)
         }
     }
+}
+generate1();
 
+function generate2() {
     let blockId2;
     let apiData2;
     let apiUrl2;
@@ -79,4 +82,9 @@ function generateAll() {
         }
     }
 }
-generateAll();
+generate2();
+    
+function generateAll() {
+    generate1();
+    generate2();
+}

@@ -54,15 +54,15 @@ main {
     display: block;
 }
 
-#generate {
+.generate {
     color: black;
     background-color: rgba(0,0,0,0);
     border: 1px solid black;
-    display: block;
+    display: inline;
     font-size: 1vh;
 }
 
-#generate:hover {
+.generate:hover {
     cursor: pointer;
     background-color: black;
     color: white;
