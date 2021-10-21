@@ -50,21 +50,44 @@ main {
     float: left; 
 }
 
-#title {
-    display: block;
-}
-
-.generate {
+.block-id {
     color: black;
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
     display: inline;
     font-size: 1vh;
+    padding: 4px 4px 1px 4px;
+}
+
+#captions {
+    float: right;
+}
+
+#captions > span:first-child {
+    margin: 4px
+}
+
+#title {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.generate {
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid blue;
+    display: inline;
+    font-size: 1vh;
+    padding: 4px 4px 1px 4px;
+}
+
+ {
+    float: right;
 }
 
 .generate:hover {
     cursor: pointer;
-    background-color: black;
+    background-color: blue;
     color: white;
 }
 

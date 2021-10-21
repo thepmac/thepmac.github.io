@@ -23,14 +23,14 @@ function timeout() {
     document.querySelector('#button3').setAttribute("onmouseover", "this.style.cursor='auto'");
 
     setTimeout(function () { document.querySelector('#button1').style.opacity = "1" }, 8000);
-    setTimeout(function () { document.querySelector('#button1').setAttribute("onclick", "generateAll(); timeout();")}, 8000);
-    setTimeout(function () { document.querySelector('#button1').setAttribute("onmouseover", "this.style.cursor='pointer'")}, 8000);
+    setTimeout(function () { document.querySelector('#button1').setAttribute("onclick", "generateAll(); timeout();") }, 8000);
+    setTimeout(function () { document.querySelector('#button1').setAttribute("onmouseover", "this.style.cursor='pointer'") }, 8000);
     setTimeout(function () { document.querySelector('#button2').style.opacity = "1" }, 8000);
-    setTimeout(function () { document.querySelector('#button2').setAttribute("onclick", "generate1(); timeout();")}, 8000);
-    setTimeout(function () { document.querySelector('#button2').setAttribute("onmouseover", "this.style.cursor='pointer'")}, 8000);
+    setTimeout(function () { document.querySelector('#button2').setAttribute("onclick", "generate1(); timeout();") }, 8000);
+    setTimeout(function () { document.querySelector('#button2').setAttribute("onmouseover", "this.style.cursor='pointer'") }, 8000);
     setTimeout(function () { document.querySelector('#button3').style.opacity = "1" }, 8000);
-    setTimeout(function () { document.querySelector('#button3').setAttribute("onclick", "generate2(); timeout();")}, 8000);
-    setTimeout(function () { document.querySelector('#button3').setAttribute("onmouseover", "this.style.cursor='pointer'")}, 8000);
+    setTimeout(function () { document.querySelector('#button3').setAttribute("onclick", "generate2(); timeout();") }, 8000);
+    setTimeout(function () { document.querySelector('#button3').setAttribute("onmouseover", "this.style.cursor='pointer'") }, 8000);
 }
 
 
@@ -68,6 +68,10 @@ function generate1() {
             <a href="https://www.are.na/block/${data1.id}/" target="_blank"><img src="${data1.image.original.url}" alt="${data1.title}" /></a>
     `
             const div1 = document.querySelector('#left-img').innerHTML = img1
+            const id1 = `
+            Block ID: ${data1.id}
+            `
+            const caption1 = document.querySelector('#left-block').innerHTML = id1
         } else {
             blockId1 = Math.floor(Math.random() * 14000000)
             getBlock1(blockId1)
@@ -101,7 +105,7 @@ function generate2() {
         fetch(apiUrl2)
             .then((data2) => data2.json())
             .then((bgimg2) => generate2(bgimg2))
-            
+
     }
     getBlock2();
 
@@ -112,6 +116,10 @@ function generate2() {
         <a href="https://www.are.na/block/${data2.id}/" target="_blank"><img src="${data2.image.original.url}" alt="${data2.title}" /></a>
     `
             const div2 = document.querySelector('#right-img').innerHTML = img2
+            const id2 = `
+            Block ID: ${data2.id}
+            `
+            const caption2 = document.querySelector('#right-block').innerHTML = id2
         } else {
             blockId2 = Math.floor(Math.random() * 14000000)
             getBlock2(blockId2)
