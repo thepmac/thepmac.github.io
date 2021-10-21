@@ -1,3 +1,6 @@
+// As of 12:16:38 AM on Thursday, Oct 21, 2021, the count of total blocks creaetd is "13652740".
+// I have set the random number cap at 14000000 to allow for any new blocks in the near future.
+
 var log = document.getElementById("console-log")
 console.log = (function (method, log) {
     return function (text) {
@@ -37,17 +40,17 @@ function generate1() {
     let apiUrl1;
 
     function generateId1() {
-        blockId1 = Math.floor(Math.random() * 13651038);
+        blockId1 = Math.floor(Math.random() * 14000000);
     }
 
     generateId1();
-    console.log(blockId1)
 
     function getBlock1() {
         apiData1 = {
             url: 'https://api.are.na/v2/blocks',
             id: blockId1
         }
+        console.log(blockId1)
 
         apiUrl1 = `${apiData1.url}/${apiData1.id}/`
         console.log(apiUrl1)
@@ -66,7 +69,7 @@ function generate1() {
     `
             const div1 = document.querySelector('#left-img').innerHTML = img1
         } else {
-            blockId1 = Math.floor(Math.random() * 13651038)
+            blockId1 = Math.floor(Math.random() * 14000000)
             getBlock1(blockId1)
         }
     }
@@ -80,17 +83,17 @@ function generate2() {
     let apiUrl2;
 
     function generateId2() {
-        blockId2 = Math.floor(Math.random() * 23644925);
+        blockId2 = Math.floor(Math.random() * 14000000);
     }
 
-    generateId2();
-    console.log(blockId2)
+    generateId2()
 
     function getBlock2() {
         apiData2 = {
             url: 'https://api.are.na/v2/blocks',
             id: blockId2
         }
+        console.log(blockId2)
 
         apiUrl2 = `${apiData2.url}/${apiData2.id}/`
         console.log(apiUrl2)
@@ -110,7 +113,7 @@ function generate2() {
     `
             const div2 = document.querySelector('#right-img').innerHTML = img2
         } else {
-            blockId2 = Math.floor(Math.random() * 23644925)
+            blockId2 = Math.floor(Math.random() * 14000000)
             getBlock2(blockId2)
         }
     }
