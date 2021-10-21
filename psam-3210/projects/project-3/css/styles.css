@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    margin: auto;
+}
+
+main {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    position: fixed;
+    left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#left-img {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#right-img {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#left-img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    float: right; 
+}
+
+
+#right-img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    float: left; 
+}
