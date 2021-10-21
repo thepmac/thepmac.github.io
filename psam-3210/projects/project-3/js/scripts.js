@@ -10,18 +10,24 @@ console.log = (function (method, log) {
 
 function timeout() {
     document.querySelector('#button1').style.opacity = ".2";
-    document.querySelector('#button1').removeAttribute("onclick");
+    document.querySelector('#button1').setAttribute("onclick", "");
+    document.querySelector('#button1').setAttribute("onmouseover", "this.style.cursor='auto'");
     document.querySelector('#button2').style.opacity = ".2"
-    document.querySelector('#button2').removeAttribute("onclick");
+    document.querySelector('#button2').setAttribute("onclick", "");
+    document.querySelector('#button2').setAttribute("onmouseover", "this.style.cursor='auto'");
     document.querySelector('#button3').style.opacity = ".2";
-    document.querySelector('#button3').removeAttribute("onclick");
+    document.querySelector('#button3').setAttribute("onclick", "");
+    document.querySelector('#button3').setAttribute("onmouseover", "this.style.cursor='auto'");
 
     setTimeout(function () { document.querySelector('#button1').style.opacity = "1" }, 8000);
     setTimeout(function () { document.querySelector('#button1').setAttribute("onclick", "generateAll(); timeout();")}, 8000);
+    setTimeout(function () { document.querySelector('#button1').setAttribute("onmouseover", "this.style.cursor='pointer'")}, 8000);
     setTimeout(function () { document.querySelector('#button2').style.opacity = "1" }, 8000);
     setTimeout(function () { document.querySelector('#button2').setAttribute("onclick", "generate1(); timeout();")}, 8000);
+    setTimeout(function () { document.querySelector('#button2').setAttribute("onmouseover", "this.style.cursor='pointer'")}, 8000);
     setTimeout(function () { document.querySelector('#button3').style.opacity = "1" }, 8000);
     setTimeout(function () { document.querySelector('#button3').setAttribute("onclick", "generate2(); timeout();")}, 8000);
+    setTimeout(function () { document.querySelector('#button3').setAttribute("onmouseover", "this.style.cursor='pointer'")}, 8000);
 }
 
 
