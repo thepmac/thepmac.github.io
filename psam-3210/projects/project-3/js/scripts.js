@@ -105,7 +105,6 @@ function generate2() {
         fetch(apiUrl2)
             .then((data2) => data2.json())
             .then((bgimg2) => generate2(bgimg2))
-
     }
     getBlock2();
 
