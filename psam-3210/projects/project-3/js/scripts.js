@@ -22,15 +22,15 @@ function timeout() {
     document.querySelector('#button3').setAttribute("onclick", "");
     document.querySelector('#button3').setAttribute("onmouseover", "this.style.cursor='auto'");
 
-    setTimeout(function () { document.querySelector('#button1').style.opacity = "1" }, 5000);
-    setTimeout(function () { document.querySelector('#button1').setAttribute("onclick", "generateAll(); timeout();") }, 5000);
-    setTimeout(function () { document.querySelector('#button1').setAttribute("onmouseover", "this.style.cursor='pointer'") }, 5000);
-    setTimeout(function () { document.querySelector('#button2').style.opacity = "1" }, 5000);
-    setTimeout(function () { document.querySelector('#button2').setAttribute("onclick", "generate1(); timeout();") }, 5000);
-    setTimeout(function () { document.querySelector('#button2').setAttribute("onmouseover", "this.style.cursor='pointer'") }, 5000);
-    setTimeout(function () { document.querySelector('#button3').style.opacity = "1" }, 5000);
-    setTimeout(function () { document.querySelector('#button3').setAttribute("onclick", "generate2(); timeout();") }, 5000);
-    setTimeout(function () { document.querySelector('#button3').setAttribute("onmouseover", "this.style.cursor='pointer'") }, 5000);
+    setTimeout(function () { document.querySelector('#button1').style.opacity = "1" }, 3000);
+    setTimeout(function () { document.querySelector('#button1').setAttribute("onclick", "generateAll(); timeout();") }, 3000);
+    setTimeout(function () { document.querySelector('#button1').setAttribute("onmouseover", "this.style.cursor='pointer'") }, 3000);
+    setTimeout(function () { document.querySelector('#button2').style.opacity = "1" }, 3000);
+    setTimeout(function () { document.querySelector('#button2').setAttribute("onclick", "generate1(); timeout();") }, 3000);
+    setTimeout(function () { document.querySelector('#button2').setAttribute("onmouseover", "this.style.cursor='pointer'") }, 3000);
+    setTimeout(function () { document.querySelector('#button3').style.opacity = "1" }, 3000);
+    setTimeout(function () { document.querySelector('#button3').setAttribute("onclick", "generate2(); timeout();") }, 3000);
+    setTimeout(function () { document.querySelector('#button3').setAttribute("onmouseover", "this.style.cursor='pointer'") }, 3000);
 }
 
 
