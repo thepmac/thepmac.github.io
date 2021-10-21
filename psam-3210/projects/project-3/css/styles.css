@@ -3,7 +3,6 @@ body {
     margin: auto;
     font-family: sans-serif;
     color: black;
-    font-size: 1.2vh;
 }
 
 nav {
@@ -110,4 +109,6 @@ a:hover {
     word-wrap: break-word;
     word-break: break-all;
     user-select: none;
+    font-family: monospace;
+    font-size: 14px;
 }

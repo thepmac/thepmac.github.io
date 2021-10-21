@@ -35,6 +35,8 @@ function timeout() {
 
 
 function generate1() {
+    console.log('____ Starting the process of finding a new image for the left side.')
+
     let blockId1;
     let apiData1;
     let apiUrl1;
@@ -50,9 +52,11 @@ function generate1() {
             url: 'https://api.are.na/v2/blocks',
             id: blockId1
         }
+        console.log('__ Generating a possible block ID.')
         console.log(blockId1)
 
         apiUrl1 = `${apiData1.url}/${apiData1.id}/`
+        console.log('__ Creating an API URL from this ID.')
         console.log(apiUrl1)
 
         fetch(apiUrl1)
@@ -63,6 +67,7 @@ function generate1() {
 
     const generate1 = (data1) => {
         if (data1.class == "Image") {
+            console.log('__ ID valid. Grabbing source & inserting into this page.')
             console.log(JSON.stringify(data1))
             const img1 = `
             <a href="https://www.are.na/block/${data1.id}/" target="_blank"><img src="${data1.image.original.url}" alt="${data1.title}" /></a>
@@ -72,16 +77,20 @@ function generate1() {
             L: ${data1.id}
             `
             const caption1 = document.querySelector('#left-block').innerHTML = id1
+
+            console.log('____ Left side image inserted.')
         } else {
+            console.log('__ ID not valid. Generating a new possible block ID.')
             blockId1 = Math.floor(Math.random() * 14000000)
             getBlock1(blockId1)
         }
     }
-    console.log(generate1)
 }
 generate1();
 
 function generate2() {
+    console.log('____ Starting the process of finding a new image for the right side.')
+
     let blockId2;
     let apiData2;
     let apiUrl2;
@@ -97,9 +106,11 @@ function generate2() {
             url: 'https://api.are.na/v2/blocks',
             id: blockId2
         }
+        console.log('__ Generating a possible block ID.')
         console.log(blockId2)
 
         apiUrl2 = `${apiData2.url}/${apiData2.id}/`
+        console.log('__ Creating an API URL from this ID.')
         console.log(apiUrl2)
 
         fetch(apiUrl2)
@@ -110,6 +121,7 @@ function generate2() {
 
     const generate2 = (data2) => {
         if (data2.class == "Image") {
+            console.log('__ ID valid. Grabbing source & inserting into this page.')
             console.log(JSON.stringify(data2))
             const img2 = `
         <a href="https://www.are.na/block/${data2.id}/" target="_blank"><img src="${data2.image.original.url}" alt="${data2.title}" /></a>
@@ -119,16 +131,19 @@ function generate2() {
             R: ${data2.id}
             `
             const caption2 = document.querySelector('#right-block').innerHTML = id2
+
+            console.log('____ Right side image inserted.')
         } else {
+            console.log('__ ID not valid. Generating a new possible block ID.')
             blockId2 = Math.floor(Math.random() * 14000000)
             getBlock2(blockId2)
         }
     }
-    console.log(generate2)
 }
 generate2();
 
 function generateAll() {
+    console.log('______ Generating a new pair of images.')
     generate1();
     generate2();
 }
