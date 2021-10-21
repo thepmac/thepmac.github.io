@@ -1,6 +1,13 @@
 body {
-    background-color: black;
+    background-color: white;
     margin: auto;
+    font-family: sans-serif;
+    color: black;
+    font-size: 1.2vh;
+}
+
+nav {
+    margin: 1.5vh 5% 0% 5%;
 }
 
 main {
@@ -41,4 +48,33 @@ main {
     height: auto;
     width: auto;
     float: left; 
+}
+
+#title {
+    display: block;
+}
+
+#generate {
+    color: black;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid black;
+    display: block;
+    font-size: 1vh;
+}
+
+#generate:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: blue;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
 }
