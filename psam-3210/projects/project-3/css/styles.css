@@ -87,5 +87,5 @@ a:hover {
     z-index: -5;
     word-wrap: break-word;
     word-break: break-all;
-    user-select: none
+    user-select: none;
 }
