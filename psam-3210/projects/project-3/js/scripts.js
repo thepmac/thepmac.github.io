@@ -1,3 +1,13 @@
+var log = document.getElementById("console-log")
+console.log = (function (method, log) {
+    return function (text) {
+        method(text);
+        let msg = document.createElement('div');
+        msg.textContent = text;
+        log.appendChild(msg);
+    };
+})(console.log.bind(console), log);
+
 function timeout() {
     document.querySelector('#button1').style.opacity = ".2";
     document.querySelector('#button1').removeAttribute("onclick");
@@ -13,6 +23,7 @@ function timeout() {
     setTimeout(function () { document.querySelector('#button3').style.opacity = "1" }, 8000);
     setTimeout(function () { document.querySelector('#button3').setAttribute("onclick", "generateAll(); timeout();")}, 8000);
 }
+
 
 function generate1() {
     let blockId1;
@@ -31,7 +42,7 @@ function generate1() {
             url: 'https://api.are.na/v2/blocks',
             id: blockId1
         }
-        console.log(apiData1)
+        console.log(blockId1)
 
         apiUrl1 = `${apiData1.url}/${apiData1.id}/`
         console.log(apiUrl1)
@@ -44,7 +55,7 @@ function generate1() {
 
     const generate1 = (data1) => {
         if (data1.class == "Image") {
-            console.log(data1)
+            console.log(JSON.stringify(data1))
             const img1 = `
             <a href="https://www.are.na/block/${data1.id}/" target="_blank"><img src="${data1.image.original.url}" alt="${data1.title}" /></a>
     `
@@ -54,6 +65,7 @@ function generate1() {
             getBlock1(blockId1)
         }
     }
+    console.log(generate1)
 }
 generate1();
 
@@ -74,7 +86,7 @@ function generate2() {
             url: 'https://api.are.na/v2/blocks',
             id: blockId2
         }
-        console.log(apiData2)
+        console.log(blockId2)
 
         apiUrl2 = `${apiData2.url}/${apiData2.id}/`
         console.log(apiUrl2)
@@ -82,12 +94,13 @@ function generate2() {
         fetch(apiUrl2)
             .then((data2) => data2.json())
             .then((bgimg2) => generate2(bgimg2))
+            
     }
     getBlock2();
 
     const generate2 = (data2) => {
         if (data2.class == "Image") {
-            console.log(data2)
+            console.log(JSON.stringify(data2))
             const img2 = `
         <a href="https://www.are.na/block/${data2.id}/" target="_blank"><img src="${data2.image.original.url}" alt="${data2.title}" /></a>
     `
@@ -97,6 +110,7 @@ function generate2() {
             getBlock2(blockId2)
         }
     }
+    console.log(generate2)
 }
 generate2();
 
