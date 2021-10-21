@@ -69,7 +69,7 @@ function generate1() {
     `
             const div1 = document.querySelector('#left-img').innerHTML = img1
             const id1 = `
-            Block ID: ${data1.id}
+            L: ${data1.id}
             `
             const caption1 = document.querySelector('#left-block').innerHTML = id1
         } else {
@@ -117,7 +117,7 @@ function generate2() {
     `
             const div2 = document.querySelector('#right-img').innerHTML = img2
             const id2 = `
-            Block ID: ${data2.id}
+            R: ${data2.id}
             `
             const caption2 = document.querySelector('#right-block').innerHTML = id2
         } else {
