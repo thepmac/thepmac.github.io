@@ -1,0 +1,22 @@
+body {
+    margin: auto;
+}
+
+#date-box {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    top: 50%;
+    position: fixed;
+    font-size: 36px;
+}
+
+.blankbox {
+    display: block;
+    height: 50px;
+}
+
+main {
+    display: none;
+}
