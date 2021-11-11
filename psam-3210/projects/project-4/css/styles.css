@@ -1,5 +1,6 @@
 body {
     margin: auto;
+    background-color: var(--bgColor);
 }
 
 #date-box {
@@ -10,6 +11,8 @@ body {
     left: 50%;
 	bottom: 50%;
 	transform: translate(-50%, -0%);
-    font-size: 1.5vh;
+    font-size: 10vh;
     font-family: Arial;
+    color: #fff;
+    mix-blend-mode: difference;
 }
