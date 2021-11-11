@@ -4,12 +4,14 @@ body {
 
 #date-box {
     margin: auto;
-    width: 50%;
     height: auto;
     text-align: center;
-    top: 50%;
     position: fixed;
-    font-size: 36px;
+    left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+    font-size: 10vh;
+    font-family: Arial;
 }
 
 .blankbox {
@@ -18,5 +20,5 @@ body {
 }
 
 main {
-    display: none;
+    display: ;
 }
