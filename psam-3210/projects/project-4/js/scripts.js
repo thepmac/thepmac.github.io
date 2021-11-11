@@ -1,8 +1,4 @@
-
-
-
 function sendTime() {
-
     var date = new Date();
     var hours = date.getHours();
     var minutes = date.getMinutes();
@@ -52,9 +48,7 @@ function sendTime() {
     secondsZero(seconds);
     setMeridiem(hours);
 
-    console.log("The current time is " + hoursDisp + ":" + minsDisp + ":" + secsDisp + " " + meridiem);
-
-    document.getElementById('time').innerText = hoursDisp + ":" + minsDisp + ":" + secsDisp  + " " + meridiem;
+    document.getElementById('date-box').innerHTML += "<span class='clock'>" + hoursDisp + ":" + minsDisp + ":" + secsDisp  + " " + meridiem + "</span></br>";
 }
 
-setInterval(sendTime, 300);
+setInterval(sendTime, 1000);
