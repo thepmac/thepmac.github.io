@@ -1,14 +1,14 @@
 let root = document.documentElement;
 
-    function random_color() {
-        let x = Math.floor(Math.random() * 256);
-        let y = Math.floor(Math.random() * 256);
-        let z = Math.floor(Math.random() * 256);
-        let bgColor = "rgb(" + x + "," + y + "," + z + ")";
+function random_color() {
+    let x = Math.floor(Math.random() * 256);
+    let y = Math.floor(Math.random() * 256);
+    let z = Math.floor(Math.random() * 256);
+    let bgColor = "rgb(" + x + "," + y + "," + z + ")";
 
-        root.style.setProperty("--bgColor", bgColor);
-    }
-    random_color();
+    root.style.setProperty("--bgColor", bgColor);
+}
+random_color();
 
 document.addEventListener("blur", function () {
     console.log("away");
