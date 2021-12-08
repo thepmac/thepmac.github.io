@@ -1,0 +1,258 @@
+{
+    "taglist": [
+        "Architecture",
+        "Art",
+        "Atlas",
+        "Cartography",
+        "Cultural Studies",
+        "Design",
+        "Economics",
+        "Feminist Theory",
+        "Fiction",
+        "Film",
+        "History",
+        "Homebrewing",
+        "Music",
+        "Philosophy",
+        "Photography",
+        "Politics",
+        "Race",
+        "Technology",
+        "Theology",
+        "Theory"
+    ]
+}
+
+
+
+
+
+{
+    "metadata": [
+        {
+            "title": "On Photography",
+            "subtitle": null,
+            "author1": [
+                {
+                    "first": "Susan",
+                    "middle": null,
+                    "last": "Sontag"
+                }
+            ],
+            "year": 1977
+        }
+    ],
+    "tags": [
+        "Philosophy/Aesthetics",
+        "Art/Art Criticism/Photography",
+        "Art/Photography/Photography Criticism",
+    ],
+    "src": null
+}
+
+
+{
+    "manifest": [
+        {
+            "key": "author",
+            "type": "string"
+        },
+        {
+            "key": "origin",
+            "type": "url"
+        },
+        {
+            "key": "comments",
+            "type": "par"
+        },
+        {
+            "key": "tags",
+            "type": "array",
+            "values": [
+                "red",
+                "white",
+                "yellow",
+                "green",
+                "transparent",
+                "grey"
+            ]
+        },
+        {
+            "key": "Type",
+            "type": "string"
+        },
+        {
+            "key": "water type",
+            "type": "string"
+        },
+        {
+            "key": "demonstration",
+            "type": "string"
+        }
+    ],
+    "blocks": [
+        {
+            "id": 12011148,
+            "author": "Poseidon",
+            "origin": "https://www.liveaquaria.com/product/226/?pcatid=226",
+            "tags": [
+                "red",
+                "white"
+            ],
+            "comments": "You can't slip anything past Terrence. He's watching you.",
+            "Type": "fish",
+            "water type": "saltwater",
+            "demonstration": ""
+        },
+        {
+            "id": 12011138,
+            "author": "Unknown",
+            "origin": "https://upload.wikimedia.org/wikipedia/commons/3/31/Rhinogobius_sp._CB%28Hamamatsu%2CShizuoka%2CJapan%29.jpg",
+            "tags": [
+                "yellow"
+            ],
+            "comments": "She knows Chester has feelings for her, and she's not sure about him but she'd say yes if he asked her out.",
+            "Type": "fish",
+            "water type": "saltwater",
+            "demonstration": ""
+        },
+        {
+            "id": 947930,
+            "author": "Persephone",
+            "origin": "",
+            "tags": [],
+            "comments": "",
+            "Type": "meta",
+            "water type": "",
+            "demonstration": ""
+        },
+        {
+            "id": 12012112,
+            "author": "Perseus",
+            "origin": "",
+            "tags": [
+                "grey"
+            ],
+            "comments": "A Blackeye Goby, according to the internet",
+            "Type": "fish",
+            "water type": "saltwater",
+            "demonstration": ""
+        },
+        {
+            "id": 12012111,
+            "author": "Steve",
+            "origin": "",
+            "tags": [
+                "white",
+                "green"
+            ],
+            "comments": "This goby is an enigma. Nothing is known about it.",
+            "Type": "fish",
+            "water type": "saltwater",
+            "demonstration": ""
+        },
+        {
+            "id": 12012095,
+            "author": "Calypso",
+            "origin": "",
+            "tags": [],
+            "comments": "\"I'll never let go...of your dorsal fin\"",
+            "Type": "fish",
+            "water type": "freshwater",
+            "demonstration": ""
+        },
+        {
+            "id": 12012091,
+            "author": "Circe",
+            "origin": "",
+            "tags": [
+                "green"
+            ],
+            "comments": "God damn it Kyle",
+            "Type": "fish",
+            "water type": "freshwater",
+            "demonstration": ""
+        },
+        {
+            "id": 12012077,
+            "author": "Odysseus",
+            "origin": "",
+            "tags": [
+                "yellow"
+            ],
+            "comments": "Robert has no patience for Kyle's shit",
+            "Type": "fish",
+            "water type": "saltwater",
+            "demonstration": ""
+        },
+        {
+            "id": 12012071,
+            "author": "Cetus",
+            "origin": "",
+            "tags": [
+                "white",
+                "transparent"
+            ],
+            "comments": "> Tim: Don't say it.\n> Tom: I TOLD you this was a bad idea.\n> Tim: How was I supposed to know they abduct people? They could have been, like, E.T.-style aliens.\n> Tom: E.T.??? Are you an 8-year old?\n> Tim: Tom, we're tidewater gobies. Neither of us are more than 6 months old.\n> Tom: Don't pretend you don't know I was being hyperbolic. ",
+            "Type": "fish",
+            "water type": "freshwater",
+            "demonstration": ""
+        },
+        {
+            "id": 12012055,
+            "author": "Moby Dick",
+            "origin": "https://digitalmedia.fws.gov/digital/collection/natdiglib/id/31103/rec/3",
+            "tags": [
+                "white",
+                "transparent"
+            ],
+            "comments": "Chester and Mariana have been coworkers for a few tide cycles and he's considering shooting his shot at asking her out. He doesn't want to make the working relationship weird if she says no though. ",
+            "Type": "fish",
+            "water type": "freshwater",
+            "demonstration": ""
+        },
+        {
+            "id": 10492860,
+            "author": "The Kraken",
+            "origin": "",
+            "tags": [],
+            "comments": "",
+            "Type": "meta",
+            "water type": "",
+            "demonstration": ""
+        },
+        {
+            "id": 12011964,
+            "author": "Proteus",
+            "origin": "",
+            "tags": [],
+            "comments": "",
+            "Type": "meta",
+            "water type": "",
+            "demonstration": ""
+        },
+        {
+            "id": 12116874,
+            "author": "",
+            "origin": "",
+            "comments": "",
+            "tags": [],
+            "Type": "meta",
+            "water type": "",
+            "demonstration": ""
+        },
+        {
+            "id": 12547384,
+            "author": "test",
+            "origin": "",
+            "comments": "this metadata is only viewable and editable (by me, Nico) in goby.",
+            "tags": [
+                "red",
+                "grey"
+            ],
+            "Type": "meta",
+            "water type": "",
+            "demonstration": "hello"
+        }
+    ]
+}
