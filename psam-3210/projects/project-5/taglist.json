@@ -39,7 +39,7 @@
                         0,
                         107
                     ]
-                },
+                }
             ]
         },
         {
@@ -246,7 +246,7 @@
         {
             "tag0": "Philosophy",
             "files": [
-                10,
+                10
             ],
             "children": [
                 {
@@ -266,7 +266,7 @@
                     "files": [
                         10
                     ]
-                }
+                },
                 {
                     "tag1": "Modern Modernism Modernity",
                     "files": [
