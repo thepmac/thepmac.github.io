@@ -11,7 +11,8 @@ let database =
                     "tag": "Ancient Near East",
                     "files": [
                         1
-                    ]
+                    ],
+                    "children": null
                 }
             ]
         },
@@ -28,26 +29,30 @@ let database =
                     "tag": "Architecture & Environment",
                     "files": [
                         82
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Criticism",
                     "files": [
                         21
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Modern",
                     "files": [
                         22
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Theory",
                     "files": [
                         0,
                         107
-                    ]
+                    ],
+                    "children": null
                 }
             ]
         },
@@ -59,7 +64,8 @@ let database =
                     "tag": "Art & Society",
                     "files": [
                         88
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Art History",
@@ -76,14 +82,16 @@ let database =
                                 32,
                                 34,
                                 80
-                            ]
+                            ],
+                            "children": null
                         },
                         {
                             "tag": "New Media Art",
                             "files": [
                                 4,
                                 59
-                            ]
+                            ],
+                            "children": null
                         }
                     ]
                 },
@@ -91,13 +99,15 @@ let database =
                     "tag": "Manifesto",
                     "files": [
                         62
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Sculpture",
                     "files": [
                         77
-                    ]
+                    ],
+                    "children": null
                 }
             ]
         },
@@ -105,13 +115,15 @@ let database =
             "tag": "Atlas",
             "files": [
                 20
-            ]
+            ],
+            "children": null
         },
         {
             "tag": "Cartography",
             "files": [
                 18
-            ]
+            ],
+            "children": null
         },
         {
             "tag": "Christianity",
@@ -123,7 +135,8 @@ let database =
                     "tag": "Theology",
                     "files": [
                         72
-                    ]
+                    ],
+                    "children": null
                 }
             ]
         },
@@ -131,7 +144,8 @@ let database =
             "tag": "Cultural Studies",
             "files": [
                 87
-            ]
+            ],
+            "children": null
         },
         {
             "tag": "Design",
@@ -147,25 +161,29 @@ let database =
                     "tag": "Book Design",
                     "files": [
                         114
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Interface",
                     "files": [
                         52
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Ontology",
                     "files": [
                         11
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Research",
                     "files": [
                         110
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Typography",
@@ -178,7 +196,8 @@ let database =
                         79,
                         102,
                         104
-                    ]
+                    ],
+                    "children": null
                 }
             ]
         },
@@ -195,7 +214,8 @@ let database =
                         17,
                         40,
                         56
-                    ]
+                    ],
+                    "children": null
                 }
             ]
         },
@@ -204,7 +224,8 @@ let database =
             "files": [
                 28,
                 43
-            ]
+            ],
+            "children": null
         },
         {
             "tag": "Film",
@@ -215,14 +236,16 @@ let database =
                 49,
                 111,
                 112
-            ]
+            ],
+            "children": null
         },
         {
             "tag": "History",
             "files": [
                 70,
                 88
-            ]
+            ],
+            "children": null
         },
         {
             "tag": "Homebrewing",
@@ -236,7 +259,8 @@ let database =
                 51,
                 64,
                 91
-            ]
+            ],
+            "children": null
         },
         {
             "tag": "Media Studies",
@@ -244,13 +268,15 @@ let database =
                 52,
                 65,
                 103
-            ]
+            ],
+            "children": null
         },
         {
             "tag": "Music",
             "files": [
                 66
-            ]
+            ],
+            "children": null
         },
         {
             "tag": "Philosophy",
@@ -268,25 +294,29 @@ let database =
                         44,
                         81,
                         103
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "History of Philosophy",
                     "files": [
                         10
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Modern Modernism Modernity",
                     "files": [
                         97
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Ontology",
                     "files": [
                         48
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Philosophers",
@@ -297,7 +327,8 @@ let database =
                             "files": [
                                 9,
                                 35
-                            ]
+                            ],
+                            "children": null
                         }
                     ]
                 },
@@ -309,7 +340,8 @@ let database =
                             "tag": "Capitalism",
                             "files": [
                                 60
-                            ]
+                            ],
+                            "children": null
                         }
                     ]
                 }
@@ -319,7 +351,8 @@ let database =
             "tag": "Photography",
             "files": [
                 85
-            ]
+            ],
+            "children": null
         },
         {
             "tag": "Politics",
@@ -332,7 +365,8 @@ let database =
                         67,
                         95,
                         98
-                    ]
+                    ],
+                    "children": null
                 }
             ]
         },
@@ -344,20 +378,23 @@ let database =
                     "tag": "Asian Studies",
                     "files": [
                         84
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Mixed Race",
                     "files": [
                         69,
                         73
-                    ]
+                    ],
+                    "children": null
                 }
             ]
         },
         {
             "tag": "Semiotics",
-            "files": []
+            "files": [],
+            "children": null
         },
         {
             "tag": "Technology",
@@ -384,7 +421,8 @@ let database =
                         99,
                         100,
                         103
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Virtual Reality",
@@ -396,7 +434,8 @@ let database =
                         101,
                         108,
                         109
-                    ]
+                    ],
+                    "children": null
                 }
             ]
         },
@@ -409,13 +448,15 @@ let database =
                     "files": [
                         3,
                         58
-                    ]
+                    ],
+                    "children": null
                 },
                 {
                     "tag": "Non-western",
                     "files": [
                         19
-                    ]
+                    ],
+                    "children": null
                 }
             ]
         },
@@ -424,7 +465,8 @@ let database =
             "files": [
                 61,
                 92
-            ]
+            ],
+            "children": null
         }
     ],
     "fileList": [
@@ -1274,7 +1316,7 @@ let database =
                 }
             ],
             "year": null,
-            "src": "Multiracial Parents_ Mixed Fami - Miri Song.epub"
+            "src": "Multiracial level2s_ Mixed Fami - Miri Song.epub"
         },
         {
             "id": 70,
@@ -1886,30 +1928,36 @@ var moreC = true;*/
 getMasterList();*/
 
 
+
+
+
+
+
+
+/*
+
 let countA = 0;
+let countB = 0;
 
 
 function getMasterList() {
 
     while (countA < database.tagList.length) {
-        
+
 
         document.getElementById("taglist").innerHTML += "<span class='list a'>" + database.tagList[countA].tag + "</span>"
 
         console.log(database.tagList[countA].tag)
 
-/*
-        if (database.tagList[0].children.hasOwnProperty(0) = false) {
-            console.log(database.tagList[0].children.hasOwnProperty(0))
+        if (database.tagList[0].children.hasOwnProperty(0) == false) {
+            console.log("*no children*")
         } else {
 
             while (countB < database.tagList[countA].children.length) {
-                var moreB = true;
-                let countB = 0;
 
                 document.getElementById("taglist").innerHTML += "<span class='list b'>" + database.tagList[countA].children[countB].tag + "</span>"
 
-                console.log("— " + database.tagList[countA].children[countB].tag)
+                console.log("|   " + database.tagList[countA].children[countB].tag)
 
                 if (countB < database.tagList[countA].children.length) {
                     countB++;
@@ -1919,13 +1967,37 @@ function getMasterList() {
             }
 
         }
-*/
-        if (countA < database.tagList.length) {
-            countA++;
-        } else {
-            countA = 0;
+
+        countA++;
+    }
+}
+
+getMasterList();*/
+
+
+
+
+
+
+
+function getMasterList() {
+
+    for (let i = 0; i < database.tagList.length; i++) {
+        let level1 = i;
+        document.getElementById("taglist").innerHTML += "<span class='list a'>" + database.tagList[i].tag + "</span>"
+        console.log(database.tagList[i].tag)
+
+        for (let i = 0; (database.tagList[level1].children != null) && (i < database.tagList[level1].children.length); i++) {
+            let level2 = i;
+            document.getElementById("taglist").innerHTML += "<span class='list b'>" + database.tagList[level1].children[i].tag + "</span>"
+            console.log("|   " + database.tagList[level1].children[i].tag)
+
+            for (let i = 0; (database.tagList[level1].children[level2].children != null) && (i < database.tagList[level1].children[level2].length); i++) {
+                document.getElementById("taglist").innerHTML += "<span class='list c'>" + database.tagList[level1].children[level2].children[i].tag + "</span>"
+                console.log("|   |   " + database.tagList[level1].children[level2].children[i].tag)
+            }
         }
     }
 }
 
-getMasterList(); 
+getMasterList();
