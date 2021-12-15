@@ -1984,17 +1984,18 @@ function getMasterList() {
 
     for (let i = 0; i < database.tagList.length; i++) {
         let level1 = i;
-        document.getElementById("taglist").innerHTML += "<span class='list a'>" + database.tagList[i].tag + "</span>"
+        document.getElementById("taglist").innerHTML += `<span class="list a">${database.tagList[i].tag}</span>`
         console.log(database.tagList[i].tag)
 
-        for (let i = 0; (database.tagList[level1].children != null) && (i < database.tagList[level1].children.length); i++) {
-            let level2 = i;
-            document.getElementById("taglist").innerHTML += "<span class='list b'>" + database.tagList[level1].children[i].tag + "</span>"
-            console.log("|   " + database.tagList[level1].children[i].tag)
+        for (let ii = 0; (database.tagList[level1].children != null) && (ii < database.tagList[level1].children.length); ii++) {
+            let level2 = ii;
+            document.getElementById("taglist").innerHTML += `<span class="list b">${database.tagList[level1].children[ii].tag}</span>`
+            console.log("|   " + database.tagList[level1].children[ii].tag)
 
-            for (let i = 0; (database.tagList[level1].children[level2].children != null) && (i < database.tagList[level1].children[level2].length); i++) {
-                document.getElementById("taglist").innerHTML += "<span class='list c'>" + database.tagList[level1].children[level2].children[i].tag + "</span>"
-                console.log("|   |   " + database.tagList[level1].children[level2].children[i].tag)
+            for (let iii = 0; (database.tagList[level1].children[level2].children != null) && (iii < database.tagList[level1].children[level2].children.length); iii++) {
+                let level3 = iii;
+                document.getElementById("taglist").innerHTML += `<span class="list c">${database.tagList[level1].children[level2].children[iii].tag}</span>`
+                console.log("|   |   " + database.tagList[level1].children[level2].children[iii].tag)
             }
         }
     }
