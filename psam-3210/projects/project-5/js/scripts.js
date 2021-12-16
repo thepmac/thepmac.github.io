@@ -1989,7 +1989,7 @@ function getMasterList() {
         
         for (let i = 0; i < database.tagList[level1].files.length; i++) {
             let file = i;
-            document.getElementById("taglist").innerHTML += `<a href="${database.fileList[database.tagList[level1].files[file]].src}"><span class="link a">${database.fileList[database.tagList[level1].files[file]].src}</span>`
+            document.getElementById("taglist").innerHTML += `<span class="link a"><a href="${database.fileList[database.tagList[level1].files[file]].src}">${database.fileList[database.tagList[level1].files[file]].src}</a></span>`
             console.log(database.tagList[level1].files[file])
         }
 
@@ -2000,7 +2000,7 @@ function getMasterList() {
 
             for (let i = 0; i < database.tagList[level1].children[level2].files.length; i++) {
                 let file = i;
-                document.getElementById("taglist").innerHTML += `<a href="${database.fileList[database.tagList[level1].children[level2].files[file]].src}"><span class="link b">${database.fileList[database.tagList[level1].children[level2].files[file]].src}</span>`
+                document.getElementById("taglist").innerHTML += `<span class="link b"><a href="${database.fileList[database.tagList[level1].children[level2].files[file]].src}">${database.fileList[database.tagList[level1].children[level2].files[file]].src}</a></span>`
                 console.log(database.tagList[level1].children[level2].files[file])
             }
 
@@ -2011,7 +2011,7 @@ function getMasterList() {
 
                 for (let i = 0; i < database.tagList[level1].children[level2].children[level3].files.length; i++) {
                     let file = i;
-                    document.getElementById("taglist").innerHTML += `<a href="${database.fileList[database.tagList[level1].children[level2].children[level3].files[file]].src}"><span class="link c">${database.fileList[database.tagList[level1].children[level2].children[level3].files[file]].src}</span>`
+                    document.getElementById("taglist").innerHTML += `<span class="link c"><a href="${database.fileList[database.tagList[level1].children[level2].children[level3].files[file]].src}">${database.fileList[database.tagList[level1].children[level2].children[level3].files[file]].src}</a></span>`
                     console.log(database.tagList[level1].children[level2].children[level3].files[file])
                 }
             }

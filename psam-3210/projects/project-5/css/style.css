@@ -1,7 +1,26 @@
-.list,
-.link {
+body {
+    font-size: 8px;
+}
+
+.list {
     display: block;
     font-size: 2em;
+    font-weight: 700;
+    margin-top: .5em;
+}
+
+.link {
+    font-size: 2em;
+    display: block;
+}
+
+.link > a {
+    border: 1px blue solid;
+    border-radius: .1em;
+    padding: .1em;
+}
+
+.a {
 }
 
 .b {
