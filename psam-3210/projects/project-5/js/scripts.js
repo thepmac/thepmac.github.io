@@ -5,15 +5,6 @@ let database =
             "tag": "Archaeology",
             "files": [
                 65
-            ],
-            "children": [
-                {
-                    "tag": "Ancient Near East",
-                    "files": [
-                        1
-                    ],
-                    "children": null
-                }
             ]
         },
         {

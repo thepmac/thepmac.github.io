@@ -34,14 +34,24 @@ main {
     width: 70%;
 }
 
+#masterlist a:link,
+#masterlist a:visited {
+    width: 70%;
+    text-decoration: none;
+    color: rgb(0, 0, 235);
+}
+
+#masterlist a:active {
+    color: black;
+}
+
 #taglistlink {
     display: flex;
     position: fixed;
     font-size: 3em;
-    border: 1px rgb(255, 72, 0) solid;
-    color: rgb(255, 72, 0);
+    color: white;
     border-radius: 0px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 72, 0);
     padding: 2px;
     text-decoration: none;
     top: 50vh;
