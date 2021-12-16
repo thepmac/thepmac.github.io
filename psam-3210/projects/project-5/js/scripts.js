@@ -2018,7 +2018,7 @@ getMasterList();
 
 
 function reader(source) {
-    document.getElementById("viewer").innerHTML = `<iframe id="iframepdf" src="${source}"></iframe><div class="close" onclick="remove()">esc</div>`
+    document.getElementById("viewer").innerHTML = `<iframe id="iframepdf" src="${source}"></iframe><div class="close" onclick="remove()">×</div>`
     iframe.src = source;
 }
 
