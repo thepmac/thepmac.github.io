@@ -1,32 +1,55 @@
-body {
+html {
     font-size: 8px;
+}
+
+body {
+    margin: auto;
+}
+
+#taglist {
+    width: 50%;
+    margin: auto;
+}
+
+em {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+    border: 1px red solid;
+    color: red;
+    border-radius: 5px;
+    background-color: rgb(255, 213, 220);
+    padding: 2px;
 }
 
 .list {
     display: block;
-    font-size: 2em;
-    font-weight: 700;
-    margin-top: .5em;
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    border-top: 1px red solid;
+    border-left: 1px red solid;
+    padding-left: 4px;
+    background-color: rgba(0, 255, 0, 0.15);
 }
 
 .link {
-    font-size: 2em;
+    font-size: 3rem;
     display: block;
+    margin-bottom: 1rem;
 }
 
 .link > a {
-    border: 1px blue solid;
-    border-radius: .1em;
-    padding: .1em;
+    font-family: serif;
+    margin-left:;
+    text-decoration: none;
 }
 
 .a {
 }
 
-.b {
-    margin-left: 2em;
-}
-
+.b,
 .c {
-    margin-left: 4em;
+    margin-left: 4rem;
 }
