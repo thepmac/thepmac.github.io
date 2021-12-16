@@ -117,7 +117,7 @@ let database =
             "children": null
         },
         {
-            "tag": "Christianity",
+            "tag": "Christian Thought",
             "files": [
                 113
             ],
@@ -127,7 +127,23 @@ let database =
                     "files": [
                         72
                     ],
-                    "children": null
+                    "children": [
+                        {
+                            "tag": "Feminist Theology",
+                            "files": [
+                                3,
+                                58
+                            ],
+                            "children": null
+                        },
+                        {
+                            "tag": "Non-western",
+                            "files": [
+                                19
+                            ],
+                            "children": null
+                        }
+                    ]
                 }
             ]
         },
@@ -211,12 +227,21 @@ let database =
             ]
         },
         {
-            "tag": "Feminist Theory",
+            "tag": "Feminist Thought",
             "files": [
                 28,
                 43
             ],
-            "children": null
+            "children": [
+                {
+                    "tag": "Feminist Theology",
+                    "files": [
+                        3,
+                        58
+                    ],
+                    "children": null
+                }
+            ]
         },
         {
             "tag": "Film",
@@ -324,6 +349,14 @@ let database =
                     ]
                 },
                 {
+                    "tag": "Political Philosophy",
+                    "files": [
+                        67,
+                        95
+                    ],
+                    "children": null
+                },
+                {
                     "tag": "Social Philosophy",
                     "files": [],
                     "children": [
@@ -405,7 +438,8 @@ let database =
                     "files": [
                         26,
                         99,
-                        103
+                        103,
+                        85
                     ],
                     "children": null
                 },
@@ -419,27 +453,6 @@ let database =
                         101,
                         108,
                         109
-                    ],
-                    "children": null
-                }
-            ]
-        },
-        {
-            "tag": "Theology",
-            "files": [],
-            "children": [
-                {
-                    "tag": "Feminist Theology",
-                    "files": [
-                        3,
-                        58
-                    ],
-                    "children": null
-                },
-                {
-                    "tag": "Non-western",
-                    "files": [
-                        19
                     ],
                     "children": null
                 }
@@ -1093,7 +1106,7 @@ let database =
         },
         {
             "id": 51,
-            "title": "How to Brew_ Everything You Need to Know to Brew Beer Right the First Time",
+            "title": "How to Brew: Everything You Need to Know to Brew Beer Right the First Time",
             "by": [
                 {
                     "name": "John J. Palmer",
@@ -1105,7 +1118,7 @@ let database =
         },
         {
             "id": 52,
-            "title": "Interface Cultures_ Artistic Aspects of Interaction",
+            "title": "Interface Cultures: Artistic Aspects of Interaction",
             "by": [
                 {
                     "name": "Christa Sommerer",
@@ -1237,7 +1250,7 @@ let database =
         },
         {
             "id": 61,
-            "title": "Madness and Civilization_ A History of Insanity in the Age of Reason",
+            "title": "Madness and Civilization: A History of Insanity in the Age of Reason",
             "by": [
                 {
                     "name": "Michel Foucault",
@@ -1513,7 +1526,7 @@ let database =
         },
         {
             "id": 82,
-            "title": "Subnature_ Architecture’s Other Environments",
+            "title": "Subnature: Architecture’s Other Environments",
             "by": [
                 {
                     "name": "David Gissen",
@@ -1557,7 +1570,7 @@ let database =
         },
         {
             "id": 85,
-            "title": "The Allure of the Selfie_ Instagram and the New Self-Portrait",
+            "title": "The Allure of the Selfie: Instagram and the New Self-Portrait",
             "by": [
                 {
                     "name": "Brooke Wendt",
@@ -1569,7 +1582,7 @@ let database =
         },
         {
             "id": 86,
-            "title": "The Code_ Silicon Valley and the Remaking of America",
+            "title": "The Code: Silicon Valley and the Remaking of America",
             "by": [
                 {
                     "name": "Margaret O'Mara",

@@ -38,11 +38,16 @@ main {
 #masterlist a:visited {
     width: 70%;
     text-decoration: none;
-    color: rgb(0, 0, 235);
+    color: rgb(0, 0, 200);
 }
 
 #masterlist a:active {
     color: black;
+}
+
+#masterlist a:hover {
+    background-color: rgb(255, 72, 0); 
+    color: white;
 }
 
 #taglistlink {
@@ -57,11 +62,17 @@ main {
     top: 50vh;
 }
 
-#taglistlink > a:link,
-#taglistlink > a:visted,
-#taglistlink > a:active {
+#taglist a:link,
+#taglist a:visted,
+#taglist a:active {
     color: rgb(255, 72, 0);
     text-decoration: none;
+}
+
+#taglist em:hover,
+#taglist a:hover {
+    background-color: rgb(255, 72, 0);
+    color: white;
 }
 
 header {
