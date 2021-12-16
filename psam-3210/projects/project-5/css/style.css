@@ -4,11 +4,69 @@ html {
 
 body {
     margin: auto;
+    background-color: rgb(255, 236, 228);
+}
+
+header,
+main {
+    width: 80%;
+    margin: auto;
+}
+
+#taglist,
+#masterlist {
+    display: block;
+    margin: auto;
+    float: left;
 }
 
 #taglist {
-    width: 50%;
-    margin: auto;
+    margin-right: 4%;
+    width: 26%;
+}
+
+#taglist a {
+    text-decoration: none;
+    color: rgb(255, 72, 0);
+}
+
+#masterlist {
+    width: 70%;
+}
+
+#taglistlink {
+    display: flex;
+    position: fixed;
+    font-size: 3em;
+    border: 1px rgb(255, 72, 0) solid;
+    color: rgb(255, 72, 0);
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    text-decoration: none;
+    top: 50vh;
+}
+
+#taglistlink > a:link,
+#taglistlink > a:visted,
+#taglistlink > a:active {
+    color: rgb(255, 72, 0);
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 50vh;
+}
+
+main {
+    display: block;
+    margin-bottom: 50vh;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(255, 72, 0);
+    font-weight: 400;
 }
 
 em {
@@ -16,10 +74,9 @@ em {
     font-weight: 400;
     font-size: 2rem;
     font-style: normal;
-    border: 1px red solid;
-    color: red;
-    border-radius: 5px;
-    background-color: rgb(255, 213, 220);
+    border: 1px rgb(255, 72, 0) solid;
+    color: rgb(255, 72, 0);
+    border-radius: 0px;
     padding: 2px;
 }
 
@@ -28,10 +85,20 @@ em {
     font-size: 3rem;
     margin-top: 4rem;
     margin-bottom: 1rem;
-    border-top: 1px red solid;
-    border-left: 1px red solid;
+    border-top: 1px rgb(255, 72, 0) solid;
+    border-left: 1px rgb(255, 72, 0) solid;
     padding-left: 4px;
-    background-color: rgba(0, 255, 0, 0.15);
+    background-color: rgba(255, 255, 255, 0.333);
+}
+
+.taglist {
+    display: block;
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    border-top: 1px rgb(255, 72, 0) solid;
+    border-left: 1px rgb(255, 72, 0) solid;
+    padding-left: 4px;
 }
 
 .link {

@@ -392,11 +392,6 @@ let database =
             ]
         },
         {
-            "tag": "Semiotics",
-            "files": [],
-            "children": null
-        },
-        {
             "tag": "Technology",
             "files": [
                 27,
@@ -419,7 +414,6 @@ let database =
                     "files": [
                         26,
                         99,
-                        100,
                         103
                     ],
                     "children": null
@@ -1068,10 +1062,10 @@ let database =
         },
         {
             "id": 48,
-            "title": "",
+            "title": "Object-oriented Ontology a New Theory of Everything",
             "by": [
                 {
-                    "name": "",
+                    "name": "Graham Harman",
                     "type": "Author"
                 }
             ],
@@ -1080,10 +1074,14 @@ let database =
         },
         {
             "id": 49,
-            "title": "",
+            "title": "Hitchcock",
             "by": [
                 {
-                    "name": "",
+                    "name": "Francois Truffaut",
+                    "type": "Author"
+                },
+                {
+                    "name": "Helen G. Scott",
                     "type": "Author"
                 }
             ],
@@ -1092,10 +1090,10 @@ let database =
         },
         {
             "id": 50,
-            "title": "",
+            "title": "Hooch: Simplified Brewing, Winemaking & Infusing at Home",
             "by": [
                 {
-                    "name": "",
+                    "name": "Scott Meyer",
                     "type": "Author"
                 }
             ],
@@ -1104,10 +1102,10 @@ let database =
         },
         {
             "id": 51,
-            "title": "",
+            "title": "How to Brew_ Everything You Need to Know to Brew Beer Right the First Time",
             "by": [
                 {
-                    "name": "",
+                    "name": "John J. Palmer",
                     "type": "Author"
                 }
             ],
@@ -1116,11 +1114,19 @@ let database =
         },
         {
             "id": 52,
-            "title": "",
+            "title": "Interface Cultures_ Artistic Aspects of Interaction",
             "by": [
                 {
-                    "name": "",
-                    "type": "Author"
+                    "name": "Christa Sommerer",
+                    "type": "Editor"
+                },
+                {
+                    "name": "Laurent Mignonneau",
+                    "type": "Editor"
+                },
+                {
+                    "name": "Dorothée King",
+                    "type": "Editor"
                 }
             ],
             "year": null,
@@ -1128,10 +1134,10 @@ let database =
         },
         {
             "id": 53,
-            "title": "",
+            "title": "The New Typography",
             "by": [
                 {
-                    "name": "",
+                    "name": "Jan Tschichold",
                     "type": "Author"
                 }
             ],
@@ -1140,10 +1146,10 @@ let database =
         },
         {
             "id": 54,
-            "title": "",
+            "title": "Do Androids Dream of Electric Cars?: Public Transit in the Age of Google, Uber, and Elon Musk",
             "by": [
                 {
-                    "name": "",
+                    "name": "James Wilt",
                     "type": "Author"
                 }
             ],
@@ -1152,10 +1158,10 @@ let database =
         },
         {
             "id": 55,
-            "title": "",
+            "title": "Designing Programmes",
             "by": [
                 {
-                    "name": "",
+                    "name": "Karl Gerstner",
                     "type": "Author"
                 }
             ],
@@ -1164,11 +1170,15 @@ let database =
         },
         {
             "id": 56,
-            "title": "",
+            "title": "Capitalism and the Camera: Essays on Photography and Extraction",
             "by": [
                 {
-                    "name": "",
-                    "type": "Author"
+                    "name": "Kevin Coleman",
+                    "type": "Editor"
+                },
+                {
+                    "name": "Daniel James",
+                    "type": "Editor"
                 }
             ],
             "year": null,
@@ -1176,10 +1186,10 @@ let database =
         },
         {
             "id": 57,
-            "title": "",
+            "title": "Layout Essentials: 100 Design Principles for Using Grids",
             "by": [
                 {
-                    "name": "",
+                    "name": "Beth Tondreau",
                     "type": "Author"
                 }
             ],
@@ -1188,11 +1198,23 @@ let database =
         },
         {
             "id": 58,
-            "title": "",
+            "title": "Inheriting Our Mothers’ Gardens: Feminist Theology in Third World Perspective",
             "by": [
                 {
-                    "name": "",
-                    "type": "Author"
+                    "name": "Letty M. Russell",
+                    "type": "Editor"
+                },
+                {
+                    "name": "Kwok Pui-lan",
+                    "type": "Editor"
+                },
+                {
+                    "name": "Ada Maríia Isasi-Díiaz",
+                    "type": "Editor"
+                },
+                {
+                    "name": "Katie Geneva Cannon",
+                    "type": "Editor"
                 }
             ],
             "year": null,
@@ -1200,10 +1222,10 @@ let database =
         },
         {
             "id": 59,
-            "title": "",
+            "title": "The Language of New Media",
             "by": [
                 {
-                    "name": "",
+                    "name": "Lev Manovich",
                     "type": "Author"
                 }
             ],
@@ -1212,10 +1234,10 @@ let database =
         },
         {
             "id": 60,
-            "title": "",
+            "title": "Like a Thief in Broad Daylight: Power in the Era of Post-humanity",
             "by": [
                 {
-                    "name": "",
+                    "name": "Slavoj Žižek",
                     "type": "Author"
                 }
             ],
@@ -1224,10 +1246,10 @@ let database =
         },
         {
             "id": 61,
-            "title": "",
+            "title": "Madness and Civilization_ A History of Insanity in the Age of Reason",
             "by": [
                 {
-                    "name": "",
+                    "name": "Michel Foucault",
                     "type": "Author"
                 }
             ],
@@ -1236,11 +1258,11 @@ let database =
         },
         {
             "id": 62,
-            "title": "",
+            "title": "Manifesto: A Century of Isms",
             "by": [
                 {
-                    "name": "",
-                    "type": "Author"
+                    "name": "Mary Ann Caws",
+                    "type": "Editor"
                 }
             ],
             "year": null,
@@ -1248,10 +1270,10 @@ let database =
         },
         {
             "id": 63,
-            "title": "",
+            "title": "Marx at the Arcade: Consoles, Controllers, and Class Struggle",
             "by": [
                 {
-                    "name": "",
+                    "name": "Jamie Woodcock",
                     "type": "Author"
                 }
             ],
@@ -1260,10 +1282,10 @@ let database =
         },
         {
             "id": 64,
-            "title": "",
+            "title": "Mastering Homebrew: The Complete Guide to Brewing Delicious Beer",
             "by": [
                 {
-                    "name": "",
+                    "name": "Randy Mosher",
                     "type": "Author"
                 }
             ],
@@ -1272,11 +1294,15 @@ let database =
         },
         {
             "id": 65,
-            "title": "",
+            "title": "Media Archaeology: Approaches, Applications, and Implications",
             "by": [
                 {
-                    "name": "",
-                    "type": "Author"
+                    "name": "Erkki Huhtamo",
+                    "type": "Editor"
+                },
+                {
+                    "name": "Jussi Parikka",
+                    "type": "Editor"
                 }
             ],
             "year": null,
@@ -1284,10 +1310,18 @@ let database =
         },
         {
             "id": 66,
-            "title": "",
+            "title": "Resonances: Noise and Contemporary Music",
             "by": [
                 {
-                    "name": "",
+                    "name": "Michael Goddard",
+                    "type": "Author"
+                },
+                {
+                    "name": "Benjamin Halligan",
+                    "type": "Author"
+                },
+                {
+                    "name": "Nicola Spelman",
                     "type": "Author"
                 }
             ],
@@ -1296,10 +1330,14 @@ let database =
         },
         {
             "id": 67,
-            "title": "",
+            "title": "Empire",
             "by": [
                 {
-                    "name": "",
+                    "name": "Michael Hardt",
+                    "type": "Author"
+                },
+                {
+                    "name": "Antonio Negri",
                     "type": "Author"
                 }
             ],
@@ -1308,10 +1346,10 @@ let database =
         },
         {
             "id": 68,
-            "title": "",
+            "title": "Modern Typography, 2nd Edition",
             "by": [
                 {
-                    "name": "",
+                    "name": "Robin Kinross",
                     "type": "Author"
                 }
             ],
@@ -1320,10 +1358,10 @@ let database =
         },
         {
             "id": 69,
-            "title": "",
+            "title": "Multi-racial Parents: Mixed Families, Generational Change, and the Future of Race",
             "by": [
                 {
-                    "name": "",
+                    "name": "Miri Song",
                     "type": "Author"
                 }
             ],
@@ -1332,10 +1370,10 @@ let database =
         },
         {
             "id": 70,
-            "title": "",
+            "title": "Music and the Making of Modern Science",
             "by": [
                 {
-                    "name": "",
+                    "name": "Peter Pesic",
                     "type": "Author"
                 }
             ],
@@ -1344,10 +1382,10 @@ let database =
         },
         {
             "id": 71,
-            "title": "",
+            "title": "New Dark Age: Technology and the End of the Future",
             "by": [
                 {
-                    "name": "",
+                    "name": "James Bridle",
                     "type": "Author"
                 }
             ],
@@ -1356,11 +1394,15 @@ let database =
         },
         {
             "id": 72,
-            "title": "",
+            "title": "Inquiring about God: Selected Essays, Volume 1",
             "by": [
                 {
-                    "name": "",
+                    "name": "Nicholas Wolterstorff",
                     "type": "Author"
+                },
+                {
+                    "name": "Terence Cuneo",
+                    "type": "Editor"
                 }
             ],
             "year": null,
@@ -1368,11 +1410,11 @@ let database =
         },
         {
             "id": 73,
-            "title": "",
+            "title": "Philosophy and the Mixed Race Experience",
             "by": [
                 {
-                    "name": "",
-                    "type": "Author"
+                    "name": "Tina Fernandes Botts",
+                    "type": "Editor"
                 }
             ],
             "year": null,
@@ -1380,10 +1422,10 @@ let database =
         },
         {
             "id": 74,
-            "title": "",
+            "title": "Platform Capitalism",
             "by": [
                 {
-                    "name": "",
+                    "name": "Nick Srnicek",
                     "type": "Author"
                 }
             ],
@@ -1392,10 +1434,10 @@ let database =
         },
         {
             "id": 75,
-            "title": "",
+            "title": "Race After Technology",
             "by": [
                 {
-                    "name": "",
+                    "name": "Ruha Benjamin",
                     "type": "Author"
                 }
             ],
@@ -1404,10 +1446,10 @@ let database =
         },
         {
             "id": 76,
-            "title": "",
+            "title": "Radical Technologies: The Design of Everyday Life",
             "by": [
                 {
-                    "name": "",
+                    "name": "Adam Greenfield",
                     "type": "Author"
                 }
             ],
@@ -1416,10 +1458,14 @@ let database =
         },
         {
             "id": 77,
-            "title": "",
+            "title": "Conversations about Sculpture",
             "by": [
                 {
-                    "name": "",
+                    "name": "Richard Serra",
+                    "type": "Author"
+                },
+                {
+                    "name": "Hal Foster",
                     "type": "Author"
                 }
             ],
@@ -1428,10 +1474,10 @@ let database =
         },
         {
             "id": 78,
-            "title": "",
+            "title": "Riding for Deliveroo: Resistance in the New Economy",
             "by": [
                 {
-                    "name": "",
+                    "name": "Callum Cant",
                     "type": "Author"
                 }
             ],
@@ -1440,10 +1486,10 @@ let database =
         },
         {
             "id": 79,
-            "title": "",
+            "title": "The Elements of Typographic Style",
             "by": [
                 {
-                    "name": "",
+                    "name": "Robert Bringhurst",
                     "type": "Author"
                 }
             ],
@@ -1452,10 +1498,10 @@ let database =
         },
         {
             "id": 80,
-            "title": "",
+            "title": "Role of Japan in Modern Chinese Art",
             "by": [
                 {
-                    "name": "",
+                    "name": "Joshua A. Fogel",
                     "type": "Author"
                 }
             ],
@@ -1464,10 +1510,10 @@ let database =
         },
         {
             "id": 81,
-            "title": "",
+            "title": "(Routledge Philosophy Guidebook to) Kant and the Critique of Pure Reason",
             "by": [
                 {
-                    "name": "",
+                    "name": "Sebastian Gardner",
                     "type": "Author"
                 }
             ],
@@ -1476,10 +1522,10 @@ let database =
         },
         {
             "id": 82,
-            "title": "",
+            "title": "Subnature_ Architecture’s Other Environments",
             "by": [
                 {
-                    "name": "",
+                    "name": "David Gissen",
                     "type": "Author"
                 }
             ],
@@ -1488,10 +1534,10 @@ let database =
         },
         {
             "id": 83,
-            "title": "",
+            "title": "Subprime Attention Crisis",
             "by": [
                 {
-                    "name": "",
+                    "name": "Tim Hwang",
                     "type": "Author"
                 }
             ],
@@ -1500,11 +1546,19 @@ let database =
         },
         {
             "id": 84,
-            "title": "",
+            "title": "Techno-Orientalism: Imagining Asia in Speculative Fiction, History, and Media",
             "by": [
                 {
-                    "name": "",
-                    "type": "Author"
+                    "name": "David S. Roh",
+                    "type": "Editor"
+                },
+                {
+                    "name": "Betsy Huang",
+                    "type": "Editor"
+                },
+                {
+                    "name": "Greta A. Niu",
+                    "type": "Editor"
                 }
             ],
             "year": null,
@@ -1512,10 +1566,10 @@ let database =
         },
         {
             "id": 85,
-            "title": "",
+            "title": "The Allure of the Selfie_ Instagram and the New Self-Portrait",
             "by": [
                 {
-                    "name": "",
+                    "name": "Brooke Wendt",
                     "type": "Author"
                 }
             ],
@@ -1524,10 +1578,10 @@ let database =
         },
         {
             "id": 86,
-            "title": "",
+            "title": "The Code_ Silicon Valley and the Remaking of America",
             "by": [
                 {
-                    "name": "",
+                    "name": "Margaret O'Mara",
                     "type": "Author"
                 }
             ],
@@ -1536,10 +1590,10 @@ let database =
         },
         {
             "id": 87,
-            "title": "",
+            "title": "The Cultural Politics of Emotion",
             "by": [
                 {
-                    "name": "",
+                    "name": "Sara Ahmed",
                     "type": "Author"
                 }
             ],
@@ -1548,10 +1602,10 @@ let database =
         },
         {
             "id": 88,
-            "title": "",
+            "title": "The Evolution of Allure: Sexual Selection from the Medici Venus to the Incredible Hulk",
             "by": [
                 {
-                    "name": "",
+                    "name": "George L. Hersey",
                     "type": "Author"
                 }
             ],
@@ -1560,10 +1614,10 @@ let database =
         },
         {
             "id": 89,
-            "title": "",
+            "title": "The Form of the Book: Essays on the Morality of Good Design",
             "by": [
                 {
-                    "name": "",
+                    "name": "Jan Tschichold",
                     "type": "Author"
                 }
             ],
@@ -1572,10 +1626,10 @@ let database =
         },
         {
             "id": 90,
-            "title": "",
+            "title": "The History of the Future: Oculus, Facebook, and the Revolution that Swept Virtual Reality",
             "by": [
                 {
-                    "name": "",
+                    "name": "Blake J. Harris",
                     "type": "Author"
                 }
             ],
@@ -1584,10 +1638,10 @@ let database =
         },
         {
             "id": 91,
-            "title": "",
+            "title": "The Homebrewer’s Companion: The Complete Joy of Homebrewing, Master’s Edition",
             "by": [
                 {
-                    "name": "",
+                    "name": "Charlie Papazian",
                     "type": "Author"
                 }
             ],
@@ -1596,10 +1650,10 @@ let database =
         },
         {
             "id": 92,
-            "title": "",
+            "title": "The Location of Culture",
             "by": [
                 {
-                    "name": "",
+                    "name": "Homi K. Bhabha",
                     "type": "Author"
                 }
             ],
@@ -1608,10 +1662,10 @@ let database =
         },
         {
             "id": 93,
-            "title": "",
+            "title": "The Metaphysics of Virtual Reality",
             "by": [
                 {
-                    "name": "",
+                    "name": "Michael Heim",
                     "type": "Author"
                 }
             ],
@@ -1620,10 +1674,10 @@ let database =
         },
         {
             "id": 94,
-            "title": "",
+            "title": "The One Device: The Secret History of the iPhone",
             "by": [
                 {
-                    "name": "",
+                    "name": "Brian Merchant",
                     "type": "Author"
                 }
             ],
@@ -1632,10 +1686,10 @@ let database =
         },
         {
             "id": 95,
-            "title": "",
+            "title": "The Origins of Totalitarianism",
             "by": [
                 {
-                    "name": "",
+                    "name": "Hannah Arendt",
                     "type": "Author"
                 }
             ],
@@ -1644,10 +1698,10 @@ let database =
         },
         {
             "id": 96,
-            "title": "",
+            "title": "The Possibility of an Absolute Architecture",
             "by": [
                 {
-                    "name": "",
+                    "name": "Pier Vittorio Aureli",
                     "type": "Author"
                 }
             ],
@@ -1656,10 +1710,10 @@ let database =
         },
         {
             "id": 97,
-            "title": "",
+            "title": "The Radicant",
             "by": [
                 {
-                    "name": "",
+                    "name": "Nicolas Bourriaud",
                     "type": "Author"
                 }
             ],
@@ -1668,10 +1722,10 @@ let database =
         },
         {
             "id": 98,
-            "title": "",
+            "title": "The Ruin of Kasch",
             "by": [
                 {
-                    "name": "",
+                    "name": "Roberto Calasso",
                     "type": "Author"
                 }
             ],
@@ -1680,10 +1734,10 @@ let database =
         },
         {
             "id": 99,
-            "title": "",
+            "title": "The Stack: On Software and Sovereignty",
             "by": [
                 {
-                    "name": "",
+                    "name": "Benjamin H. Bratton",
                     "type": "Author"
                 }
             ],
@@ -1692,10 +1746,10 @@ let database =
         },
         {
             "id": 100,
-            "title": "",
+            "title": "The Stack: On Software and Sovereignty",
             "by": [
                 {
-                    "name": "",
+                    "name": "Benjamin H. Bratton",
                     "type": "Author"
                 }
             ],
@@ -1704,10 +1758,10 @@ let database =
         },
         {
             "id": 101,
-            "title": "",
+            "title": "The Virtual",
             "by": [
                 {
-                    "name": "",
+                    "name": "Rob Shields",
                     "type": "Author"
                 }
             ],
@@ -1716,11 +1770,15 @@ let database =
         },
         {
             "id": 102,
-            "title": "",
+            "title": "The Triumph of Typography: Culture, Communication, New Media",
             "by": [
                 {
-                    "name": "",
-                    "type": "Author"
+                    "name": "Henk Hoeks",
+                    "type": "Editor"
+                },
+                {
+                    "name": "Ewan Lentjes",
+                    "type": "Editor"
                 }
             ],
             "year": null,
@@ -1728,10 +1786,10 @@ let database =
         },
         {
             "id": 103,
-            "title": "",
+            "title": "Theory of the Image",
             "by": [
                 {
-                    "name": "",
+                    "name": "Thomas Nail",
                     "type": "Author"
                 }
             ],
@@ -1740,10 +1798,10 @@ let database =
         },
         {
             "id": 104,
-            "title": "",
+            "title": "Thinking With Type: A Critical Guide for Designers, Writers, Editors, and Students",
             "by": [
                 {
-                    "name": "",
+                    "name": "Ellen Lupton",
                     "type": "Author"
                 }
             ],
@@ -1752,10 +1810,10 @@ let database =
         },
         {
             "id": 105,
-            "title": "",
+            "title": "Making: Anthropology, Archaeology, Art and Architecture",
             "by": [
                 {
-                    "name": "",
+                    "name": "Tim Ingold",
                     "type": "Author"
                 }
             ],
@@ -1764,10 +1822,10 @@ let database =
         },
         {
             "id": 106,
-            "title": "",
+            "title": "To Save Everything, Click Here: The Folly of Technological Solutionism",
             "by": [
                 {
-                    "name": "",
+                    "name": "Evgeny Morozov",
                     "type": "Author"
                 }
             ],
@@ -1776,10 +1834,14 @@ let database =
         },
         {
             "id": 107,
-            "title": "",
+            "title": "Understanding Architecture: An Introduction to Architecture and Architectural History",
             "by": [
                 {
-                    "name": "",
+                    "name": "Hazel Conway",
+                    "type": "Author"
+                },
+                {
+                    "name": "Rowan Roenisch",
                     "type": "Author"
                 }
             ],
@@ -1788,10 +1850,10 @@ let database =
         },
         {
             "id": 108,
-            "title": "",
+            "title": "Virtual Reality",
             "by": [
                 {
-                    "name": "",
+                    "name": "Samuel Greengard",
                     "type": "Author"
                 }
             ],
@@ -1800,10 +1862,10 @@ let database =
         },
         {
             "id": 109,
-            "title": "",
+            "title": "Virtual Reality and the Built Environment",
             "by": [
                 {
-                    "name": "",
+                    "name": "Jennifer Whyte",
                     "type": "Author"
                 }
             ],
@@ -1812,11 +1874,15 @@ let database =
         },
         {
             "id": 110,
-            "title": "",
+            "title": "Visualizing Research: A Guide to the Research Process in Art and Design",
             "by": [
                 {
-                    "name": "",
-                    "type": "Author"
+                    "name": "Carole Gray",
+                    "type": "Editor"
+                },
+                {
+                    "name": "Julian Malins",
+                    "type": "Editor"
                 }
             ],
             "year": null,
@@ -1824,10 +1890,10 @@ let database =
         },
         {
             "id": 111,
-            "title": "",
+            "title": "What Is Cinema?, Volume 1",
             "by": [
                 {
-                    "name": "",
+                    "name": "André Bazin",
                     "type": "Author"
                 }
             ],
@@ -1836,10 +1902,10 @@ let database =
         },
         {
             "id": 112,
-            "title": "",
+            "title": "What Is Cinema?, Volume 2",
             "by": [
                 {
-                    "name": "",
+                    "name": "André Bazin",
                     "type": "Author"
                 }
             ],
@@ -1848,10 +1914,10 @@ let database =
         },
         {
             "id": 113,
-            "title": "",
+            "title": "Being Human: The Call to Christian Personhood",
             "by": [
                 {
-                    "name": "",
+                    "name": "Rowan Williams",
                     "type": "Author"
                 }
             ],
@@ -1860,10 +1926,10 @@ let database =
         },
         {
             "id": 114,
-            "title": "",
+            "title": "Designing Books: practice and theory",
             "by": [
                 {
-                    "name": "",
+                    "name": "Jost Hochuli",
                     "type": "Author"
                 }
             ],
@@ -1872,10 +1938,10 @@ let database =
         },
         {
             "id": 115,
-            "title": "",
+            "title": "Signs, Symbols & Ornaments",
             "by": [
                 {
-                    "name": "",
+                    "name": "Rene Smeets",
                     "type": "Author"
                 }
             ],
@@ -1887,12 +1953,38 @@ let database =
 
 console.log(database)
 
+function getTagList() {
+
+    for (let i = 0; i < database.tagList.length; i++) {
+        let taglevel1 = i;
+        document.getElementById("taglist").innerHTML += `<div class="taglist a" id="taglevel${taglevel1}"><em><a href="#level${taglevel1}">${database.tagList[i].tag}</a></em></div>`
+        console.log(database.tagList[i].tag)
+        console.log("taglevel1 " + taglevel1)
+
+        for (let i = 0; (database.tagList[taglevel1].children != null) && (i < database.tagList[taglevel1].children.length); i++) {
+            let taglevel2 = i;
+            document.getElementById(`taglevel${taglevel1}`).innerHTML += `<div class="taglist b" id="taglevel${taglevel1}-${taglevel2}"><em><a href="#level${taglevel1}-${taglevel2}">${database.tagList[taglevel1].children[i].tag}</a></em></div>`
+            console.log("|   " + database.tagList[taglevel1].children[i].tag)
+            console.log("|   taglevel2 " + taglevel2)
+
+            for (let i = 0; (database.tagList[taglevel1].children[taglevel2].children != null) && (i < database.tagList[taglevel1].children[taglevel2].children.length); i++) {
+                let taglevel3 = i;
+                document.getElementById(`taglevel${taglevel1}-${taglevel2}`).innerHTML += `<div class="taglist c" id="taglevel${taglevel1}-${taglevel2}-${taglevel3}"><em><a href="#level${taglevel1}-${taglevel2}-${taglevel3}">${database.tagList[taglevel1].children[taglevel2].children[i].tag}</a></em></div>`
+                console.log("|   |   " + database.tagList[taglevel1].children[taglevel2].children[i].tag)
+                console.log("|   |   taglevel3 " + taglevel3)
+            }
+        }
+    }
+}
+
+getTagList();
+
 
 function getMasterList() {
 
     for (let i = 0; i < database.tagList.length; i++) {
         let level1 = i;
-        document.getElementById("taglist").innerHTML += `<div class="list a" id="level${level1}"><em>${database.tagList[i].tag}</em></div>`
+        document.getElementById("masterlist").innerHTML += `<div class="list a" id="level${level1}"><em>${database.tagList[i].tag}</em></div>`
         console.log(database.tagList[i].tag)
         console.log("level1 " + level1)
 
