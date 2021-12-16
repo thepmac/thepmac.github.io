@@ -1981,7 +1981,7 @@ function getMasterList() {
 
         for (let i = 0; i < database.tagList[level1].files.length; i++) {
             let file = i;
-            document.getElementById(`level${level1}`).innerHTML += `<div class="link"><i><a href="${database.fileList[database.tagList[level1].files[file]].src}">${database.fileList[database.tagList[level1].files[file]].title}</a></i> by ${database.fileList[database.tagList[level1].files[file]].by[0].name}</div>`
+            document.getElementById(`level${level1}`).innerHTML += `<div class="link"><i><a href="#" onclick="reader('${database.fileList[database.tagList[level1].files[file]].src}')">${database.fileList[database.tagList[level1].files[file]].title}</a></i> by ${database.fileList[database.tagList[level1].files[file]].by[0].name}</div>`
             console.log(database.tagList[level1].files[file])
         }
 
@@ -1993,7 +1993,7 @@ function getMasterList() {
 
             for (let i = 0; i < database.tagList[level1].children[level2].files.length; i++) {
                 let file = i;
-                document.getElementById(`level${level1}-${level2}`).innerHTML += `<div class="link"><i><a href="${database.fileList[database.tagList[level1].children[level2].files[file]].src}">${database.fileList[database.tagList[level1].children[level2].files[file]].title}</a></i> by ${database.fileList[database.tagList[level1].children[level2].files[file]].by[0].name}</div>`
+                document.getElementById(`level${level1}-${level2}`).innerHTML += `<div class="link"><i><a href="#" onclick="reader('${database.fileList[database.tagList[level1].children[level2].files[file]].src}')">${database.fileList[database.tagList[level1].children[level2].files[file]].title}</a></i> by ${database.fileList[database.tagList[level1].children[level2].files[file]].by[0].name}</div>`
                 console.log(database.tagList[level1].children[level2].files[file])
             }
 
@@ -2005,7 +2005,7 @@ function getMasterList() {
 
                 for (let i = 0; i < database.tagList[level1].children[level2].children[level3].files.length; i++) {
                     let file = i;
-                    document.getElementById(`level${level1}-${level2}-${level3}`).innerHTML += `<div class="link"><i><a href="${database.fileList[database.tagList[level1].children[level2].children[level3].files[file]].src}">${database.fileList[database.tagList[level1].children[level2].children[level3].files[file]].title}</a></i> by ${database.fileList[database.tagList[level1].children[level2].children[level3].files[file]].by[0].name}</div>`
+                    document.getElementById(`level${level1}-${level2}-${level3}`).innerHTML += `<div class="link"><i><a href="#" onclick="reader('${database.fileList[database.tagList[level1].children[level2].children[level3].files[file]].src}')">${database.fileList[database.tagList[level1].children[level2].children[level3].files[file]].title}</a></i> by ${database.fileList[database.tagList[level1].children[level2].children[level3].files[file]].by[0].name}</div>`
                     console.log(database.tagList[level1].children[level2].children[level3].files[file])
                 }
             }
@@ -2015,3 +2015,19 @@ function getMasterList() {
 
 getMasterList();
 
+
+
+function reader(source) {
+    document.getElementById("viewer").innerHTML = `<iframe id="iframepdf" src="${source}"></iframe><div class="close" onclick="remove()">esc</div>`
+    iframe.src = source;
+}
+
+function remove() {
+    document.getElementById("viewer").innerHTML = "";
+}
+
+document.addEventListener('keydown', function(event){
+	if(event.key === "Escape"){
+		document.getElementById("viewer").innerHTML = "";
+	}
+});

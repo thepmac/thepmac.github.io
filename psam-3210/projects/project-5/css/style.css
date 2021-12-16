@@ -130,3 +130,33 @@ em {
 .c {
     margin-left: 4rem;
 }
+
+.hide {
+    display: ;
+}
+
+#viewer {
+    position: fixed;
+    top: 5vh;
+    left: 5vw;
+    display: block;
+    margin: auto;
+}
+
+#iframepdf {
+    width: 90vw;
+    height: 90vh;
+}
+
+.close {
+    position: fixed;
+    top: 5vh;
+    left: 2.5vw;
+    font-size: 3em;
+    color: white;
+    border-radius: 0px;
+    background-color: rgb(255, 72, 0);
+    padding: 2px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
