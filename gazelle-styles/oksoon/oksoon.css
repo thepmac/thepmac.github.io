@@ -1592,7 +1592,7 @@ body.lightbox__scroll-lock {
     float: left;
     display: block;
     width: 140px;
-    padding: 2px 0 1px 0
+    padding: ;
 }
 
 .main-menu__link:hover {
@@ -2699,7 +2699,7 @@ span.spoiler-show img {
     float: left;
     display: block;
     width: 140px;
-    padding: 2px 0 1px 0
+    padding: ;
 }
 
 .user-info-bar__drop-down-menu {
