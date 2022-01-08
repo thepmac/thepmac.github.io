@@ -754,6 +754,7 @@ th {
 
 .basic-movie-list__torrent-edition {
     background-color: var(--table-alt1);
+    padding-top: .5em;
 }
 
 .basic-movie-list__torrent-edition__main {
