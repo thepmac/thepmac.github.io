@@ -9,7 +9,7 @@
 var userLat;
 var userLong;
 
-var targetLat = 10.65738493092836;
+var targetLat = 40.65738493092836;
 var targetLong = -73.9616219061852;
 var latMax;
 var latMin;
@@ -79,7 +79,7 @@ function success(pos) {
         document.getElementById('work').style.display = "block";
     } else {
         document.getElementById('sorry').style.display = "block";
-        document.getElementById('sorry').innerHTML += `<a href="https://www.google.com/maps/dir/${userLat},${userLong}/${targetLat},${targetLong}" target="_blank">Try Moving Closer</a>`;
+        document.getElementById('sorry').innerHTML += `<a href="https://www.google.com/maps/dir/${userLat},${userLong}/${targetLat},${targetLong}" target="_blank">Try moving closer.</a>`;
     }
 }
 
