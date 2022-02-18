@@ -20,4 +20,6 @@ body {
 
 #sorry {
     display: none;
+    margin: auto;
+    text-align: center;
 }
