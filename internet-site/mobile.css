@@ -18,6 +18,7 @@ body {
     display: block;
     max-width: 100%;
     height: auto;
+    max-height: 90vh;
     margin-bottom: 5%;
 }
 
