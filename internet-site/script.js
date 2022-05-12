@@ -9,8 +9,8 @@
 var userLat;
 var userLong;
 
-var targetLat = 40.65738493092836;
-var targetLong = -73.9616219061852;
+var targetLat = 40.73528;
+var targetLong = -73.99472;
 var latMax;
 var latMin;
 var longMax;
