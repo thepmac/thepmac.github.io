@@ -17,7 +17,7 @@
 body {
     margin: auto;
     padding: 0;
-    font-family: "Gothic No. 6";
+    font-family: "Gothic No. 6", sans-serif;
     font-size: 8px;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
