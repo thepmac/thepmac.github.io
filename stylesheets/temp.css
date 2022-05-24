@@ -1,17 +1,28 @@
 body {
     margin: auto;
     padding: 0;
+    font-family: "Gothic No. 6";
+    font-size: 8px;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 .container {
     display: block;
     width: 100%;
-    background: linear-gradient(to top right, #fff calc(50% - 100px), rgb(255, 0, 0), #fff calc(50% + 100px));
+    background: linear-gradient(to top right, rgb(0, 0, 0) calc(50% - 1px), rgb(255, 255, 255), #fff calc(50% + 1px));
     margin: auto;
-    z-index: 100;
 }
 
 .section {
-    width: 90%;
+    width: 50%;
     margin: auto;
+    font-size: 1rem;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.section:after {
+    mix-blend-mode: difference;
 }
