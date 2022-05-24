@@ -1,0 +1,17 @@
+body {
+    margin: auto;
+    padding: 0;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    background: linear-gradient(to top right, #fff calc(50% - 100px), rgb(255, 0, 0), #fff calc(50% + 100px));
+    margin: auto;
+    z-index: 100;
+}
+
+.section {
+    width: 90%;
+    margin: auto;
+}
