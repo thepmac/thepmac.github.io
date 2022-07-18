@@ -37,7 +37,7 @@ function populateEntries() {
         let count = i;
         console.log("Count: " + count)
 
-        document.getElementById("list").innerHTML += `<div class="entry" id="${database.entries[i].entry}"></div>`
+        document.getElementById("list").innerHTML += `<a href="entry/${database.entries[i].entry}.html"><div class="entry" id="${database.entries[i].entry}"></div></a>`
         console.log("Creating DIV for Entry # " + database.entries[i].entry)
 
         document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="entryid">${database.entries[i].entry}</div>`

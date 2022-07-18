@@ -2,40 +2,41 @@ html {}
 
 body {
     margin: auto;
+    letter-spacing: .025em;
+    font-family: Arial;
 }
 
 #list {
-    width: 1200px;
+    width: 60%;
     display: block;
-    padding: 40px;
 }
 
 .entryid {
-    width: 20px;
+    width: 2%;
 }
 
 .date {
-    width: 120px;
+    width: 10%;
 }
 
 .title {
-    width: 400px;
+    width: 35%;
 }
 
 .artist {
-    width: 200px;
+    width: 24%;
 }
 
 .year {
-    width: 60px;
+    width: 6%;
 }
 
 .type {
-    width: 100px;
+    width: 6%;
 }
 
 .cover {
-    width: 160px;
+    width: 10%;
 }
 
 .cover>img {
@@ -50,22 +51,28 @@ body {
 .type,
 .cover {
     display: inline-block;
-    margin: 0px 10px 0px 0px;
-    overflow: hidden;
-    white-space: nowrap;
+    margin-right: 1%;
     vertical-align: top;
 }
 
 .entry {
-    margin: 0px 0px 30px 0px;
-    border-top: 1px solid black;
+    margin: 0px 0px 0px 0px;
 }
 
-.entry:first-child {
+#key {
     font-weight: 700;
+    background-color: rgb(255, 145, 246);
 }
 
 #list {
     margin: auto;
     position: relative;
+}
+
+#list>a {
+    color: black;
+}
+
+.entry:hover {
+    background-color: rgb(255, 145, 246);
 }
