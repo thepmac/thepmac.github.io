@@ -55,30 +55,3 @@ let database = {
         }
     ]
 }
-
-
-
-
-
-function populateEntries() {
-
-    document.getElementById("list").innerHTML += `<div class="entry" id="key"><div class="entryid">#</div><div class="cover">Cover</div><div class="title">Title</div><div class="artist">Artist</div><div class="year">Year</div><div class="type">Type</div><div class="date">Heard On</div></div>`
-
-    for (let i = 0; i < database.entries.length; i++) {
-        let count = i;
-
-        document.getElementById("list").innerHTML += `<a href="https://www.youtube.com/results?search_query=${database.entries[i].title}+${database.entries[i].year}+${database.entries[i].type}+${database.entries[i].artist}+topic" target="_blank"><div class="entry" id="${database.entries[i].entry}"></div></a>`
-            //document.getElementById("list").innerHTML += `<div class="entry" id="${database.entries[i].entry}"></div>`
-        console.log("Populating Log with Entry # " + database.entries[i].entry)
-
-        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="entryid">${database.entries[i].entry}</div>`
-        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="cover"><img src="${database.entries[i].cover}" /></div>`
-        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="title">${database.entries[i].title}</div>`
-        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="artist">${database.entries[i].artist}</div>`
-        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="year">${database.entries[i].year}</div>`
-        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="type">${database.entries[i].type}</div>`
-        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="date">${database.entries[i].date}</div>`
-    }
-}
-
-populateEntries();

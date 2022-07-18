@@ -22,7 +22,6 @@ body {
 
 main {
     margin: auto;
-    background-color: white;
     font-size: 2em;
 }
 
@@ -48,7 +47,7 @@ header {
 }
 
 .artist {
-    width: 24%;
+    width: 20%;
 }
 
 .year {
@@ -57,6 +56,10 @@ header {
 
 .type {
     width: 6%;
+}
+
+.yt {
+    width: 2%;
 }
 
 .cover {
@@ -73,6 +76,7 @@ header {
 .artist,
 .year,
 .type,
+.yt,
 .cover {
     display: inline-block;
     margin-right: 1%;
@@ -99,4 +103,17 @@ header {
 
 .entry:hover {
     background-color: rgb(255, 145, 246);
+}
+
+.yt>a:link,
+.yt>a:visited,
+.yt>a:active {
+    color: #00f;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+    color: #000;
 }
