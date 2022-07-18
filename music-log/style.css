@@ -1,0 +1,40 @@
+html {}
+
+body {
+    margin: auto;
+}
+
+#list {
+    width: 60%;
+    display: block;
+    background-color: #c1c1c1;
+    padding: 40px;
+}
+
+.date {
+    background-color: rgb(255, 255, 185);
+}
+
+.title {
+    background-color: rgb(185, 222, 255);
+}
+
+.artist {
+    background-color: rgb(253, 185, 255);
+}
+
+.year {
+    background-color: rgb(255, 255, 185);
+}
+
+.type {
+    background-color: rgb(185, 222, 255);
+}
+
+.rating {
+    background-color: rgb(253, 185, 255);
+}
+
+.cover-art {
+    background-color: rgb(255, 255, 185);
+}
