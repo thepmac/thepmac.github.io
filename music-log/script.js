@@ -1,7 +1,7 @@
 let database = {
     "entries": [{
             "entry": 2,
-            "date": "SUN 2022-07-17",
+            "date": "2022-07-17 SUN",
             "title": "Spiro World",
             "artist": "Time Wharp",
             "year": 2022,
@@ -10,7 +10,7 @@ let database = {
         },
         {
             "entry": 1,
-            "date": "SUN 2022-07-17",
+            "date": "2022-07-17 SUN",
             "title": "It’s Not Up To Us",
             "artist": "Byard Lancaster",
             "year": 2005,
@@ -19,7 +19,7 @@ let database = {
         },
         {
             "entry": 0,
-            "date": "SUN 2022-07-17",
+            "date": "2022-07-17 SUN",
             "title": "Freesummer",
             "artist": "CADEJO",
             "year": 2019,
@@ -31,14 +31,14 @@ let database = {
 
 function populateEntries() {
 
-    document.getElementById("list").innerHTML += `<div class="entry" id="key"><div class="entryid">#</div><div class="cover">Cover</div><div class="title">Title</div><div class="artist">Artist</div><div class="year">Year</div><div class="type">Type</div><div class="date">Date Added</div></div>`
+    document.getElementById("list").innerHTML += `<div class="entry" id="key"><div class="entryid">#</div><div class="cover">Cover</div><div class="title">Title</div><div class="artist">Artist</div><div class="year">Year</div><div class="type">Type</div><div class="date">Heard On</div></div>`
 
     for (let i = 0; i < database.entries.length; i++) {
         let count = i;
-        console.log("Count: " + count)
 
-        document.getElementById("list").innerHTML += `<a href="entry/${database.entries[i].entry}.html"><div class="entry" id="${database.entries[i].entry}"></div></a>`
-        console.log("Creating DIV for Entry # " + database.entries[i].entry)
+        document.getElementById("list").innerHTML += `<a href="https://www.youtube.com/results?search_query=${database.entries[i].title}+${database.entries[i].year}+${database.entries[i].type}+${database.entries[i].artist}+topic" target="_blank"><div class="entry" id="${database.entries[i].entry}"></div></a>`
+            //document.getElementById("list").innerHTML += `<div class="entry" id="${database.entries[i].entry}"></div>`
+        console.log("Populating Log with Entry # " + database.entries[i].entry)
 
         document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="entryid">${database.entries[i].entry}</div>`
         document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="cover"><img src="${database.entries[i].cover}" /></div>`
