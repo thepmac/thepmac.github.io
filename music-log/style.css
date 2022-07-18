@@ -7,48 +7,39 @@ body {
 #list {
     width: 1200px;
     display: block;
-    background-color: #c1c1c1;
     padding: 40px;
 }
 
 .entryid {
-    background-color: #c1c1c1;
     width: 20px;
 }
 
 .date {
-    background-color: rgb(255, 255, 185);
     width: 120px;
 }
 
 .title {
-    background-color: rgb(185, 222, 255);
     width: 400px;
 }
 
 .artist {
-    background-color: rgb(253, 185, 255);
     width: 200px;
 }
 
 .year {
-    background-color: rgb(255, 255, 185);
     width: 60px;
 }
 
 .type {
-    background-color: rgb(185, 222, 255);
-    width: 120px;
-}
-
-.rating {
-    background-color: rgb(253, 185, 255);
-    width: 60px;
+    width: 100px;
 }
 
 .cover {
-    background-color: rgb(255, 255, 185);
-    width:
+    width: 160px;
+}
+
+.cover>img {
+    width: 100%;
 }
 
 .entryid,
@@ -57,12 +48,24 @@ body {
 .artist,
 .year,
 .type,
-.rating,
 .cover {
     display: inline-block;
-    margin-right: 10px;
+    margin: 0px 10px 0px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: top;
 }
 
 .entry {
-    margin-bottom: 30px;
+    margin: 0px 0px 30px 0px;
+    border-top: 1px solid black;
+}
+
+.entry:first-child {
+    font-weight: 700;
+}
+
+#list {
+    margin: auto;
+    position: relative;
 }
