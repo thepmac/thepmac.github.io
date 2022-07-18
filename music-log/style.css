@@ -5,36 +5,64 @@ body {
 }
 
 #list {
-    width: 60%;
+    width: 1200px;
     display: block;
     background-color: #c1c1c1;
     padding: 40px;
 }
 
+.entryid {
+    background-color: #c1c1c1;
+    width: 20px;
+}
+
 .date {
     background-color: rgb(255, 255, 185);
+    width: 120px;
 }
 
 .title {
     background-color: rgb(185, 222, 255);
+    width: 400px;
 }
 
 .artist {
     background-color: rgb(253, 185, 255);
+    width: 200px;
 }
 
 .year {
     background-color: rgb(255, 255, 185);
+    width: 60px;
 }
 
 .type {
     background-color: rgb(185, 222, 255);
+    width: 120px;
 }
 
 .rating {
     background-color: rgb(253, 185, 255);
+    width: 60px;
 }
 
-.cover-art {
+.cover {
     background-color: rgb(255, 255, 185);
+    width:
+}
+
+.entryid,
+.date,
+.title,
+.artist,
+.year,
+.type,
+.rating,
+.cover {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.entry {
+    margin-bottom: 30px;
 }
