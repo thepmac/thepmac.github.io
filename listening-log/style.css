@@ -47,7 +47,7 @@
         font-size: 2em;
     }
     .entryid {
-        width: 2%;
+        width: 4%;
     }
     .date {
         width: 8%;
@@ -62,7 +62,7 @@
         width: 4%;
     }
     .type {
-        width: 8%;
+        width: 6%;
     }
     .links {
         width: 4%;
@@ -183,6 +183,7 @@ a:hover {
 }
 
 .entryurl {
-    color: rgb(255, 145, 246) !important;
+    background-color: rgb(255, 145, 246) !important;
+    color: white !important;
     font-weight: 700;
 }
