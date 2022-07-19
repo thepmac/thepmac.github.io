@@ -1,4 +1,4 @@
-var total = database.entries.length
+var total = database.entries.length;
 var num = window.location.pathname.split('/');
 console.log(num);
 num = num[3].slice(0, -5);
