@@ -2,11 +2,60 @@
     main {
         width: 100%;
     }
+    .entryid {
+        width: 48%;
+    }
+    .date {
+        width: 48%;
+    }
+    .title {
+        width: 48%;
+    }
+    .artist {
+        width: 48%;
+    }
+    .year {
+        width: 48%;
+    }
+    .type {
+        width: 48%;
+    }
+    .yt {
+        width: 48%;
+    }
+    .cover {
+        width: 50%;
+        float: left;
+    }
 }
 
 @media only screen and (min-width: 801px) {
     main {
         width: 60%;
+    }
+    .entryid {
+        width: 2%;
+    }
+    .date {
+        width: 10%;
+    }
+    .title {
+        width: 35%;
+    }
+    .artist {
+        width: 20%;
+    }
+    .year {
+        width: 6%;
+    }
+    .type {
+        width: 6%;
+    }
+    .yt {
+        width: 2%;
+    }
+    .cover {
+        width: 10%;
     }
 }
 
@@ -34,38 +83,6 @@ header {
     display: block;
 }
 
-.entryid {
-    width: 2%;
-}
-
-.date {
-    width: 10%;
-}
-
-.title {
-    width: 35%;
-}
-
-.artist {
-    width: 20%;
-}
-
-.year {
-    width: 6%;
-}
-
-.type {
-    width: 6%;
-}
-
-.yt {
-    width: 2%;
-}
-
-.cover {
-    width: 10%;
-}
-
 .cover>img {
     width: 100%;
 }
@@ -84,7 +101,8 @@ header {
 }
 
 .entry {
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 00px 0px;
+    display: flow-root;
 }
 
 #key {
