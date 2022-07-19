@@ -1,5 +1,15 @@
 let database = {
     "entries": [{
+            "entry": 7,
+            "page": false,
+            "date": [2022, 07, 19],
+            "title": "Love, Damini",
+            "artist": "Burna Boy",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://media.pitchfork.com/photos/62c5e6964807e30a5dfd2fdb/1:1/w_600/Burna-Boy-Love-Damini.jpg"
+        },
+        {
             "entry": 6,
             "page": true,
             "date": [2022, 07, 19],
@@ -8,7 +18,8 @@ let database = {
             "year": 2022,
             "type": "album",
             "cover": "https://diy-magazine.s3.amazonaws.com/d/diy/Artists/I/Interpol/INT_TOSOMB.jpg"
-        }, {
+        },
+        {
             "entry": 5,
             "page": false,
             "date": [2022, 07, 18],
