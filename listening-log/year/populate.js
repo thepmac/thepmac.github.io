@@ -11,7 +11,7 @@ console.log("Year: ", param1);
 
 function populateEntries() {
 
-    document.getElementById("list").innerHTML += `<div class="entry" id="key"><div class="entryid">#</div><div class="cover">Cover</div><div class="title">Title</div><div class="artist">Artist</div><div class="year">Year</div><div class="type">Type</div><div class="date">Heard On</div><div class="yt">YT</div></div>`
+    document.getElementById("list").innerHTML += `<div class="entry" id="key"><div class="entryid">#</div><div class="cover">Cover</div><div class="title">Title</div><div class="artist">Artist</div><div class="year">Year</div><div class="type">Type</div><div class="date">Heard On</div><div class="links">Links</div></div>`
 
     for (let i = 0; i < database.entries.length; i++) {
         let count = i;
@@ -32,7 +32,7 @@ function populateEntries() {
             document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="year"><a href="../year/index.html?year=${database.entries[i].year}">${database.entries[i].year}</div>`
             document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="type"><a href="../type/index.html?type=${database.entries[i].type}">${database.entries[i].type}</div>`
             document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="date"><a href="../date/index.html?date=${database.entries[i].date}">${database.entries[i].date}</div>`
-            document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="yt"><a href="https://www.youtube.com/results?search_query=${database.entries[i].title}+${database.entries[i].year}+${database.entries[i].type}+${database.entries[i].artist}+topic" target="_blank">YT</a></div>`
+            document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="links"><a href="https://www.youtube.com/results?search_query=${database.entries[i].title}+${database.entries[i].year}+${database.entries[i].type}+${database.entries[i].artist}+topic" target="_blank">YT</a>, <a href="https://www.discogs.com/search/?q=${database.entries[i].title}+${database.entries[i].year}+${database.entries[i].artist}&type=all" target="_blank">D</a></div>`
         } else {}
     }
 }

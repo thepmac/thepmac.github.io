@@ -25,7 +25,7 @@
         width: 48%;
         margin-bottom: 1em;
     }
-    .yt {
+    .links {
         width: 48%;
     }
     .cover {
@@ -64,7 +64,7 @@
     .type {
         width: 8%;
     }
-    .yt {
+    .links {
         width: 2%;
     }
     .cover {
@@ -122,7 +122,7 @@ header {
 .artist,
 .year,
 .type,
-.yt,
+.links,
 .cover {
     display: inline-block;
     margin-right: 1%;
@@ -159,9 +159,9 @@ header {
     background-color: rgb(255, 145, 246);
 }
 
-.yt>a:link,
-.yt>a:visited,
-.yt>a:active {
+.links>a:link,
+.links>a:visited,
+.links>a:active {
     color: #00f;
 }
 
