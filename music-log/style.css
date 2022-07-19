@@ -1,6 +1,7 @@
 @media only screen and (max-width: 800px) {
     main {
         width: 100%;
+        font-size: 1.65em;
     }
     .entryid {
         width: 48%;
@@ -38,6 +39,7 @@
 @media only screen and (min-width: 801px) {
     main {
         width: 60%;
+        font-size: 2em;
     }
     .entryid {
         width: 2%;
@@ -77,7 +79,6 @@ body {
 
 main {
     margin: auto;
-    font-size: 2em;
 }
 
 header {
