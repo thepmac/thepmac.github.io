@@ -1,15 +1,17 @@
 let database = {
     "entries": [{
             "entry": 5,
+            "page": false,
             "date": "2022-07-17 SUN",
             "title": "In Vitro - Volume One",
             "artist": "Claro Intelecto",
             "year": 2019,
-            "type": "album, anthology",
+            "type": "anthology",
             "cover": "https://f4.bcbits.com/img/a2487780159_10.jpg"
         },
         {
             "entry": 4,
+            "page": false,
             "date": "2022-07-17 SUN",
             "title": "[Las Vegas]",
             "artist": "Burger / Ink",
@@ -19,6 +21,7 @@ let database = {
         },
         {
             "entry": 3,
+            "page": false,
             "date": "2022-07-17 SUN",
             "title": "Connecting The Dots",
             "artist": "Michael Mayer",
@@ -28,6 +31,7 @@ let database = {
         },
         {
             "entry": 2,
+            "page": false,
             "date": "2022-07-17 SUN",
             "title": "Spiro World",
             "artist": "Time Wharp",
@@ -37,6 +41,7 @@ let database = {
         },
         {
             "entry": 1,
+            "page": false,
             "date": "2022-07-17 SUN",
             "title": "It’s Not Up To Us",
             "artist": "Byard Lancaster",
@@ -46,6 +51,7 @@ let database = {
         },
         {
             "entry": 0,
+            "page": false,
             "date": "2022-07-17 SUN",
             "title": "Freesummer",
             "artist": "CADEJO",

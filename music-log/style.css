@@ -117,3 +117,9 @@ a:active,
 a:hover {
     color: #000;
 }
+
+.entryid a:link,
+.entryid a:visited,
+.entryid a:active {
+    color: #f00;
+}

@@ -9,7 +9,11 @@ function populateEntries() {
             //document.getElementById("list").innerHTML += `<div class="entry" id="${database.entries[i].entry}"></div>`
         console.log("Populating Log with Entry # " + database.entries[i].entry)
 
-        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="entryid">${database.entries[i].entry}</div>`
+        if (database.entries[i].page == false) {
+            document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="entryid">${database.entries[i].entry}</div>`
+        } else {
+            document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="entryid"><a class="entryurl" href="entry/${database.entries[i].entry}.html">${database.entries[i].entry}</a></div>`
+        }
         document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="cover"><img src="${database.entries[i].cover}" /></div>`
         document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="title">${database.entries[i].title}</div>`
         document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="artist"><a href="artist/index.html?artist=${database.entries[i].artist}">${database.entries[i].artist}</div>`
