@@ -21,13 +21,13 @@ function populateEntries() {
                 //document.getElementById("list").innerHTML += `<div class="entry" id="${database.entries[i].entry}"></div>`
             console.log("Populating Log with Entry # " + database.entries[i].entry)
 
-            if (database.entries[i].page == false) {
-                document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="entryid">${database.entries[i].entry}</div>`
-            } else {
-                document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="entryid"><a class="entryurl" href="../entry/${database.entries[i].entry}.html">${database.entries[i].entry}</a></div>`
-            }
+            document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="entryid">${database.entries[i].entry}</div>`
             document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="cover"><img src="${database.entries[i].cover}" /></div>`
-            document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="title">${database.entries[i].title}</div>`
+            if (database.entries[i].page == false) {
+                document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="title">${database.entries[i].title}</div>`
+            } else {
+                document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="title">${database.entries[i].title}&nbsp<a class="entryurl" href="../entry/${database.entries[i].entry}.html">***</a></div>`
+            }
             document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="artist"><a href="../artist/index.html?artist=${database.entries[i].artist}">${database.entries[i].artist}</a></div>`
             document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="year"><a href="../year/index.html?year=${database.entries[i].year}"><em>${database.entries[i].year}</em></a></div>`
             document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="type"><a href="../type/index.html?type=${database.entries[i].type}">${database.entries[i].type}</a></div>`
