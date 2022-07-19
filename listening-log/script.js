@@ -1,7 +1,7 @@
 let database = {
     "entries": [{
             "entry": 7,
-            "page": false,
+            "page": true,
             "date": [2022, 07, 19],
             "title": "Love, Damini",
             "artist": "Burna Boy",
