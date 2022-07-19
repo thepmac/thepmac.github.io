@@ -26,7 +26,7 @@ let database = {
             "artist": "Burger / Ink",
             "year": 1998,
             "type": "album",
-            "cover": "https://www.electro-space.de/wp-content/uploads/2022/03/Burger-Ink-Las-Vegas.jpg"
+            "cover": "https://i.discogs.com/nvB2A9yq_BgUtfzcY6SqDLDHrLu18io97XTf725qIgc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2MTg5/LTE0MTEzNzg5OTAt/MTIyMC5qcGVn.jpeg"
         },
         {
             "entry": 3,
