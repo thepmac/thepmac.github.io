@@ -1,3 +1,41 @@
+@media only screen and (min-width: 801px) {
+    main {
+        width: 60%;
+        font-size: 2em;
+    }
+    .entryid {
+        width: 4%;
+    }
+    .date {
+        width: 8%;
+    }
+    .title {
+        width: 35%;
+    }
+    .artist {
+        width: 20%;
+    }
+    .year {
+        width: 4%;
+    }
+    .type {
+        width: 6%;
+    }
+    .links {
+        width: 4%;
+    }
+    .cover {
+        width: 10%;
+    }
+    .comment p {
+        padding-bottom: 1em;
+        width: calc(.35 * (.6 * 100vw));
+    }
+    .comment {
+        padding-left: 16%;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     main {
         width: 94%;
@@ -38,44 +76,6 @@
     .comment p {
         padding-bottom: 1em;
         width: 100%;
-    }
-}
-
-@media only screen and (min-width: 801px) {
-    main {
-        width: 60%;
-        font-size: 2em;
-    }
-    .entryid {
-        width: 4%;
-    }
-    .date {
-        width: 8%;
-    }
-    .title {
-        width: 35%;
-    }
-    .artist {
-        width: 20%;
-    }
-    .year {
-        width: 4%;
-    }
-    .type {
-        width: 6%;
-    }
-    .links {
-        width: 4%;
-    }
-    .cover {
-        width: 10%;
-    }
-    .comment p {
-        padding-bottom: 1em;
-        width: calc(.35 * (.6 * 100vw));
-    }
-    .comment {
-        padding-left: 16%;
     }
 }
 
