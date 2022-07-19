@@ -72,10 +72,7 @@
     }
     .comment p {
         padding-bottom: 1em;
-        width: calc(.35 * (.6 * 100vw));
-    }
-    .comment {
-        padding-left: 14%;
+        width: 35%;
     }
 }
 
@@ -87,10 +84,6 @@ body {
     font-family: Arial;
     padding-top: 4vw;
     font-size: 8px;
-}
-
-p {
-    margin: 0;
 }
 
 main {
