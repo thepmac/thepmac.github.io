@@ -1,6 +1,9 @@
 var total = database.entries.length;
+console.log("There are ", total, " total entries in the log.");
+
 var num = window.location.pathname.split('/');
 console.log(num);
+
 num = num[3].slice(0, -5);
 console.log("This is the page for entry #:", num);
 
@@ -8,7 +11,7 @@ function populateEntries() {
 
     document.getElementById("list").innerHTML += `<div class="entry" id="key"><div class="entryid">#</div><div class="cover">Cover</div><div class="title">Title</div><div class="artist">Artist</div><div class="year">Year</div><div class="type">Type</div><div class="date">Heard On</div><div class="links">Links</div></div>`
 
-    let i = (total - num);
+    let i = (total - num - 1);
 
     document.getElementById("list").innerHTML += `<div class="entry" id="${database.entries[i].entry}"></div>`
         //document.getElementById("list").innerHTML += `<div class="entry" id="${database.entries[i].entry}"></div>`
