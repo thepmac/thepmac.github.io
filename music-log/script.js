@@ -2,7 +2,7 @@ let database = {
     "entries": [{
             "entry": 5,
             "page": false,
-            "date": "2022-07-17 SUN",
+            "date": "2022-07-17",
             "title": "In Vitro - Volume One",
             "artist": "Claro Intelecto",
             "year": 2019,
@@ -12,7 +12,7 @@ let database = {
         {
             "entry": 4,
             "page": false,
-            "date": "2022-07-17 SUN",
+            "date": "2022-07-17",
             "title": "[Las Vegas]",
             "artist": "Burger / Ink",
             "year": 1998,
@@ -22,7 +22,7 @@ let database = {
         {
             "entry": 3,
             "page": true,
-            "date": "2022-07-17 SUN",
+            "date": "2022-07-17",
             "title": "Connecting The Dots",
             "artist": "Michael Mayer",
             "year": 2021,
@@ -32,7 +32,7 @@ let database = {
         {
             "entry": 2,
             "page": false,
-            "date": "2022-07-17 SUN",
+            "date": "2022-07-17",
             "title": "Spiro World",
             "artist": "Time Wharp",
             "year": 2022,
@@ -42,7 +42,7 @@ let database = {
         {
             "entry": 1,
             "page": false,
-            "date": "2022-07-17 SUN",
+            "date": "2022-07-17",
             "title": "It’s Not Up To Us",
             "artist": "Byard Lancaster",
             "year": 2005,
@@ -52,7 +52,7 @@ let database = {
         {
             "entry": 0,
             "page": false,
-            "date": "2022-07-17 SUN",
+            "date": "2022-07-17",
             "title": "Freesummer",
             "artist": "CADEJO",
             "year": 2019,
