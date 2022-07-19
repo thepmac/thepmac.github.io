@@ -1,8 +1,17 @@
 let database = {
     "entries": [{
+            "entry": 6,
+            "page": true,
+            "date": [2022, 07, 19],
+            "title": "The Other Side of Make-Believe",
+            "artist": "Interpol",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://diy-magazine.s3.amazonaws.com/d/diy/Artists/I/Interpol/INT_TOSOMB.jpg"
+        }, {
             "entry": 5,
             "page": false,
-            "date": "2022-07-17",
+            "date": [2022, 07, 18],
             "title": "In Vitro - Volume One",
             "artist": "Claro Intelecto",
             "year": 2019,
@@ -12,7 +21,7 @@ let database = {
         {
             "entry": 4,
             "page": false,
-            "date": "2022-07-17",
+            "date": [2022, 07, 18],
             "title": "[Las Vegas]",
             "artist": "Burger / Ink",
             "year": 1998,
@@ -21,8 +30,8 @@ let database = {
         },
         {
             "entry": 3,
-            "page": true,
-            "date": "2022-07-17",
+            "page": false,
+            "date": [2022, 07, 18],
             "title": "Connecting The Dots",
             "artist": "Michael Mayer",
             "year": 2021,
@@ -32,7 +41,7 @@ let database = {
         {
             "entry": 2,
             "page": false,
-            "date": "2022-07-17",
+            "date": [2022, 07, 17],
             "title": "Spiro World",
             "artist": "Time Wharp",
             "year": 2022,
@@ -42,7 +51,7 @@ let database = {
         {
             "entry": 1,
             "page": false,
-            "date": "2022-07-17",
+            "date": [2022, 07, 17],
             "title": "It’s Not Up To Us",
             "artist": "Byard Lancaster",
             "year": 2005,
@@ -52,7 +61,7 @@ let database = {
         {
             "entry": 0,
             "page": false,
-            "date": "2022-07-17",
+            "date": [2022, 07, 17],
             "title": "Freesummer",
             "artist": "CADEJO",
             "year": 2019,

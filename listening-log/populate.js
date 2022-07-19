@@ -16,10 +16,10 @@ function populateEntries() {
         }
         document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="cover"><img src="${database.entries[i].cover}" /></div>`
         document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="title">${database.entries[i].title}</div>`
-        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="artist"><a href="artist/index.html?artist=${database.entries[i].artist}">${database.entries[i].artist}</div>`
-        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="year"><a href="year/index.html?year=${database.entries[i].year}">${database.entries[i].year}</div>`
-        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="type"><a href="type/index.html?type=${database.entries[i].type}">${database.entries[i].type}</div>`
-        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="date"><a href="date/index.html?date=${database.entries[i].date}">${database.entries[i].date}</div>`
+        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="artist"><a href="artist/index.html?artist=${database.entries[i].artist}">${database.entries[i].artist}</a></div>`
+        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="year"><a href="year/index.html?year=${database.entries[i].year}">${database.entries[i].year}</a></div>`
+        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="type"><a href="type/index.html?type=${database.entries[i].type}">${database.entries[i].type}</a></div>`
+        document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="date"><a href="date/index.html?year=${database.entries[i].date[0]}">${database.entries[i].date[0]}</a>-<a href="date/index.html?year=${database.entries[i].date[0]}&month=${database.entries[i].date[1]}">${database.entries[i].date[1]}</a>-<a href="date/index.html?year=${database.entries[i].date[0]}&month=${database.entries[i].date[1]}&day=${database.entries[i].date[2]}">${database.entries[i].date[2]}</a></div>`
         document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="links"><a href="https://www.youtube.com/results?search_query=${database.entries[i].title}+${database.entries[i].year}+${database.entries[i].type}+${database.entries[i].artist}+topic" target="_blank">YT</a>, <a href="https://www.discogs.com/search/?q=${database.entries[i].title}+${database.entries[i].year}+${database.entries[i].artist}&type=all" target="_blank">D</a></div>`
     }
 }
