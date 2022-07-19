@@ -21,7 +21,7 @@ let database = {
         },
         {
             "entry": 3,
-            "page": false,
+            "page": true,
             "date": "2022-07-17 SUN",
             "title": "Connecting The Dots",
             "artist": "Michael Mayer",
