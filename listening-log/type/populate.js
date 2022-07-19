@@ -26,7 +26,7 @@ function populateEntries() {
             if (database.entries[i].page == false) {
                 document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="title">${database.entries[i].title}</div>`
             } else {
-                document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="title">${database.entries[i].title}&nbsp<a class="entryurl" href="../entry/${database.entries[i].entry}.html">***</a></div>`
+                document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="title">${database.entries[i].title}&nbsp<a class="entryurl" href="../entry/${database.entries[i].entry}.html">C</a></div>`
             }
             document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="artist"><a href="../artist/index.html?artist=${database.entries[i].artist}">${database.entries[i].artist}</a></div>`
             document.getElementById(`${database.entries[i].entry}`).innerHTML += `<div class="year"><a href="../year/index.html?year=${database.entries[i].year}">${database.entries[i].year}</a></div>`
