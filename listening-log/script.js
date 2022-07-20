@@ -1,5 +1,15 @@
 let database = {
     "entries": [{
+            "entry": 8,
+            "page": false,
+            "date": [2022, 07, 19],
+            "title": "The Amala Trick / In The Middle",
+            "artist": "Laksa",
+            "year": 2018,
+            "type": "single",
+            "cover": "https://f4.bcbits.com/img/a1318736841_10.jpg"
+        },
+        {
             "entry": 7,
             "page": true,
             "date": [2022, 07, 19],
