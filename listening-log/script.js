@@ -1,5 +1,15 @@
 let database = {
     "entries": [{
+            "entry": 9,
+            "page": false,
+            "date": [2022, 07, 19],
+            "title": "III",
+            "artist": "Holy Tongue",
+            "year": 2022,
+            "type": "ep",
+            "cover": "https://f4.bcbits.com/img/a2126161362_10.jpg"
+        },
+        {
             "entry": 8,
             "page": false,
             "date": [2022, 07, 19],
