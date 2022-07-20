@@ -141,6 +141,11 @@ header {
     border-top: 1px solid black;
 }
 
+.star {
+    background-color: rgb(201, 195, 0);
+    color: black;
+}
+
 #key {
     background-color: black;
     color: rgb(255, 145, 246);
