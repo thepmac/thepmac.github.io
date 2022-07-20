@@ -1,5 +1,27 @@
+/*
+{
+    "entry": 00,
+    "page": false,
+    "date": [, , ],
+    "title": "",
+    "artist": "",
+    "year": 0000,
+    "type": "album",
+    "cover": ""
+},
+*/
+
 let database = {
     "entries": [{
+            "entry": 11,
+            "page": false,
+            "date": [2022, 07, 20],
+            "title": "Gifted",
+            "artist": "Koffee",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://media.pitchfork.com/photos/61fc1f6ac968401d75b0b18c/1:1/w_600/Koffee-Gifted.jpeg"
+        }, {
             "entry": 10,
             "page": false,
             "date": [2022, 07, 19],
