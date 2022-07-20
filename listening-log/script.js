@@ -1,7 +1,17 @@
 let database = {
     "entries": [{
-            "entry": 9,
+            "entry": 10,
             "page": false,
+            "date": [2022, 07, 19],
+            "title": "The New Four Seasons - Vivaldi Recomposed",
+            "artist": "Max Richter",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://media.pitchfork.com/photos/62a77da703b7e08c8701e269/1:1/w_600/Max%20Richter%20-%20The%20New%20Four%20Seasons.jpeg"
+        },
+        {
+            "entry": 9,
+            "page": true,
             "date": [2022, 07, 19],
             "title": "III",
             "artist": "Holy Tongue",
