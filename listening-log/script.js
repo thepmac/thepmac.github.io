@@ -27,7 +27,7 @@ let database = {
             "artist": "Interpol",
             "year": 2022,
             "type": "album",
-            "cover": "https://diy-magazine.s3.amazonaws.com/d/diy/Artists/I/Interpol/INT_TOSOMB.jpg"
+            "cover": "https://www.billboard-japan.com/scale/news/00000112/112287/800x_sub_image243671.jpg"
         },
         {
             "entry": 5,
