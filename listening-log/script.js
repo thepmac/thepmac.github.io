@@ -85,7 +85,7 @@ let database = {
             "artist": "Interpol",
             "year": 2022,
             "type": "album",
-            "cover": "https://www.billboard-japan.com/scale/news/00000112/112287/800x_sub_image243671.jpg",
+            "cover": "https://pbs.twimg.com/card_img/1548065939177893888/Aq4nTYkW?format=jpg&name=900x900",
             "star": false
         },
         {
