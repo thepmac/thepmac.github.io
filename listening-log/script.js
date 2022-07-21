@@ -1,4 +1,5 @@
 /*
+
 {
     "entry": 00,
     "page": false,
@@ -10,10 +11,22 @@
     "cover": "",
     "star": false
 },
+
 */
 
 let database = {
     "entries": [{
+            "entry": 13,
+            "page": false,
+            "date": [2022, 07, 21],
+            "title": "champ",
+            "artist": "AF85",
+            "year": 2017,
+            "type": "ep",
+            "cover": "https://f4.bcbits.com/img/a3711944346_20.jpg",
+            "star": false
+        },
+        {
             "entry": 12,
             "page": false,
             "date": [2022, 07, 20],
@@ -21,7 +34,7 @@ let database = {
             "artist": "Shanique Marie",
             "year": 2021,
             "type": "album",
-            "cover": "https://f4.bcbits.com/img/a2470209585_10.jpg",
+            "cover": "https://f4.bcbits.com/img/a2470209585_20.jpg",
             "star": true
         }, {
             "entry": 11,
@@ -52,7 +65,7 @@ let database = {
             "artist": "Holy Tongue",
             "year": 2022,
             "type": "ep",
-            "cover": "https://f4.bcbits.com/img/a2126161362_10.jpg",
+            "cover": "https://f4.bcbits.com/img/a2126161362_20.jpg",
             "star": false
         },
         {
@@ -63,7 +76,7 @@ let database = {
             "artist": "Laksa",
             "year": 2018,
             "type": "single",
-            "cover": "https://f4.bcbits.com/img/a1318736841_10.jpg",
+            "cover": "https://f4.bcbits.com/img/a1318736841_20.jpg",
             "star": false
         },
         {
@@ -96,7 +109,7 @@ let database = {
             "artist": "Claro Intelecto",
             "year": 2019,
             "type": "anthology",
-            "cover": "https://f4.bcbits.com/img/a2487780159_10.jpg",
+            "cover": "https://f4.bcbits.com/img/a2487780159_20.jpg",
             "star": false
         },
         {
@@ -118,7 +131,7 @@ let database = {
             "artist": "Michael Mayer",
             "year": 2021,
             "type": "album",
-            "cover": "https://f4.bcbits.com/img/a0608671658_10.jpg",
+            "cover": "https://f4.bcbits.com/img/a0608671658_20.jpg",
             "star": false
         },
         {
@@ -129,7 +142,7 @@ let database = {
             "artist": "Time Wharp",
             "year": 2022,
             "type": "album",
-            "cover": "https://f4.bcbits.com/img/a1971162551_10.jpg",
+            "cover": "https://f4.bcbits.com/img/a1971162551_20.jpg",
             "star": false
         },
         {
