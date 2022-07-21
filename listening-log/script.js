@@ -6,7 +6,7 @@
     "date": [, , ],
     "title": "",
     "artist": "",
-    "year": 0000,
+    "year": 2000,
     "type": "album",
     "cover": "",
     "star": false
@@ -16,6 +16,16 @@
 
 let database = {
     "entries": [{
+            "entry": 14,
+            "page": false,
+            "date": [2022, 07, 21],
+            "title": "Leave This World Behind",
+            "artist": "Cold Colors",
+            "year": 2017,
+            "type": "ep",
+            "cover": "https://f4.bcbits.com/img/a3141735770_20.jpg",
+            "star": false
+        }, {
             "entry": 13,
             "page": false,
             "date": [2022, 07, 21],
