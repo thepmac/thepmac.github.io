@@ -108,7 +108,7 @@ let database = {
             "artist": "Interpol",
             "year": 2022,
             "type": "album",
-            "cover": "https://pbs.twimg.com/card_img/1548065939177893888/Aq4nTYkW?format=jpg&name=900x900",
+            "cover": "https://f4.bcbits.com/img/a0069737040_20.jpg",
             "star": false
         },
         {
