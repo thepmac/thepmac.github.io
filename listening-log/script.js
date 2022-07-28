@@ -14,8 +14,20 @@
 
 */
 
+
 let database = {
     "entries": [{
+            "entry": 15,
+            "page": false,
+            "date": [2022, 07, 27],
+            "title": "Carrier Signal (with EDEN)",
+            "artist": "Kai Whiston",
+            "year": 2022,
+            "type": "single",
+            "cover": "https://f4.bcbits.com/img/a0087534346_20.jpg",
+            "star": false
+        },
+        {
             "entry": 14,
             "page": false,
             "date": [2022, 07, 21],
