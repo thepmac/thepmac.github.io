@@ -17,6 +17,17 @@
 
 let database = {
     "entries": [{
+            "entry": 16,
+            "page": false,
+            "date": [2022, 07, 27],
+            "title": "新月",
+            "artist": "Nav Katze",
+            "year": 1991,
+            "type": "album",
+            "cover": "https://m.media-amazon.com/images/I/71K8QQBzClL._SS500_.jpg",
+            "star": false
+        },
+        {
             "entry": 15,
             "page": false,
             "date": [2022, 07, 27],
