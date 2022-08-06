@@ -17,6 +17,17 @@
 
 let database = {
     "entries": [{
+            "entry": 17,
+            "page": false,
+            "date": [2022, 08, 05],
+            "title": "Sounds of My World",
+            "artist": "Juls",
+            "year": 2021,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a0773900891_20.jpg",
+            "star": true
+        },
+        {
             "entry": 16,
             "page": false,
             "date": [2022, 07, 27],
