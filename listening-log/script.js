@@ -17,6 +17,16 @@
 
 let database = {
     "entries": [{
+            "entry": 18,
+            "page": false,
+            "date": [2022, 08, 10],
+            "title": "Ghost Box",
+            "artist": "SUSS",
+            "year": 2018,
+            "type": "album",
+            "cover": "https://m.media-amazon.com/images/I/81rQDDNRj6L._SX466_.jpg",
+            "star": true
+        }, {
             "entry": 17,
             "page": false,
             "date": [2022, 08, 05],
