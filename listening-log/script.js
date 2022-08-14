@@ -17,6 +17,17 @@
 
 let database = {
     "entries": [{
+            "entry": 09,
+            "page": false,
+            "date": [2022, 08, 12],
+            "title": "I Trawl the Megahertz",
+            "artist": "Prefab Sprout",
+            "year": 2003,
+            "type": "album",
+            "cover": "https://media.pitchfork.com/photos/5c6c6c3c835cab12533e4cfd/1:1/w_600/PrefabSproud_ITrawlTheMegahertz.jpg",
+            "star": true
+        },
+        {
             "entry": 18,
             "page": false,
             "date": [2022, 08, 10],
