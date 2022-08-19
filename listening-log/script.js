@@ -16,7 +16,30 @@
 
 
 let database = {
-    "entries": [{
+    "entries": [
+        {
+            "entry": 21,
+            "page": false,
+            "date": [2022, 08, 18],
+            "title": "Black Rainbow / Moonlight",
+            "artist": "Koreless",
+            "year": 2021,
+            "type": "single",
+            "cover": "https://f4.bcbits.com/img/a2266059872_20.jpg",
+            "star": false
+        },
+        {
+            "entry": 20,
+            "page": false,
+            "date": [2022, 08, 18],
+            "title": "Shout Out! To Freedom...",
+            "artist": "Nightmares On Wax",
+            "year": 2021,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a1991936559_20.jpg",
+            "star": false
+        },
+        {
             "entry": 19,
             "page": false,
             "date": [2022, 08, 12],
