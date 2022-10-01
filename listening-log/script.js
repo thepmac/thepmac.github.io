@@ -16,7 +16,17 @@
 
 
 let database = {
-    "entries": [
+    "entries": [{
+            "entry": 22,
+            "page": false,
+            "date": [2022, 10, 27],
+            "title": "God Save The Animals",
+            "artist": "Alex G",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://media.pitchfork.com/photos/62af3a8f6c8f0240e138567f/1:1/w_600/AlexG_GodSaveTheAnimals_3000pxCVR.jpg",
+            "star": true
+        },
         {
             "entry": 21,
             "page": false,
