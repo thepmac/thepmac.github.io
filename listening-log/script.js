@@ -17,6 +17,28 @@
 
 let database = {
     "entries": [{
+            "entry": 24,
+            "page": false,
+            "date": [2022, 10, 20],
+            "title": "NOT TiGHT",
+            "artist": "DOMi & JD BECK",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://ptpimg.me/66a1k6.jpg",
+            "star": true
+        },
+        {
+            "entry": 23,
+            "page": false,
+            "date": [2022, 10, 10],
+            "title": "Saturn Meditation",
+            "artist": "Kim Oki",
+            "year": 2018,
+            "type": "album",
+            "cover": "https://ptpimg.me/czea0s.jpg",
+            "star": false
+        },
+        {
             "entry": 22,
             "page": true,
             "date": [2022, 10, 27],
