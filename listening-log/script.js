@@ -41,7 +41,7 @@ let database = {
         {
             "entry": 22,
             "page": true,
-            "date": [2022, 10, 27],
+            "date": [2022, 09, 27],
             "title": "God Save The Animals",
             "artist": "Alex G",
             "year": 2022,
