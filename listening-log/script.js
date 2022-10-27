@@ -17,6 +17,16 @@
 
 let database = {
     "entries": [{
+            "entry": 25,
+            "page": false,
+            "date": [2022, 10, 26],
+            "title": "blueblue",
+            "artist": "Sam Gendel",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a3273899766_10.jpg",
+            "star": false
+        }, {
             "entry": 24,
             "page": false,
             "date": [2022, 10, 20],
