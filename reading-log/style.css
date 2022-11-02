@@ -1,0 +1,23 @@
+body {
+    margin: auto;
+    padding: 80px;
+    font-size: 8px;
+    max-width: 1000px;
+}
+
+#head {
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+
+#main-container {
+    font-size: 1.5rem;
+}
+
+.date {
+    font-weight: 700;
+}
+
+ul {
+    margin: 0px 0px 20px 0px;
+}
