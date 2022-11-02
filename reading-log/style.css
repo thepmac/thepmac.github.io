@@ -2,12 +2,34 @@ body {
     margin: auto;
     padding: 80px;
     font-size: 8px;
+    font-family: monospace;
     max-width: 1000px;
+    background-color: #f4f4f4;
+    color: #1c1a1a;
+}
+
+.dark-mode {
+    background: #1c1a1a;
+    color: #f4f4f4;
 }
 
 #head {
     margin-bottom: 40px;
     font-size: 1.5rem;
+}
+
+#style-mode {
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+
+#style-mode button {
+    font-size: 1.2rem;
+    font-family: monospace;
+    border-radius: 6px;
+    border: 2px #808080 solid;
+    color: #808080;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #main-container {
@@ -20,4 +42,16 @@ body {
 
 ul {
     margin: 0px 0px 20px 0px;
+}
+
+a:link,
+a:active,
+a:visited {
+    color: rgb(63, 63, 255);
+    text-decoration: none;
+    ;
+}
+
+a:hover {
+    color: #1c1a1a;
 }
