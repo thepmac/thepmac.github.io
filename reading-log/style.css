@@ -28,9 +28,17 @@ body {
     font-size: 1.2rem;
     font-family: monospace;
     border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#style-mode button:nth-child(1) {
+    border: 2px #969900 solid;
+    color: #969900;
+}
+
+#style-mode button:nth-child(2) {
     border: 2px #808080 solid;
     color: #808080;
-    background-color: rgba(0, 0, 0, 0);
 }
 
 #style-mode button:hover {
@@ -52,7 +60,7 @@ ul {
 a:link,
 a:active,
 a:visited {
-    color: hwb(61 0% 40%);
+    color: #969900;
     text-decoration: none;
     ;
 }
