@@ -13,10 +13,20 @@
 },
 
 */
-
+Begum Akhtar
 
 let database = {
     "entries": [{
+            "entry": 26,
+            "page": false,
+            "date": [2022, 10, 30],
+            "title": "Begum Akhtar",
+            "artist": "Begum Akhtar",
+            "year": 1981,
+            "type": "album",
+            "cover": "https://static.qobuz.com/images/covers/52/53/0060249825352_600.jpg",
+            "star": false
+        }, {
             "entry": 25,
             "page": false,
             "date": [2022, 10, 26],
