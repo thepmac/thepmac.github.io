@@ -4,13 +4,13 @@ body {
     font-size: 8px;
     font-family: monospace;
     max-width: 1000px;
-    background-color: #f5e2ff;
-    color: #005515;
+    background-color: #f1d6ff;
+    color: #006118;
 }
 
 .dark-mode {
-    background: #005515;
-    color: #f5e2ff;
+    background: #00350d;
+    color: #e7beff;
 }
 
 #head {
@@ -24,13 +24,17 @@ body {
 }
 
 #style-mode button {
+    display: inline;
     font-size: 1.2rem;
     font-family: monospace;
     border-radius: 6px;
     border: 2px #808080 solid;
     color: #808080;
     background-color: rgba(0, 0, 0, 0);
-    float: right;
+}
+
+#style-mode button:hover {
+    cursor: pointer;
 }
 
 #main-container {
@@ -48,7 +52,7 @@ ul {
 a:link,
 a:active,
 a:visited {
-    color: #a5a800;
+    color: hwb(61 0% 40%);
     text-decoration: none;
     ;
 }
