@@ -68,3 +68,11 @@ a:visited {
 a:hover {
     color: #808080;
 }
+
+::selection {
+    background: #808080;
+}
+
+::-moz-selection {
+    background: #808080;
+}
