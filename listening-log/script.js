@@ -13,7 +13,6 @@
 },
 
 */
-Begum Akhtar
 
 let database = {
     "entries": [{
