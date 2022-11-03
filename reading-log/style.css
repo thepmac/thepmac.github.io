@@ -2,8 +2,8 @@ body {
     margin: auto;
     padding: 80px;
     font-size: 8px;
-    font-family: "Courier New", monospace;
-    line-height: 1.4;
+    font-family: "Menlo", monospace;
+    line-height: 1.65;
     max-width: 1000px;
     background-color: #f1d6ff;
     color: #006118;
@@ -27,7 +27,7 @@ body {
 #style-mode button {
     display: inline;
     font-size: 1.2rem;
-    font-family: "Courier New", monospace;
+    font-family: "Menlo", monospace;
     border-radius: 6px;
     background-color: rgba(0, 0, 0, 0);
 }
