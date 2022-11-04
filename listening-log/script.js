@@ -16,6 +16,16 @@
 
 let database = {
     "entries": [{
+            "entry": 28,
+            "page": false,
+            "date": [2022, 11, 03],
+            "title": "Abhanga Vani",
+            "artist": "Bhimsen Joshi",
+            "year": 2007,
+            "type": "album",
+            "cover": "https://m.media-amazon.com/images/I/51FwWKE5xQL._UX358_FMjpg_QL85_.jpg%201x,%20https://m.media-amazon.com/images/I/51FwWKE5xQL._UX716_FMjpg_QL85_.jpg",
+            "star": false
+        }, {
             "entry": 27,
             "page": false,
             "date": [2022, 11, 03],
