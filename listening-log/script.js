@@ -16,6 +16,16 @@
 
 let database = {
     "entries": [{
+            "entry": 27,
+            "page": false,
+            "date": [2022, 11, 03],
+            "title": "Djoulolou",
+            "artist": "Benkadi International",
+            "year": 1997,
+            "type": "album",
+            "cover": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.qobuz.com%2Fimages%2Fcovers%2Fsb%2F76%2Fajh8efcfj76sb_600.jpg",
+            "star": true
+        }, {
             "entry": 26,
             "page": false,
             "date": [2022, 10, 30],
