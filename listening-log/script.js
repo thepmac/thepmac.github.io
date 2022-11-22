@@ -1,21 +1,152 @@
 /*
 
-{
-    "entry": 00,
-    "page": false,
-    "date": [, , ],
-    "title": "",
-    "artist": "",
-    "year": 2000,
-    "type": "album",
-    "cover": "",
-    "star": false
-},
+        {
+                "entry": 00,
+                "page": false,
+                "date": [, , ],
+                "title": "",
+                "artist": "",
+                "year": 2000,
+                "type": "album",
+                "cover": "",
+                "star": false
+            },
 
 */
 
 let database = {
     "entries": [{
+            "entry": 41,
+            "page": false,
+            "date": [2022, 11, 19],
+            "title": "Quarantine Sessions",
+            "artist": "Tom Misch",
+            "year": 2021,
+            "type": "album",
+            "cover": "https://i.scdn.co/image/ab67616d00001e02415785288945d691d0a893b6",
+            "star": false
+        }, {
+            "entry": 40,
+            "page": false,
+            "date": [2022, 11, 19],
+            "title": "Forfolks",
+            "artist": "Jeff Parker",
+            "year": 2021,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a2972278449_10.jpg",
+            "star": false
+        }, {
+            "entry": 39,
+            "page": false,
+            "date": [2022, 11, 17],
+            "title": "닿지 않을 편지",
+            "artist": "박현서",
+            "year": 2022,
+            "type": "single",
+            "cover": "https://image.bugsm.co.kr/album/images/500/205264/20526419.jpg",
+            "star": false
+        }, {
+            "entry": 38,
+            "page": false,
+            "date": [2022, 11, 17],
+            "title": "The Sun Is Parallel",
+            "artist": "Mehmet Aslan",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a2700928791_10.jpg",
+            "star": false
+        }, {
+            "entry": 37,
+            "page": false,
+            "date": [2022, 11, 16],
+            "title": "ALG0",
+            "artist": "Triorität",
+            "year": 2020,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a2976688527_10.jpg",
+            "star": false
+        }, {
+            "entry": 36,
+            "page": false,
+            "date": [2022, 11, 16],
+            "title": "2M3 2U",
+            "artist": "Joy Orbison",
+            "year": 2022,
+            "type": "single",
+            "cover": "https://i1.sndcdn.com/artworks-hmIzx1K7vf1b-0-t500x500.png",
+            "star": false
+        }, {
+            "entry": 35,
+            "page": false,
+            "date": [2022, 11, 15],
+            "title": "No Reino Dos Afetos",
+            "artist": "Bruno Berle",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a2939640333_10.jpg",
+            "star": false
+        }, {
+            "entry": 34,
+            "page": false,
+            "date": [2022, 11, 13],
+            "title": "Honk If You’re Sad",
+            "artist": "Ebi Soda",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a2683061531_10.jpg",
+            "star": false
+        }, {
+            "entry": 33,
+            "page": false,
+            "date": [2022, 11, 11],
+            "title": "King's Disease III",
+            "artist": "Nas",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://ptpimg.me/0v117l.jpg",
+            "star": false
+        }, {
+            "entry": 32,
+            "page": false,
+            "date": [2022, 11, 11],
+            "title": "Glass Effect",
+            "artist": "Ben Marc",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a0326557751_10.jpg",
+            "star": false
+        }, {
+            "entry": 31,
+            "page": false,
+            "date": [2022, 11, 10],
+            "title": "Love Is A Song",
+            "artist": "YUNSEOKCHEOL TRIO",
+            "year": 2013,
+            "type": "album",
+            "cover": "https://is3-ssl.mzstatic.com/image/thumb/Music5/v4/31/7b/f7/317bf799-d912-61ed-de9c-aaa401371d63/8809419987160_Jacket.jpg/1200x1200bb.jpg",
+            "star": false
+        }, {
+            "entry": 30,
+            "page": false,
+            "date": [2022, 11, 9],
+            "title": "Tailor",
+            "artist": "The BLANK Shop",
+            "year": 2020,
+            "type": "album",
+            "cover": "https://thekmeal.com/wp-content/uploads/2020/09/The-BLANK-Shop-TAILOR-780x780.jpg",
+            "star": false
+        }, {
+            "entry": 29,
+            "page": false,
+            "date": [2022, 11, 9],
+            "title": "MK 3.5: City Planning / Die Cuts",
+            "artist": "Mount Kimbie",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://shop.zoezoerecords.com/sites/default/files/styles/og/public/covers/Mount%20Kimbie%20%E2%80%93%20MK%203.5City%20Planning%20Die%20Cuts.jpg?itok=oH6q4l-R",
+            "star": false
+        },
+        {
             "entry": 28,
             "page": false,
             "date": [2022, 11, 03],
