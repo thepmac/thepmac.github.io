@@ -1,21 +1,31 @@
 /*
 
-        {
-                "entry": 00,
-                "page": false,
-                "date": [, , ],
-                "title": "",
-                "artist": "",
-                "year": 2000,
-                "type": "album",
-                "cover": "",
-                "star": false
-            },
+{
+    "entry": 00,
+    "page": false,
+    "date": [, , ],
+    "title": "",
+    "artist": "",
+    "year": 2000,
+    "type": "album",
+    "cover": "",
+    "star": false
+},
 
 */
 
 let database = {
     "entries": [{
+            "entry": 42,
+            "page": false,
+            "date": [2022, 11, 22],
+            "title": "OCTOBRES",
+            "artist": "Sylvain Kassap Sextet",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a3863069775_10.jpg",
+            "star": false
+        }, {
             "entry": 41,
             "page": false,
             "date": [2022, 11, 19],
