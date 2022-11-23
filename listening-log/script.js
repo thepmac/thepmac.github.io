@@ -16,6 +16,16 @@
 
 let database = {
     "entries": [{
+            "entry": 43,
+            "page": false,
+            "date": [2022, 11, 22],
+            "title": "Subliminal",
+            "artist": "CLU",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a2266601994_10.jpg",
+            "star": false
+        }, {
             "entry": 42,
             "page": false,
             "date": [2022, 11, 22],
