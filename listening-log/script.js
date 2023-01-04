@@ -12,6 +12,9 @@
     "star": false
 },
 
+2022.01.02
+Memories and the Sky
+Goodbye Ranger
 
 2022.12.13
 Projekt Drums Vol. 1
@@ -21,6 +24,38 @@ Petter Eldh
 
 let database = {
     "entries": [{
+            "entry": 46,
+            "page": false,
+            "date": [2023, 1, 3],
+            "title": "Swamp!",
+            "artist": "Kind & Kinky Zoo",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a1708902809_10.jpg",
+            "star": false
+        },
+        {
+            "entry": 45,
+            "page": false,
+            "date": [2023, 1, 2],
+            "title": "Memories and the Sky",
+            "artist": "Goodbye Ranger",
+            "year": 2022,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a2807019583_10.jpg",
+            "star": false
+        },
+        {
+            "entry": 44,
+            "page": false,
+            "date": [2022, 12, 13],
+            "title": "Projekt Drums Vol. 1",
+            "artist": "Petter Eldh",
+            "year": 2021,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a1075491841_10.jpg",
+            "star": false
+        }, {
             "entry": 43,
             "page": false,
             "date": [2022, 11, 22],
