@@ -18,6 +18,16 @@
 
 let database = {
     "entries": [{
+            "entry": 47,
+            "page": false,
+            "date": [2022, 1, 4],
+            "title": "Mirror Guide",
+            "artist": "Giant Claw",
+            "year": 2021,
+            "type": "album",
+            "cover": "https://f4.bcbits.com/img/a2142581435_10.jpg",
+            "star": false
+        }, {
             "entry": 46,
             "page": false,
             "date": [2023, 1, 3],
