@@ -12,13 +12,7 @@
     "star": false
 },
 
-2022.01.02
-Memories and the Sky
-Goodbye Ranger
 
-2022.12.13
-Projekt Drums Vol. 1
-Petter Eldh
 
 */
 
