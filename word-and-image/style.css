@@ -1,0 +1,25 @@
+body {}
+
+main {
+    display: block;
+    padding: 0;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, 359.999deg);
+    }
+}
+
+.text {
+    animation: rotation 20s infinite linear;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
