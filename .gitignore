@@ -22,6 +22,11 @@ gazelle-styles/.DS_Store
 blog/.DS_Store
 assets/.DS_Store
 .DS_Store
+<<<<<<< HEAD
 .vscode/settings.json
 blog/.DS_Store
 images/.DS_Store
+=======
+.DS_Store
+.DS_Store
+>>>>>>> e92a563cc5f947880be1881e7a27a5c8364898cd
