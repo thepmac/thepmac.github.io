@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Date Chooser</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 30px;
+            margin: 10% 35% 10% 35%;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"],
+        select {
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        
+        .item {
+            margin-bottom: 20px;
+        }
+        
+        #output-text {
+            margin-top: 20px;
+            padding: 10px;
+            font-family: monospace;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            height: 100px;
+            width: 100%;
+            overflow: auto;
+        }
+        
+        #copy-btn {
+            background-color: grey;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        #copy-btn:hover {
+            background-color: black;
+        }
+        
+        #copy-btn:active {
+            background-color: magenta;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="item">
+        <label for="date-chooser">Choose a date:</label>
+        <input type="date" id="date-chooser" placeholder="Title" />
+    </div>
+
+    <div class="item">
+        <label for="title-input">Title:</label>
+        <input type="text" id="title-input" placeholder="Title" />
+    </div>
+
+    <div class="item">
+        <label for="author-input">Author:</label>
+        <input type="text" id="author-input" placeholder="Author" />
+    </div>
+
+    <div class="item">
+        <label for="url-input">URL:</label>
+        <input type="text" id="url-input" placeholder="URL" />
+    </div>
+
+    <div class="item">
+        <label for="comment-input">Comment:</label>
+        <textarea type="text" id="comment-input" placeholder="Comment" style="width: 100%"></textarea>
+    </div>
+
+    <div class="item">
+        <textarea id="output-text" readonly></textarea>
+        <button id="copy-btn">Copy</button>
+    </div>
+
+    <script>
+        const dateChooser = document.getElementById("date-chooser");
+        const titleInput = document.getElementById("title-input");
+        const authorInput = document.getElementById("author-input");
+        const urlInput = document.getElementById("url-input");
+        const commentInput = document.getElementById("comment-input");
+        const outputText = document.getElementById("output-text");
+        const copyBtn = document.getElementById("copy-btn");
+
+        /*
+        const formatDate = (date) => {
+          const year = date.getFullYear();
+          const month = ("0" + (date.getMonth() + 1)).slice(-2);
+          const day = ("0" + date.getDate()).slice(-2);
+          const weekday = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][
+            date.getDay()
+          ];
+          return `${year}.${month}.${day}. ${weekday}.`;
+        };
+        */
+
+        const formatDate = (date) => {
+            const year = date.getFullYear();
+            const month = ("0" + (date.getMonth() + 1)).slice(-2);
+            const day = ("0" + date.getUTCDate()).slice(-2);
+            const weekday = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][
+                date.getUTCDay()
+            ];
+            return `${year}.${month}.${day}. ${weekday}.`;
+        };
+
+        const updateOutput = () => {
+            const date = new Date(dateChooser.value);
+            const formattedDate = formatDate(date);
+            const title = titleInput.value;
+            const author = authorInput.value;
+            const url = urlInput.value;
+            const comment = commentInput.value;
+            if (comment == "") {
+                outputText.innerHTML = `<span class="date">${formattedDate}</span><ul><li>“<a href="${url}" target="_blank" class="entry">${title}</a>” by ${author}</li></ul>`;
+            } else {
+                outputText.innerHTML = `<span class="date">${formattedDate}</span><ul><li>“<a href="${url}" target="_blank" class="entry">${title}</a>” by ${author}<ul><li>${comment}</li></ul></li></ul>`;
+            }
+        };
+
+        dateChooser.addEventListener("change", updateOutput);
+        titleInput.addEventListener("input", updateOutput);
+        authorInput.addEventListener("input", updateOutput);
+        urlInput.addEventListener("input", updateOutput);
+        commentInput.addEventListener("input", updateOutput);
+
+        copyBtn.addEventListener("click", () => {
+            outputText.select();
+            document.execCommand("copy");
+            copyBtn.style.backgroundColor = "magenta";
+            setTimeout(() => {
+                copyBtn.style.backgroundColor = "grey";
+            }, 300);
+        });
+    </script>
+</body>
+
+</html>
