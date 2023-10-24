@@ -9,11 +9,11 @@
     <h1>Mathematical Calculator</h1>
     <h2>This calculates for the text area 2/3 the area of the trim with width to height ratio following the same ratio as the trim.</h2>
     <div>
-      <label for="inputA">Enter value for A: </label>
+      <label for="inputA">Trim Width: </label>
       <input type="number" id="inputA" />
     </div>
     <div>
-      <label for="inputB">Enter value for B: </label>
+      <label for="inputB">Trim Height: </label>
       <input type="number" id="inputB" />
     </div>
     <div>
@@ -21,8 +21,13 @@
     </div>
     <div>
       <p>Result:</p>
-      <p>X: <span id="outputX"></span></p>
-      <p>Y: <span id="outputY"></span></p>
+      <p>Text Area Width: <span id="outputX"></span></p>
+      <p>Text Area Height: <span id="outputY"></span></p>
+      <p>Margin (Inner or Outer 1/3): <span id="outputL"></span></p>
+      <p>Margin (Inner or Outer 3/3): <span id="outputM"></span></p>
+      <p>Margin (Top or Bottom 1/3): <span id="outputN"></span></p>
+      <p>Margin (Top or Bottom 2/3): <span id="outputO"></span></p>
+      <p></p>
     </div>
 
     <script>
@@ -34,10 +39,18 @@
         // Calculate X and Y
         const X = inputA * Math.sqrt(2 / 3);
         const Y = inputB * Math.sqrt(2 / 3);
+        const L = (inputA - X) / 3;
+        const M = L * 2;
+        const N = (inputB - Y) / 3;
+        const O = N * 2;
 
         // Display results
         document.getElementById("outputX").textContent = X;
         document.getElementById("outputY").textContent = Y;
+        document.getElementById("outputL").textContent = L;
+        document.getElementById("outputM").textContent = M;
+        document.getElementById("outputN").textContent = N;
+        document.getElementById("outputO").textContent = O;
       }
     </script>
   </body>
