@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathematical Calculator</title>
+  </head>
+  <body>
+    <h1>Mathematical Calculator</h1>
+    <h2>This calculates for the text area 2/3 the area of the trim with width to height ratio following the same ratio as the trim.</h2>
+    <div>
+      <label for="inputA">Enter value for A: </label>
+      <input type="number" id="inputA" />
+    </div>
+    <div>
+      <label for="inputB">Enter value for B: </label>
+      <input type="number" id="inputB" />
+    </div>
+    <div>
+      <button onclick="calculate()">Calculate</button>
+    </div>
+    <div>
+      <p>Result:</p>
+      <p>X: <span id="outputX"></span></p>
+      <p>Y: <span id="outputY"></span></p>
+    </div>
+
+    <script>
+      function calculate() {
+        // Get input values
+        const inputA = parseFloat(document.getElementById("inputA").value);
+        const inputB = parseFloat(document.getElementById("inputB").value);
+
+        // Calculate X and Y
+        const X = inputA * Math.sqrt(2 / 3);
+        const Y = inputB * Math.sqrt(2 / 3);
+
+        // Display results
+        document.getElementById("outputX").textContent = X;
+        document.getElementById("outputY").textContent = Y;
+      }
+    </script>
+  </body>
+</html>
