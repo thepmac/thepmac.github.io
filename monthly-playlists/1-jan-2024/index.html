@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1. Jan 2024</title>
+    <style>
+        /* Styles for highlighting the currently playing item */
+        body {
+            line-height: 1.4;
+        }
+
+        .current {
+            color: red;
+        }
+
+        #playlist span {
+            display: block;
+        }
+
+        #playlist span:hover {
+            cursor: pointer;
+            color: red;
+        }
+
+        #playall {
+            cursor: pointer;
+            text-decoration: none;
+            margin-bottom: 1rem;
+        }
+
+        #playall:hover {
+            color: red;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 1rem;
+            margin-bottom: 4rem;
+        }
+
+        main {
+            width: 600px;
+            margin: auto;
+            margin-top: 4rem;
+            position: relative;
+        }
+
+        #back {
+            display: inline;
+            position: absolute;
+            left: -4rem;
+            margin-bottom: -1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <a href="../" id="back">Back</a>
+        <h1>1. Jan 2024</h1>
+        <!-- MP3 Player Controls -->
+        <audio id="audioPlayer">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- List of MP3s -->
+        <div id="playall">Play All</div>
+        <div id="playlist">
+            <!-- Spans will be dynamically added here -->
+        </div>
+
+    </main>
+
+    <script>
+        // JSON data of MP3 files
+        const playlist = [
+            {
+                "title": "Shed That Fear",
+                "release": "Erotic Probiotic 2",
+                "artist": "Nourished by Time",
+                "year": "2023",
+                "src": "shed-that-fear.mp3"
+            },
+            {
+                "title": "romance in me",
+                "release": "romance in me",
+                "artist": "Nourished by Time",
+                "year": "2022",
+                "src": "romance-in-me.mp3"
+            },
+            {
+                "title": "breakwater",
+                "release": "a trail of fading",
+                "artist": "오미일곱 omilgop",
+                "year": "2024",
+                "src": "breakwater.mp3"
+            },
+            {
+                "title": "Solo for Tamburium",
+                "release": "Solo for Tamburium",
+                "artist": "Catherine Christer Hennix",
+                "year": "2023",
+                "src": "solo-for-tamburium.mp3"
+            },
+        ];
+
+        let currentSongIndex = 0; // Initialize the index of the currently playing song
+
+        // Function to create playlist items
+        function createPlaylistItem(song, index) {
+            const spanItem = document.createElement('span');
+            spanItem.innerHTML = `${song.artist}. "${song.title}." <i>${song.release}</i>. ${song.year}.`;
+            spanItem.addEventListener('click', () => playSong(index));
+            return spanItem;
+        }
+
+        // Function to play a song
+        function playSong(index) {
+            const audioPlayer = document.getElementById('audioPlayer');
+            const playlistItems = document.querySelectorAll('#playlist span');
+
+            // Set source and play the selected song
+            audioPlayer.src = playlist[index].src;
+            audioPlayer.play();
+
+            // Highlight currently playing song
+            playlistItems.forEach(item => item.classList.remove('current'));
+            playlistItems[index].classList.add('current');
+
+            // Display metadata of the currently playing song
+            displayMetadata(playlist[index]);
+
+            // Increment currentSongIndex for the next song
+            currentSongIndex = index + 1;
+            // Check if there are more songs to play
+            if (currentSongIndex < playlist.length) {
+                // Automatically play the next song after the current one ends
+                audioPlayer.addEventListener('ended', () => {
+                    playSong(currentSongIndex);
+                });
+            }
+        }
+
+        // Function to initialize the playlist
+        function initializePlaylist() {
+            const playlistElement = document.getElementById('playlist');
+            playlist.forEach((song, index) => {
+                const spanItem = createPlaylistItem(song, index);
+                playlistElement.appendChild(spanItem);
+            });
+        }
+
+        // Initialize the playlist
+        initializePlaylist();
+
+        // Function to display metadata of the currently playing song
+        function displayMetadata(song) {
+            console.log(`${song.artist}. "${song.title}." ${song.release}. ${song.year}.`);
+            // You can display metadata in any desired format
+        }
+
+        // Event listener for the Play All button
+        document.getElementById('playall').addEventListener('click', () => {
+            playSong(0); // Start playing from the first track
+        });
+    </script>
+
+</body>
+
+</html>
